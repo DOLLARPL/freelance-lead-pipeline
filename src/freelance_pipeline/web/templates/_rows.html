@@ -1,0 +1,26 @@
+{% if leads %}
+{% for lead in leads %}
+<a class="row st-{{ lead.status }}" href="/lead/{{ lead.key }}" data-key="{{ lead.key }}">
+  <span class="c-source">
+    {% if lead.last_number %}<span class="numchip">{{ lead.last_number }}</span>{% endif %}
+    <span class="badge {{ lead.source|source_class }}">{{ lead.source|source_name }}</span>
+  </span>
+  <span class="c-title">
+    <span class="t">{{ lead.title|clean or "(bez tytułu)" }}</span>
+    <span class="meta">
+      {% if lead.author %}{{ lead.author }}{% endif %}
+      {% if lead.status == 'replied' %} · wysłane{% elif lead.status == 'skipped' %} · odrzucone{% endif %}
+      {% if lead.notes_count %} · notatka{% endif %}
+    </span>
+  </span>
+  <span class="c-amount">{% if lead.amount %}{{ lead.amount|money }}{% else %}<span class="muted">-</span>{% endif %}</span>
+  <span class="c-age">{{ lead.first_seen_at|age }}</span>
+</a>
+{% endfor %}
+<div class="rows-end">koniec listy</div>
+{% else %}
+<div class="empty">
+  <p>Brak ofert w tym filtrze.</p>
+  <p class="muted tiny">Nowe oferty wpadają z crona co 10 minut i o 05:30.</p>
+</div>
+{% endif %}

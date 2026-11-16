@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block page %}styl{% endblock %}
+{% block title %}Twoje przykłady · Styl{% endblock %}
+{% block body %}
+<div class="shell">
+  {% set active = 'styl' %}
+  {% include "_rail.html" %}
+
+  <main class="card">
+    <p class="tiny"><a class="link" href="/styl">← Wszystkie zadania</a></p>
+    <header class="card-head"><h1>Twoje przykłady</h1></header>
+    <p class="muted">Robocze i zatwierdzone. Do promptu wchodzą tylko zatwierdzone.</p>
+    {% if ok == "2" %}<div class="notice ok">Zatwierdzone i dodane do puli.</div>
+    {% elif ok == "err" %}<div class="notice err">Nie udało się zatwierdzić.</div>{% endif %}
+
+    {% if przyklady %}
+    <ul class="hist-list">
+      {% for p in przyklady %}
+      <li>
+        <b>#{{ p.id }}</b> {{ p.title }}
+        <span class="muted tiny">{{ p.meta.data }} · {{ p.meta.kategoria }} · {{ p.status }}</span>
+        {% if not p.status.startswith("zatwierdzona") %}
+        <form method="post" action="/styl/zatwierdz" class="inline">
+          <input type="hidden" name="id" value="{{ p.id }}">
+          <button class="btn ghost sm" type="submit">Zatwierdź</button>
+        </form>
+        {% endif %}
+        <details><summary>Treść</summary><div class="prose">{{ p.odpowiedz }}</div></details>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="muted">Jeszcze nic nie ma. Pierwszy przykład pojawi się po zapisaniu.</p>
+    {% endif %}
+  </main>
+</div>
+{% endblock %}

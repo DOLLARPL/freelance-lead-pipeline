@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block page %}notifications{% endblock %}
+{% block scripts %}<script src="/static/push.js?v=18" defer></script>{% endblock %}
+{% block title %}Snajper · powiadomienia{% endblock %}
+{% block body %}
+<div class="shell">
+  {% set active = 'notifications' %}
+  {% include "_rail.html" %}
+
+  <main class="card" data-vapid="{{ vapid_key }}">
+    <h1>Powiadomienia na telefonie</h1>
+    <p class="muted">Panel wysyła powiadomienie, gdy w kolejce pojawią się nowe oferty. Nic nie idzie na Telegram.</p>
+
+    {% if key_error %}
+    <div class="notice err">Brak klucza VAPID na serwerze: {{ key_error }}</div>
+    {% endif %}
+
+    <section class="block">
+      <h2>To urządzenie</h2>
+      <div id="push-state" class="notice">sprawdzam stan...</div>
+      <div class="push-actions">
+        <button class="btn ok" type="button" id="push-enable">Włącz powiadomienia</button>
+        <button class="btn ghost" type="button" id="push-test">Wyślij testowe</button>
+        <button class="btn danger" type="button" id="push-disable">Wyłącz</button>
+      </div>
+      <p class="muted tiny" id="push-result"></p>
+    </section>
+
+    <section class="block">
+      <h2>Podłączone urządzenia ({{ devices|length }})</h2>
+      {% if devices %}
+      <table class="table">
+        <tr><th>urządzenie</th><th>dodane</th><th>ostatnia wysyłka</th></tr>
+        {% for d in devices %}
+        <tr>
+          <td class="ellipsis">{{ d.label or d.endpoint[:40] }}</td>
+          <td>{{ d.created_at|date }}</td>
+          <td>{{ d.last_ok_at|date if d.last_ok_at else "brak" }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      {% else %}
+      <p class="muted">Żadne urządzenie nie jest jeszcze zapisane. Włącz powiadomienia na telefonie.</p>
+      {% endif %}
+    </section>
+
+    <section class="block">
+      <h2>Jak dodać aplikację na telefonie</h2>
+      <p class="prose">iPhone: otwórz ten adres w Safari, przycisk Udostępnij, Dodaj do ekranu początkowego, potem wróć tutaj i włącz powiadomienia.
+Android: menu Chrome, Zainstaluj aplikację, potem włącz powiadomienia.
+Telefon musi mieć włączony Tailscale, inaczej panel się nie otworzy.</p>
+    </section>
+  </main>
+</div>
+{% endblock %}

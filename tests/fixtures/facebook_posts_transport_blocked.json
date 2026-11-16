@@ -1,0 +1,90 @@
+{
+  "collected_at": "2026-09-21T12:35:35.425292+00:00",
+  "actor": "dami_studio/facebook-groups-scraper",
+  "run_id": null,
+  "cost_usd": 0.02,
+  "groups_requested": [
+    "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+    "https://www.facebook.com/groups/1967218546747367",
+    "https://www.facebook.com/groups/1935270559883009",
+    "https://www.facebook.com/groups/przygodyprzedsiebiorcow",
+    "https://www.facebook.com/groups/417702252034285",
+    "https://www.facebook.com/groups/socialmediapracazlecenia",
+    "https://www.facebook.com/groups/freelancers.poland",
+    "https://www.facebook.com/groups/automatyzacjawbiznesie.przyspieszswojeprocesy",
+    "https://www.facebook.com/groups/makeautomation",
+    "https://www.facebook.com/groups/n8ndevelopers"
+  ],
+  "groups": [
+    {
+      "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+      "status": "SUCCEEDED",
+      "diagnostic": "BLOCKED",
+      "error": null,
+      "posts": []
+    },
+    {
+      "url": "https://www.facebook.com/groups/1967218546747367",
+      "status": "SUCCEEDED",
+      "diagnostic": "BLOCKED",
+      "error": null,
+      "posts": []
+    },
+    {
+      "url": "https://www.facebook.com/groups/1935270559883009",
+      "status": "SUCCEEDED",
+      "diagnostic": "BLOCKED",
+      "error": null,
+      "posts": []
+    },
+    {
+      "url": "https://www.facebook.com/groups/przygodyprzedsiebiorcow",
+      "status": "SUCCEEDED",
+      "diagnostic": "RATE_LIMITED",
+      "error": null,
+      "posts": []
+    },
+    {
+      "url": "https://www.facebook.com/groups/417702252034285",
+      "status": "SUCCEEDED",
+      "diagnostic": "BLOCKED",
+      "error": null,
+      "posts": []
+    },
+    {
+      "url": "https://www.facebook.com/groups/socialmediapracazlecenia",
+      "status": "SUCCEEDED",
+      "diagnostic": "BLOCKED",
+      "error": null,
+      "posts": []
+    },
+    {
+      "url": "https://www.facebook.com/groups/freelancers.poland",
+      "status": "SUCCEEDED",
+      "diagnostic": "BLOCKED",
+      "error": null,
+      "posts": []
+    },
+    {
+      "url": "https://www.facebook.com/groups/automatyzacjawbiznesie.przyspieszswojeprocesy",
+      "status": "SUCCEEDED",
+      "diagnostic": "BLOCKED",
+      "error": null,
+      "posts": []
+    },
+    {
+      "url": "https://www.facebook.com/groups/makeautomation",
+      "status": "SUCCEEDED",
+      "diagnostic": "BLOCKED",
+      "error": null,
+      "posts": []
+    },
+    {
+      "url": "https://www.facebook.com/groups/n8ndevelopers",
+      "status": "SUCCEEDED",
+      "diagnostic": "BLOCKED",
+      "error": null,
+      "posts": []
+    }
+  ]
+}

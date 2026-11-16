@@ -1,0 +1,18 @@
+<div id="notes">
+  <form method="post" action="/lead/{{ lead.key }}/note"
+        hx-post="/lead/{{ lead.key }}/note" hx-target="#notes" hx-swap="innerHTML"
+        hx-disabled-elt="find button">
+    <textarea name="body" rows="2" placeholder="ustalenia z telefonu/spotkania, np. „dzwonił 12.11, budżet 5000, decyzja do piątku”"></textarea>
+    <button class="btn sm" type="submit">Dodaj notatkę</button>
+  </form>
+  {% if lead.notes %}
+  <ul class="notes">
+    {% for n in lead.notes %}
+    <li><span class="muted tiny">{{ n.created_at|date }} {{ n.created_at[11:16] }}</span> {{ n.body }}</li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="muted tiny">Brak notatek. Notatka nie zmienia statusu oferty.</p>
+  {% endif %}
+  {% if notice %}<p class="notice ok">{{ notice }}</p>{% endif %}
+</div>

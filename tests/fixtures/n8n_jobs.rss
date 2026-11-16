@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Jobs - n8n Community</title>
+    <link>https://community.n8n.io/c/jobs/13</link>
+    <description>Topics in the 'Jobs' category Find open positions at n8n or related jobs.</description>
+    <lastBuildDate>Mon, 07 Sep 2026 14:47:48 +0000</lastBuildDate>
+    <atom:link href="https://community.n8n.io/c/jobs/13.rss" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[For Hire] n8n builder in Vietnam (GMT+7), $25 to $35/hr or fixed price per workflow</title>
+      <dc:creator><![CDATA[duc_luu]]></dc:creator>
+      <category>Jobs</category>
+      <description><![CDATA[
+        <p>I build and run n8n on my own infrastructure, and I'm looking for paid work.</p>
+        <p>What I've built and use daily:</p>
+        <ul>
+          <li>Retrieval systems over Pinecone and Supabase</li>
+          <li>A Telegram agent hub that routes incoming requests to the right workflow</li>
+        </ul>
+        <p>Background: eighteen years of work. The workflow itself is the fast part.</p>
+        <p><strong>Rate:</strong> $25 to $35 an hour, or a fixed price per workflow.</p>
+      ]]></description>
+      <link>https://community.n8n.io/t/for-hire-n8n-builder-in-vietnam-gmt-7-25-to-35-hr-or-fixed-price-per-workflow/311719</link>
+      <guid isPermaLink="false">community.n8n.io-topic-311719</guid>
+      <pubDate>Mon, 07 Sep 2026 14:47:48 +0000</pubDate>
+      <source url="https://community.n8n.io/c/jobs/13.rss">Jobs</source>
+    </item>
+    <item>
+      <title>[HIRING] Technical AI Automation Specialist — Long-Term Team Collaboration</title>
+      <dc:creator><![CDATA[Ahmed_Refaei]]></dc:creator>
+      <category>Jobs</category>
+      <description><![CDATA[
+        <p>Looking for a long-term technical AI automation specialist to join our team.</p>
+        <p>You will own the automation stack and collaborate on n8n workflows daily.</p>
+      ]]></description>
+      <link>https://community.n8n.io/t/hiring-technical-ai-automation-specialist-long-term-team-collaboration/311286</link>
+      <guid isPermaLink="false">community.n8n.io-topic-311286</guid>
+      <pubDate>Fri, 05 Sep 2026 15:33:26 +0000</pubDate>
+      <source url="https://community.n8n.io/c/jobs/13.rss">Jobs</source>
+    </item>
+    <item>
+      <title>[FILLED] Infra-only n8n work — paid trial: apply a prepared Caddy config</title>
+      <dc:creator><![CDATA[Tom_Butcher]]></dc:creator>
+      <category>Jobs</category>
+      <description><![CDATA[
+        <p>This role is filled. Apply a prepared Caddy config, close 5678, verify from outside.</p>
+      ]]></description>
+      <link>https://community.n8n.io/t/filled-infra-only-n8n-work-paid-trial-apply-a-prepared-caddy-config-close-5678-verify-from-outside/311316</link>
+      <guid isPermaLink="false">community.n8n.io-topic-311316</guid>
+      <pubDate>Sat, 05 Sep 2026 23:55:39 +0000</pubDate>
+      <source url="https://community.n8n.io/c/jobs/13.rss">Jobs</source>
+    </item>
+    <item>
+      <title>[For Hire] n8n builder in Vietnam (GMT+7), $25 to $35/hr or fixed price per workflow</title>
+      <dc:creator><![CDATA[duc_luu]]></dc:creator>
+      <category>Jobs</category>
+      <description><![CDATA[
+        <p>Duplicate item used to exercise within-response dedupe.</p>
+      ]]></description>
+      <link>https://community.n8n.io/t/for-hire-n8n-builder-in-vietnam-gmt-7-25-to-35-hr-or-fixed-price-per-workflow/311719</link>
+      <guid isPermaLink="false">community.n8n.io-topic-311719</guid>
+      <pubDate>Mon, 07 Sep 2026 14:47:48 +0000</pubDate>
+      <source url="https://community.n8n.io/c/jobs/13.rss">Jobs</source>
+    </item>
+    <item>
+      <title>Malformed item without a link must be skipped</title>
+      <dc:creator><![CDATA[ghost]]></dc:creator>
+      <category>Jobs</category>
+      <description><![CDATA[
+        <p>This item has no link element and must not crash the source.</p>
+      ]]></description>
+      <guid isPermaLink="false">community.n8n.io-topic-999999</guid>
+      <pubDate>Mon, 07 Sep 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Looking for n8n expert for paid debugging session (WhatsApp / Airtable / OpenAI workflow)</title>
+      <dc:creator><![CDATA[Yash_harkawat]]></dc:creator>
+      <category>Jobs</category>
+      <description><![CDATA[
+        <p>Need help debugging a WhatsApp / Airtable / OpenAI workflow. Paid session.</p>
+      ]]></description>
+      <link>https://community.n8n.io/t/looking-for-n8n-expert-for-paid-debugging-session-whatsapp-airtable-openai-workflow/276670</link>
+      <guid isPermaLink="false">community.n8n.io-topic-276670</guid>
+      <pubDate>Fri, 13 Mar 2026 09:01:37 +0000</pubDate>
+      <source url="https://community.n8n.io/c/jobs/13.rss">Jobs</source>
+    </item>
+  </channel>
+</rss>

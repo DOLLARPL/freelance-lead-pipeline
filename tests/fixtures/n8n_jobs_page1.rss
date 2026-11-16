@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Jobs - n8n Community</title>
+    <link>https://community.n8n.io/c/jobs/13</link>
+    <description>Topics in the 'Jobs' category</description>
+    <lastBuildDate>Mon, 07 Sep 2026 14:47:48 +0000</lastBuildDate>
+    <atom:link href="https://community.n8n.io/c/jobs/13.rss" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[For Hire] WhatsApp Cloud API specialist for n8n teams | India, remote</title>
+      <dc:creator><![CDATA[zEi_X]]></dc:creator>
+      <category>Jobs</category>
+      <description><![CDATA[
+        <p>WhatsApp Cloud API specialist for n8n teams. Meta app review, 24-hour window, human handoff.</p>
+      ]]></description>
+      <link>https://community.n8n.io/t/for-hire-whatsapp-cloud-api-specialist-for-n8n-teams-meta-app-review-24-hour-window-human-handoff-india-remote/311610</link>
+      <guid isPermaLink="false">community.n8n.io-topic-311610</guid>
+      <pubDate>Mon, 07 Sep 2026 04:37:29 +0000</pubDate>
+      <source url="https://community.n8n.io/c/jobs/13.rss">Jobs</source>
+    </item>
+    <item>
+      <title>[For Hire] Voice AI + n8n Automation Engineer — Vapi, Cal.com v2, Supabase (GMT-5)</title>
+      <dc:creator><![CDATA[Angelow_Munoz]]></dc:creator>
+      <category>Jobs</category>
+      <description><![CDATA[
+        <p>Voice AI + n8n automation engineer. Vapi, Cal.com v2, Supabase. GMT-5.</p>
+      ]]></description>
+      <link>https://community.n8n.io/t/for-hire-voice-ai-n8n-automation-engineer-vapi-cal-com-v2-supabase-gmt-5/311608</link>
+      <guid isPermaLink="false">community.n8n.io-topic-311608</guid>
+      <pubDate>Mon, 07 Sep 2026 04:37:24 +0000</pubDate>
+      <source url="https://community.n8n.io/c/jobs/13.rss">Jobs</source>
+    </item>
+  </channel>
+</rss>

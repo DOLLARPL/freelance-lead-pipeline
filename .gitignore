@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+cache/
+*.pyc
+*.egg-info/
+# jednorazowe sondy i skrypty diagnostyczne
+scratch/
+# surowe dane z pomiarów (posty FB, sondy grupowe) — nie wchodzą do repo
+data/
+
+# logi przebiegów researchu (surowy output, nie źródło prawdy)
+research/*.log
+
+# surowe dane z pomiarow w fixtures (scrapowanie Useme) - nie wchodza do repo
+tests/fixtures/raw/

@@ -1,0 +1,19 @@
+<nav class="rail">
+  {% include "_brand.html" %}
+  <div class="rail-group">
+    <a class="rail-item{% if active == 'queue' %} on{% endif %}" href="/?view=queue">Dziś <span class="n">{{ counts.queue }}</span></a>
+    <a class="rail-item{% if active == 'all' %} on{% endif %}" href="/?view=all">Oferty <span class="n">{{ counts.all }}</span></a>
+    <a class="rail-item{% if active == 'styl' %} on{% endif %}" href="/styl">Styl</a>
+  </div>
+  <div class="rail-group">
+    <a class="rail-item{% if active == 'notifications' %} on{% endif %}" href="/notifications">Powiadomienia</a>
+    <a class="rail-item{% if active == 'stats' %} on{% endif %}" href="/stats">Statystyki</a>
+  </div>
+  <div class="rail-foot">
+    <form method="post" action="/api/import" hx-post="/api/import" hx-swap="none"
+          hx-on::after-request="location.reload()">
+      <button class="rail-btn" type="submit">Odśwież z rejestru</button>
+    </form>
+    <div class="muted tiny">import {{ imported_at|date }}</div>
+  </div>
+</nav>

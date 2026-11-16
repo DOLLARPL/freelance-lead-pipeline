@@ -1,0 +1,44 @@
+<div id="fb" class="fb-box">
+{% if not state %}
+  <p class="muted tiny">Sprawdza, czy do autora posta da się napisać priv. Potem Ty klikasz „Wyślij”.</p>
+  <form hx-post="/lead/{{ lead.key }}/fb/plan" hx-target="#fb" hx-swap="innerHTML"
+        hx-disabled-elt="find button">
+    <button class="btn" type="submit">Napisz na Facebooku</button>
+  </form>
+
+{% elif state.state == "running" %}
+  <div hx-get="/fb-status?key={{ lead.key }}&task={{ task_id }}&step={{ step }}"
+       hx-trigger="every 2s" hx-swap="innerHTML">
+    <p class="notice">⏳ Otwieram post na workerze M1… (kilkanaście sekund)</p>
+  </div>
+
+{% elif state.state == "done" and step == "plan" %}
+  {% set r = state.result %}
+  {% if r and r.mode == "dm" %}
+    <p class="notice ok">Da się napisać priv do autora: <b>{{ r.author }}</b></p>
+    <p class="muted tiny">Pójdzie wiadomość priv z treścią draftu, a pod postem komentarz „Napisałem na priv.”</p>
+  {% else %}
+    <p class="notice warn">Post anonimowy albo autor nie przyjmuje wiadomości priv{% if r and r.author %} ({{ r.author }}){% endif %}.</p>
+    <p class="muted tiny">Zamiast priv pójdzie komentarz z prośbą o kontakt na priv lub jnxautomation.pl.</p>
+  {% endif %}
+  <form hx-post="/lead/{{ lead.key }}/fb/send" hx-target="#fb" hx-swap="innerHTML"
+        hx-disabled-elt="find button"
+        hx-confirm="Opublikować na Facebooku pod tym postem?">
+    <input type="hidden" name="dm" value="{{ r.dm if r and r.mode == 'dm' else '' }}">
+    <input type="hidden" name="comment" value="{{ r.comment if r else '' }}">
+    <button class="btn ok" type="submit">Wyślij teraz</button>
+  </form>
+
+{% elif state.state == "done" %}
+  {% set r = state.result %}
+  <p class="notice ok">Wysłano. Autor: {{ r.author or "(anonimowy)" }}, tryb: {{ r.mode }}.</p>
+  {% if r and r.commentResult %}<p class="muted tiny">Komentarz pod postem: tak.</p>{% endif %}
+  {% if r and r.dmResult %}<p class="muted tiny">Wiadomość priv: {{ "tak" if r.dmResult.ok else "nie udało się" }}.</p>{% endif %}
+
+{% else %}
+  <p class="notice warn">Nie udało się: {{ state.error or state.stderr or "nieznany błąd" }}</p>
+  <form hx-post="/lead/{{ lead.key }}/fb/plan" hx-target="#fb" hx-swap="innerHTML">
+    <button class="btn ghost sm" type="submit">Spróbuj ponownie</button>
+  </form>
+{% endif %}
+</div>

@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% block page %}lead{% endblock %}
+{% block title %}{{ lead.title[:60] }} · Snajper{% endblock %}
+{% block body %}
+<div class="mobile-back">
+  <a href="/">← Dziś</a>
+  {% if next_key %}<a href="/lead/{{ next_key }}">Następna</a>{% endif %}
+  <a href="/styl">Styl</a>
+</div>
+<div class="shell">
+  <nav class="rail">
+    {% include "_brand.html" %}
+    <div class="rail-group">
+      <a class="rail-item" href="/">← Dziś <span class="n">{{ counts.queue }}</span></a>
+      <a class="rail-item on" href="/lead/{{ lead.key }}">Ta oferta</a>
+      {% if next_key %}<a class="rail-item" href="/lead/{{ next_key }}">Następna <kbd>n</kbd></a>{% endif %}
+      <a class="rail-item" href="/styl">Styl</a>
+    </div>
+    <div class="rail-foot">
+      <div class="muted tiny">Esc wraca do listy</div>
+    </div>
+  </nav>
+
+  <main class="card">
+    <header class="card-head">
+      <div class="chips">
+        {% if lead.last_number %}<span class="chip num">[{{ lead.last_number }}]</span>{% endif %}
+        <span class="chip">{{ lead.source|source_name }}</span>
+      </div>
+      <a class="link tiny" href="/styl/{{ lead.key|urlencode }}">Napisz przykład →</a>
+    </header>
+
+    <h1>{{ lead.title|clean or "(bez tytułu)" }}</h1>
+
+    <div class="meta-line">
+      {% if lead.author %}<span>{{ lead.author }}</span>{% endif %}
+      {% if lead.budget %}<span>budżet: <b>{{ lead.budget|money }}{% if lead.currency and lead.currency != 'PLN' %} {{ lead.currency }}{% endif %}</b></span>{% endif %}
+      <span>zeskrepowane {{ lead.first_seen_at|stamp }}</span>
+      <a class="link" href="{{ lead.url }}" target="_blank" rel="noopener">ogłoszenie ↗</a>
+    </div>
+
+    {% if lead.rationale %}<p class="rationale">{{ lead.rationale }}</p>{% endif %}
+
+    <div class="card-cols">
+      <div class="col-a">
+        <section class="block">
+          <div class="block-head">
+            <h2>Wycena</h2>
+            <form method="post" action="/lead/{{ lead.key }}/quote"
+                  hx-post="/lead/{{ lead.key }}/quote" hx-target="#quote" hx-swap="innerHTML">
+              <button class="btn ghost sm" type="submit">Przelicz <kbd>q</kbd></button>
+            </form>
+          </div>
+          <div id="quote">{% include "_quote.html" %}</div>
+        </section>
+
+        <section class="block">
+          <div class="block-head"><h2>Wiadomość</h2></div>
+          <div id="draft">{% include "_draft.html" %}</div>
+        </section>
+      </div>
+
+      <div class="col-b">
+        <section class="block">
+          <div class="block-head"><h2>Kontakt</h2></div>
+          {% include "_contact.html" %}
+        </section>
+
+        <section class="block">
+          <div class="block-head"><h2>Notatki{% if lead.notes_count %} ({{ lead.notes_count }}){% endif %}</h2></div>
+          {% include "_notes.html" %}
+        </section>
+
+        <details class="more">
+          <summary>Treść ogłoszenia</summary>
+          {% if opis or lead.description %}
+          <div class="prose">{{ opis or lead.description }}</div>
+          {% else %}
+          <p class="muted tiny">Treści nie ma w plikach przebiegu.</p>
+          {% endif %}
+        </details>
+
+        <details class="more">
+          <summary>Historia ({{ lead.events|length }} zmian, {{ lead.drafts|length }} wersji)</summary>
+          <div class="hist">
+            <div>
+              <h3>Wersje wiadomości</h3>
+              {% if lead.drafts %}
+              <ul class="hist-list">
+                {% for d in lead.drafts %}
+                <li><b>v{{ d.version }}</b> <span class="muted tiny">{{ d.created_at|date }} · {{ d.origin }}</span>
+                  <div class="muted tiny ellipsis">{{ d.body[:90] }}</div></li>
+                {% endfor %}
+              </ul>
+              {% else %}<p class="muted tiny">brak draftów</p>{% endif %}
+            </div>
+            <div>
+              <h3>Statusy</h3>
+              <ul class="hist-list">
+                {% for e in lead.events %}
+                <li><span class="muted tiny at">{{ e.at|date }}</span> {{ e.from_status or '-' }} → <b>{{ e.to_status }}</b>
+                  <span class="muted tiny">{{ e.actor }}{% if e.note %} · {{ e.note }}{% endif %}</span></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <div class="sticky-bar">
+      <button class="btn ghost" type="button" id="copy-btn2">Kopiuj <kbd>c</kbd></button>
+      <form method="post" action="/lead/{{ lead.key }}/status" class="inline grow">
+        <input type="hidden" name="status" value="replied">
+        <input type="hidden" name="next" value="{{ next_key or '/' }}">
+        <button class="btn ok grow" type="submit">Odpisałem, następna <kbd>r</kbd></button>
+      </form>
+      <form method="post" action="/lead/{{ lead.key }}/status" class="inline">
+        <input type="hidden" name="status" value="skipped">
+        <input type="hidden" name="next" value="{{ next_key or '/' }}">
+        <button class="btn danger" type="submit">Odrzuć <kbd>x</kbd></button>
+      </form>
+    </div>
+  </main>
+</div>
+<script id="lead-data" type="application/json">{{ {"url": lead.url, "key": lead.key} | tojson }}</script>
+{% endblock %}

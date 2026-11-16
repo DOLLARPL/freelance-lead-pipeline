@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}Wysyłka · Snajper{% endblock %}
+{% block page %}outreach{% endblock %}
+{% block body %}
+<div class="shell">
+  {% set active = 'outreach' %}
+  {% include "_rail.html" %}
+
+  <main class="main">
+    <div class="or-wrap">
+      <div class="or-head">
+        <h1>Wysyłka</h1>
+        <span class="muted tiny">Zaznacz, popraw, wyślij. Nic nie wychodzi samo.</span>
+      </div>
+
+      {% if items %}
+      <div class="or-list">
+        {% for it in items %}
+        <article class="or-item">
+          <label class="or-main">
+            <input type="checkbox" class="or-pick" value="{{ it.id }}" checked>
+            <span class="or-who">
+              <b>{{ it.company }}</b>
+              <span class="muted tiny">{{ it.email }}{% if it.priority %} · priorytet {{ it.priority }}{% endif %}</span>
+            </span>
+            <span class="or-flag">{% if it.problems %}<span class="or-bad">walidator</span>{% else %}<span class="or-ok">gotowe</span>{% endif %}</span>
+          </label>
+
+          <details class="more">
+            <summary>Podgląd wiadomości{% if it.signal_text %} · sygnał {{ it.signal_date }}{% endif %}</summary>
+            {% if it.signal_text %}<div class="or-sig">{{ it.signal_text }}</div>{% endif %}
+            <div class="or-body">{{ it.body }}</div>
+            {% if it.problems %}<div class="or-bad">walidator: {{ it.problems|join('; ') }}</div>{% endif %}
+          </details>
+
+          <div class="or-note-row">
+            <textarea class="or-note" data-id="{{ it.id }}" placeholder="Uwaga do tego maila (opcjonalnie)">{{ it.note }}</textarea>
+            <button class="btn ghost sm" type="button" onclick="orNote({{ it.id }})">Zapisz uwagę</button>
+            <span class="muted tiny" id="or-saved-{{ it.id }}"></span>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="empty">
+        <p>Brak maili gotowych do wysyłki.</p>
+        <p class="muted tiny">Builder dokłada firmy codziennie o 7:10.</p>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="sticky-bar">
+      <button class="btn ok" id="or-go" type="button" onclick="orStart()">Wyślij zaznaczone</button>
+      <span class="muted tiny" id="or-result"></span>
+    </div>
+  </main>
+</div>
+
+<script>
+async function orPost(path, data){
+  const r = await fetch(path, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data)});
+  return r.json();
+}
+function orIds(){ return Array.from(document.querySelectorAll('.or-pick:checked')).map(x=>Number(x.value)); }
+async function orNote(id){
+  const t = document.querySelector('textarea[data-id="'+id+'"]');
+  await orPost('/api/outreach/uwaga', {lead_id:id, note:t.value});
+  const s = document.getElementById('or-saved-'+id);
+  s.textContent = 'zapisano'; setTimeout(()=>s.textContent='', 1500);
+}
+async function orStart(){
+  const ids = orIds();
+  if(!ids.length){ alert('Zaznacz przynajmniej jeden mail.'); return; }
+  if(!confirm('Wysłać ' + ids.length + ' maili teraz? To idzie do prawdziwych firm.')) return;
+  const b = document.getElementById('or-go');
+  b.disabled = true; b.textContent = 'Wysyłam...';
+  const r = await orPost('/api/outreach/start', {ids});
+  b.disabled = false; b.textContent = 'Wyślij zaznaczone';
+  document.getElementById('or-result').innerHTML = r.results.map(x =>
+    '<span class="' + (x.ok?'or-ok':'or-bad') + '">' + x.company + ': ' + (x.ok?'wysłane':x.error) + '</span>'
+  ).join(' · ');
+  if (r.ok) { setTimeout(()=>location.reload(), 1500); }
+}
+</script>
+
+<style>
+.or-wrap { padding: 16px 20px 90px; max-width: 1080px; }
+.or-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px; }
+.or-list { display: flex; flex-direction: column; gap: 0; border-top: 1px solid var(--border); }
+.or-item { border-bottom: 1px solid #1a1d21; padding: 8px 0; }
+.or-main { display: flex; align-items: center; gap: 9px; cursor: pointer; }
+.or-main input { accent-color: var(--accent); }
+.or-who { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.or-who b { font-size: 13px; font-weight: 500; }
+.or-flag { font-size: 10.5px; font-family: var(--mono); }
+.or-ok { color: var(--ok); }
+.or-bad { color: var(--danger); }
+.or-sig { border-left: 2px solid var(--accent); padding: 5px 8px; color: var(--muted); font-size: 11.5px; margin: 8px 0; }
+.or-body { white-space: pre-wrap; background: #0f1114; border: 1px solid var(--border); border-radius: 4px; padding: 10px; font: 12px/1.6 var(--mono); color: #c6ccd4; margin: 8px 0; }
+.or-note-row { display: flex; gap: 6px; align-items: flex-start; margin-top: 6px; }
+.or-note { flex: 1; min-width: 0; background: #0f1114; border: 1px solid var(--border); border-radius: 4px; color: var(--text); padding: 6px 8px; font: 12px/1.5 var(--sans); min-height: 32px; resize: vertical; }
+@media (max-width: 860px) { .or-wrap { padding: 12px 12px 140px; } .or-note-row { flex-direction: column; } }
+</style>
+{% endblock %}

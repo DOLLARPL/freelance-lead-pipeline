@@ -1,0 +1,1 @@
+"""Test package so sibling modules (``tests.fakes``) import cleanly."""

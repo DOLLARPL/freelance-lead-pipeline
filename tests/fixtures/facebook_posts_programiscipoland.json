@@ -1,0 +1,421 @@
+{
+  "collected_at": "2026-09-21T12:45:26.060479+00:00",
+  "actor": "blackfalcondata/facebook-group-post-scraper",
+  "run_id": "RJ1Bg6jdUO1Gg565B",
+  "cost_usd": 0.008861860288704435,
+  "groups_requested": [
+    "https://www.facebook.com/groups/programiscipoland"
+  ],
+  "groups": [
+    {
+      "url": "https://www.facebook.com/groups/programiscipoland",
+      "status": "SUCCEEDED",
+      "diagnostic": null,
+      "error": null,
+      "posts": [
+        {
+          "facebookUrl": "https://www.facebook.com/groups/programiscipoland",
+          "inputUrl": "https://www.facebook.com/groups/programiscipoland",
+          "facebookId": null,
+          "groupTitle": "Kamil Bielski",
+          "url": "https://www.facebook.com/groups/programiscipoland/permalink/4445948569007599/",
+          "portalUrl": "https://www.facebook.com/groups/programiscipoland/permalink/4445948569007599/",
+          "legacyId": "4445948569007599",
+          "id": "4445912972344492",
+          "text": "Uniwersalny język miłości.\nJest dla nas najlepszy.\nA drugiej w kolejności język obiecujący budowę fabryk RAM.",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "6at"
+          },
+          "feedbackId": null,
+          "topReactionsCount": 1,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35477-6/552996004_25136775682615254_1209314132189420350_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx688x688&ctp=s34x34&_nc_cat=1&ccb=1-7&_nc_sid=d7e6db&_nc_ohc=pPkI4BahAKQQ7kNvwGVqw2T&_nc_oc=Ado3bpNQdxDcF_L6P7YY7t-We-AyYkg2vcry_va5iwbnvTn-qoVrbqXEKaVziwOlB1qzMqYyCfXfipcZ1rTRrSib&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQITHUY06uQ-CzLDEKtRzjvBcAtIa7xLo3_vFjOxH7LWbw&oe=6AB6DF2E",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35477-6/552996004_25136775682615254_1209314132189420350_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx688x688&ctp=s34x34&_nc_cat=1&ccb=1-7&_nc_sid=d7e6db&_nc_ohc=pPkI4BahAKQQ7kNvwGVqw2T&_nc_oc=Ado3bpNQdxDcF_L6P7YY7t-We-AyYkg2vcry_va5iwbnvTn-qoVrbqXEKaVziwOlB1qzMqYyCfXfipcZ1rTRrSib&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQITHUY06uQ-CzLDEKtRzjvBcAtIa7xLo3_vFjOxH7LWbw&oe=6AB6DF2E"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35477-6/552996004_25136775682615254_1209314132189420350_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx688x688&ctp=s50x50&_nc_cat=1&ccb=1-7&_nc_sid=d7e6db&_nc_ohc=pPkI4BahAKQQ7kNvwGVqw2T&_nc_oc=Ado3bpNQdxDcF_L6P7YY7t-We-AyYkg2vcry_va5iwbnvTn-qoVrbqXEKaVziwOlB1qzMqYyCfXfipcZ1rTRrSib&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQITHUY06uQ-CzLDEKtRzjvBcAtIa7xLo3_vFjOxH7LWbw&oe=6AB6DF2E",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35477-6/552996004_25136775682615254_1209314132189420350_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx688x688&ctp=s50x50&_nc_cat=1&ccb=1-7&_nc_sid=d7e6db&_nc_ohc=pPkI4BahAKQQ7kNvwGVqw2T&_nc_oc=Ado3bpNQdxDcF_L6P7YY7t-We-AyYkg2vcry_va5iwbnvTn-qoVrbqXEKaVziwOlB1qzMqYyCfXfipcZ1rTRrSib&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQITHUY06uQ-CzLDEKtRzjvBcAtIa7xLo3_vFjOxH7LWbw&oe=6AB6DF2E"
+              }
+            }
+          ],
+          "photoCount": 2,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:45:19.833Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/programiscipoland",
+          "inputUrl": "https://www.facebook.com/groups/programiscipoland",
+          "facebookId": null,
+          "groupTitle": "Kamil Bielski",
+          "url": "https://www.facebook.com/groups/programiscipoland/permalink/4444766629125793/",
+          "portalUrl": "https://www.facebook.com/groups/programiscipoland/permalink/4444766629125793/",
+          "legacyId": "4444766629125793",
+          "id": "4444730629129393",
+          "text": "Zacznij od umowy :)",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Damian Wojewoda"
+          },
+          "feedbackId": null,
+          "topReactionsCount": 1,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/73537326_111652253582679_2627826635696504832_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx360x360&ctp=s32x32&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_ohc=3uzwsg0N7sEQ7kNvwEYJysZ&_nc_oc=Adql_2hd4KvzdPprwHVdacP_f_FeGP0IKtG0Xxh_q2UaMp7EA0io5PANt05z4QI3vlZP-qO4Cy_4T33-hzYBoJ_6&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKPIf77FZfsMAUMhcMeel7Qk_QuPZkRsofGFgWy8gkaYA&oe=6AD8AB48",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/73537326_111652253582679_2627826635696504832_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx360x360&ctp=s32x32&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_ohc=3uzwsg0N7sEQ7kNvwEYJysZ&_nc_oc=Adql_2hd4KvzdPprwHVdacP_f_FeGP0IKtG0Xxh_q2UaMp7EA0io5PANt05z4QI3vlZP-qO4Cy_4T33-hzYBoJ_6&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKPIf77FZfsMAUMhcMeel7Qk_QuPZkRsofGFgWy8gkaYA&oe=6AD8AB48"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/73537326_111652253582679_2627826635696504832_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx360x360&ctp=s40x40&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_ohc=3uzwsg0N7sEQ7kNvwEYJysZ&_nc_oc=Adql_2hd4KvzdPprwHVdacP_f_FeGP0IKtG0Xxh_q2UaMp7EA0io5PANt05z4QI3vlZP-qO4Cy_4T33-hzYBoJ_6&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKPIf77FZfsMAUMhcMeel7Qk_QuPZkRsofGFgWy8gkaYA&oe=6AD8AB48",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/73537326_111652253582679_2627826635696504832_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx360x360&ctp=s40x40&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_ohc=3uzwsg0N7sEQ7kNvwEYJysZ&_nc_oc=Adql_2hd4KvzdPprwHVdacP_f_FeGP0IKtG0Xxh_q2UaMp7EA0io5PANt05z4QI3vlZP-qO4Cy_4T33-hzYBoJ_6&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKPIf77FZfsMAUMhcMeel7Qk_QuPZkRsofGFgWy8gkaYA&oe=6AD8AB48"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/73537326_111652253582679_2627826635696504832_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx360x360&ctp=s24x24&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_ohc=3uzwsg0N7sEQ7kNvwEYJysZ&_nc_oc=Adql_2hd4KvzdPprwHVdacP_f_FeGP0IKtG0Xxh_q2UaMp7EA0io5PANt05z4QI3vlZP-qO4Cy_4T33-hzYBoJ_6&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKPIf77FZfsMAUMhcMeel7Qk_QuPZkRsofGFgWy8gkaYA&oe=6AD8AB48",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/73537326_111652253582679_2627826635696504832_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx360x360&ctp=s24x24&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_ohc=3uzwsg0N7sEQ7kNvwEYJysZ&_nc_oc=Adql_2hd4KvzdPprwHVdacP_f_FeGP0IKtG0Xxh_q2UaMp7EA0io5PANt05z4QI3vlZP-qO4Cy_4T33-hzYBoJ_6&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKPIf77FZfsMAUMhcMeel7Qk_QuPZkRsofGFgWy8gkaYA&oe=6AD8AB48"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/73537326_111652253582679_2627826635696504832_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx360x360&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_ohc=3uzwsg0N7sEQ7kNvwEYJysZ&_nc_oc=Adql_2hd4KvzdPprwHVdacP_f_FeGP0IKtG0Xxh_q2UaMp7EA0io5PANt05z4QI3vlZP-qO4Cy_4T33-hzYBoJ_6&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKPIf77FZfsMAUMhcMeel7Qk_QuPZkRsofGFgWy8gkaYA&oe=6AD8AB48",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-1/73537326_111652253582679_2627826635696504832_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx360x360&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_ohc=3uzwsg0N7sEQ7kNvwEYJysZ&_nc_oc=Adql_2hd4KvzdPprwHVdacP_f_FeGP0IKtG0Xxh_q2UaMp7EA0io5PANt05z4QI3vlZP-qO4Cy_4T33-hzYBoJ_6&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKPIf77FZfsMAUMhcMeel7Qk_QuPZkRsofGFgWy8gkaYA&oe=6AD8AB48"
+              }
+            }
+          ],
+          "photoCount": 4,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:45:19.833Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/programiscipoland",
+          "inputUrl": "https://www.facebook.com/groups/programiscipoland",
+          "facebookId": null,
+          "groupTitle": "Kamil Bielski",
+          "url": "https://www.facebook.com/groups/programiscipoland/permalink/4444656232470166/",
+          "portalUrl": "https://www.facebook.com/groups/programiscipoland/permalink/4444656232470166/",
+          "legacyId": "4444656232470166",
+          "id": "4444648855804237",
+          "text": "czym jest bursztyn os ?",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Marek Piwowarski"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462497775_3881473795458932_7732626672919945458_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx849x840&ctp=s32x32&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=wSv2PEYJ8_MQ7kNvwHroFU5&_nc_oc=AdrM1HRpCXD2vd6cDvh_18Citaoh9ArP_VU0t2KifGJWom3LycWEU2idQSqOnq_ttt8uf7N6geR6K4P-M2WTUXqc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKzJLw2DYqS3yuVHTrCJh1xvlwW7wodnBqI3F2r-vHu8g&oe=6AB6EF42",
+              "photo_image": {
+                "uri": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462497775_3881473795458932_7732626672919945458_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx849x840&ctp=s32x32&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=wSv2PEYJ8_MQ7kNvwHroFU5&_nc_oc=AdrM1HRpCXD2vd6cDvh_18Citaoh9ArP_VU0t2KifGJWom3LycWEU2idQSqOnq_ttt8uf7N6geR6K4P-M2WTUXqc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKzJLw2DYqS3yuVHTrCJh1xvlwW7wodnBqI3F2r-vHu8g&oe=6AB6EF42"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462497775_3881473795458932_7732626672919945458_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx849x840&ctp=s40x40&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=wSv2PEYJ8_MQ7kNvwHroFU5&_nc_oc=AdrM1HRpCXD2vd6cDvh_18Citaoh9ArP_VU0t2KifGJWom3LycWEU2idQSqOnq_ttt8uf7N6geR6K4P-M2WTUXqc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKzJLw2DYqS3yuVHTrCJh1xvlwW7wodnBqI3F2r-vHu8g&oe=6AB6EF42",
+              "photo_image": {
+                "uri": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462497775_3881473795458932_7732626672919945458_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx849x840&ctp=s40x40&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=wSv2PEYJ8_MQ7kNvwHroFU5&_nc_oc=AdrM1HRpCXD2vd6cDvh_18Citaoh9ArP_VU0t2KifGJWom3LycWEU2idQSqOnq_ttt8uf7N6geR6K4P-M2WTUXqc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKzJLw2DYqS3yuVHTrCJh1xvlwW7wodnBqI3F2r-vHu8g&oe=6AB6EF42"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462497775_3881473795458932_7732626672919945458_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx849x840&ctp=s24x24&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=wSv2PEYJ8_MQ7kNvwHroFU5&_nc_oc=AdrM1HRpCXD2vd6cDvh_18Citaoh9ArP_VU0t2KifGJWom3LycWEU2idQSqOnq_ttt8uf7N6geR6K4P-M2WTUXqc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKzJLw2DYqS3yuVHTrCJh1xvlwW7wodnBqI3F2r-vHu8g&oe=6AB6EF42",
+              "photo_image": {
+                "uri": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462497775_3881473795458932_7732626672919945458_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx849x840&ctp=s24x24&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=wSv2PEYJ8_MQ7kNvwHroFU5&_nc_oc=AdrM1HRpCXD2vd6cDvh_18Citaoh9ArP_VU0t2KifGJWom3LycWEU2idQSqOnq_ttt8uf7N6geR6K4P-M2WTUXqc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKzJLw2DYqS3yuVHTrCJh1xvlwW7wodnBqI3F2r-vHu8g&oe=6AB6EF42"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462497775_3881473795458932_7732626672919945458_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx849x840&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=wSv2PEYJ8_MQ7kNvwHroFU5&_nc_oc=AdrM1HRpCXD2vd6cDvh_18Citaoh9ArP_VU0t2KifGJWom3LycWEU2idQSqOnq_ttt8uf7N6geR6K4P-M2WTUXqc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKzJLw2DYqS3yuVHTrCJh1xvlwW7wodnBqI3F2r-vHu8g&oe=6AB6EF42",
+              "photo_image": {
+                "uri": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462497775_3881473795458932_7732626672919945458_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx849x840&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=wSv2PEYJ8_MQ7kNvwHroFU5&_nc_oc=AdrM1HRpCXD2vd6cDvh_18Citaoh9ArP_VU0t2KifGJWom3LycWEU2idQSqOnq_ttt8uf7N6geR6K4P-M2WTUXqc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKzJLw2DYqS3yuVHTrCJh1xvlwW7wodnBqI3F2r-vHu8g&oe=6AB6EF42"
+              }
+            }
+          ],
+          "photoCount": 4,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:45:19.833Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/programiscipoland",
+          "inputUrl": "https://www.facebook.com/groups/programiscipoland",
+          "facebookId": null,
+          "groupTitle": "Kamil Bielski",
+          "url": "https://www.facebook.com/groups/programiscipoland/permalink/4447083625560760/",
+          "portalUrl": "https://www.facebook.com/groups/programiscipoland/permalink/4447083625560760/",
+          "legacyId": "4447083625560760",
+          "id": "4444277492508040",
+          "text": "Nie ma dzisiaj argumentów dla pracodawcy żeby zatrudniał kogoś na (zwłaszcza) frontend jeżeli jest AI. Jeden senior z AI już robi cały projekt, kiedyś kilka osób było potrzebne 🙂",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Anonymous participant 568"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35477-6/480772267_8870171503091593_8950035799029425225_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx160x160&ctp=s34x34&_nc_cat=1&ccb=1-7&_nc_sid=ee2d7f&_nc_ohc=vFMnvAnm3C4Q7kNvwEC4JQC&_nc_oc=Adp1P2vqGV_HQ4SJd3aV_F0MX9TRaJU96IWdaoEuTRI6YIO7nDankYm6ylYgKcMMvgq0bvicQ-Mkrh5J5LHU24i2&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQJQDtDrA6Jv2S6g7hv14LgCqvbQPyfqaMmO0xI6FqDzsA&oe=6AB6F23B",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35477-6/480772267_8870171503091593_8950035799029425225_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx160x160&ctp=s34x34&_nc_cat=1&ccb=1-7&_nc_sid=ee2d7f&_nc_ohc=vFMnvAnm3C4Q7kNvwEC4JQC&_nc_oc=Adp1P2vqGV_HQ4SJd3aV_F0MX9TRaJU96IWdaoEuTRI6YIO7nDankYm6ylYgKcMMvgq0bvicQ-Mkrh5J5LHU24i2&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQJQDtDrA6Jv2S6g7hv14LgCqvbQPyfqaMmO0xI6FqDzsA&oe=6AB6F23B"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35477-6/480772267_8870171503091593_8950035799029425225_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx160x160&ctp=s50x50&_nc_cat=1&ccb=1-7&_nc_sid=ee2d7f&_nc_ohc=vFMnvAnm3C4Q7kNvwEC4JQC&_nc_oc=Adp1P2vqGV_HQ4SJd3aV_F0MX9TRaJU96IWdaoEuTRI6YIO7nDankYm6ylYgKcMMvgq0bvicQ-Mkrh5J5LHU24i2&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQJQDtDrA6Jv2S6g7hv14LgCqvbQPyfqaMmO0xI6FqDzsA&oe=6AB6F23B",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35477-6/480772267_8870171503091593_8950035799029425225_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx160x160&ctp=s50x50&_nc_cat=1&ccb=1-7&_nc_sid=ee2d7f&_nc_ohc=vFMnvAnm3C4Q7kNvwEC4JQC&_nc_oc=Adp1P2vqGV_HQ4SJd3aV_F0MX9TRaJU96IWdaoEuTRI6YIO7nDankYm6ylYgKcMMvgq0bvicQ-Mkrh5J5LHU24i2&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQJQDtDrA6Jv2S6g7hv14LgCqvbQPyfqaMmO0xI6FqDzsA&oe=6AB6F23B"
+              }
+            }
+          ],
+          "photoCount": 2,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:45:19.833Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/programiscipoland",
+          "inputUrl": "https://www.facebook.com/groups/programiscipoland",
+          "facebookId": null,
+          "groupTitle": "Kamil Bielski",
+          "url": "https://www.facebook.com/groups/programiscipoland/permalink/4447289282206861/",
+          "portalUrl": "https://www.facebook.com/groups/programiscipoland/permalink/4447289282206861/",
+          "legacyId": "4447289282206861",
+          "id": "4447289282206861",
+          "text": null,
+          "time": "2026-09-20T18:39:41.000Z",
+          "user": {
+            "id": null,
+            "name": "TaniaWitryna"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/795438348_1719251403540056_1881417999094975474_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=6bsEU5qClfcQ7kNvwHtNPXy&_nc_oc=Ado-4jj3XcJQsuIgT8Wh2BcQS3d815_zaixC7V0p8s4j2yVAkGNXxxoQSIH75tSGY30mQeNdFPQrVh0tSrwm82aT&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKVv3yrEK1-R0UzB1CMeOlJG5aLYf_4RonsNnnfLJ2Zzw&oe=6AB70765",
+              "photo_image": {
+                "uri": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/795438348_1719251403540056_1881417999094975474_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=6bsEU5qClfcQ7kNvwHtNPXy&_nc_oc=Ado-4jj3XcJQsuIgT8Wh2BcQS3d815_zaixC7V0p8s4j2yVAkGNXxxoQSIH75tSGY30mQeNdFPQrVh0tSrwm82aT&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQKVv3yrEK1-R0UzB1CMeOlJG5aLYf_4RonsNnnfLJ2Zzw&oe=6AB70765"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/295500016_457341706397705_8609705611923868922_n.jpg?stp=c0.34.202.202a_cp0_dst-jpg_tt6&cstp=mx202x202&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=OM8ewBqMveMQ7kNvwHdXJWw&_nc_oc=AdqQhK-9hCn7OFFB700-7eFwS7ocktLCV2TdziLYNwhMQPQ_pg3Q_XaywtQ5B4q2VBMFMhjoTEsVZDdauimPE9V7&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQK5w2u587OTyhduC2QOqXxz5t4_ylukUG4D5eJ6MaIMsA&oe=6AB6E97D",
+              "photo_image": {
+                "uri": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/295500016_457341706397705_8609705611923868922_n.jpg?stp=c0.34.202.202a_cp0_dst-jpg_tt6&cstp=mx202x202&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=OM8ewBqMveMQ7kNvwHdXJWw&_nc_oc=AdqQhK-9hCn7OFFB700-7eFwS7ocktLCV2TdziLYNwhMQPQ_pg3Q_XaywtQ5B4q2VBMFMhjoTEsVZDdauimPE9V7&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQK5w2u587OTyhduC2QOqXxz5t4_ylukUG4D5eJ6MaIMsA&oe=6AB6E97D"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/295500016_457341706397705_8609705611923868922_n.jpg?stp=c0.34.202.202a_cp0_dst-jpg_tt6&cstp=mx202x202&ctp=s40x40&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=OM8ewBqMveMQ7kNvwHdXJWw&_nc_oc=AdqQhK-9hCn7OFFB700-7eFwS7ocktLCV2TdziLYNwhMQPQ_pg3Q_XaywtQ5B4q2VBMFMhjoTEsVZDdauimPE9V7&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQK5w2u587OTyhduC2QOqXxz5t4_ylukUG4D5eJ6MaIMsA&oe=6AB6E97D",
+              "photo_image": {
+                "uri": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/295500016_457341706397705_8609705611923868922_n.jpg?stp=c0.34.202.202a_cp0_dst-jpg_tt6&cstp=mx202x202&ctp=s40x40&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=OM8ewBqMveMQ7kNvwHdXJWw&_nc_oc=AdqQhK-9hCn7OFFB700-7eFwS7ocktLCV2TdziLYNwhMQPQ_pg3Q_XaywtQ5B4q2VBMFMhjoTEsVZDdauimPE9V7&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQK5w2u587OTyhduC2QOqXxz5t4_ylukUG4D5eJ6MaIMsA&oe=6AB6E97D"
+              }
+            }
+          ],
+          "photoCount": 3,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:45:19.833Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/programiscipoland",
+          "inputUrl": "https://www.facebook.com/groups/programiscipoland",
+          "facebookId": null,
+          "groupTitle": "Kamil Bielski",
+          "url": "https://www.facebook.com/groups/programiscipoland/permalink/4445138489088607/",
+          "portalUrl": "https://www.facebook.com/groups/programiscipoland/permalink/4445138489088607/",
+          "legacyId": "4445138489088607",
+          "id": "4445138489088607",
+          "text": null,
+          "time": "2026-09-18T16:40:29.000Z",
+          "user": {
+            "id": null,
+            "name": "Anonymous participant"
+          },
+          "feedbackId": null,
+          "topReactionsCount": 1,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/796640925_4626614754236532_8766181090021915824_n.jpg?stp=dst-jpg_tt6&cstp=mx1446x2048&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Fp1nODmEO6wQ7kNvwFB90JT&_nc_oc=Adpgf_D3g74oJW6W8xjf5tiv4afd7LhiLGHTN-tIK3DoZG2xXBTtSeWSwMDPt9D6fswmz6y5rrV-4Gh33Z9_aaOH&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQIJonygjNgje2X-m_x-Jf8NUxg46iitO0T4EFxrfEcgEg&oe=6AB70690",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/796640925_4626614754236532_8766181090021915824_n.jpg?stp=dst-jpg_tt6&cstp=mx1446x2048&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Fp1nODmEO6wQ7kNvwFB90JT&_nc_oc=Adpgf_D3g74oJW6W8xjf5tiv4afd7LhiLGHTN-tIK3DoZG2xXBTtSeWSwMDPt9D6fswmz6y5rrV-4Gh33Z9_aaOH&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQIJonygjNgje2X-m_x-Jf8NUxg46iitO0T4EFxrfEcgEg&oe=6AB70690"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/279963998_3247138765517478_558462726924180551_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s50x50&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Y3yVXyCeu8EQ7kNvwHB28xB&_nc_oc=AdpsxIXJI8ySPsBr9pDe8vFNUlefGlAG9UG5X5fMaluzao1WcLOaEcoNVmEHBqsStY9IoJTRR4RvkQwRp4P99Tzm&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQLv_YKKbgC3BMGJdG9qP03Jsg7q2ofKqOPxDAkNesZhbg&oe=6AB70DD8",
+              "photo_image": {
+                "uri": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/279963998_3247138765517478_558462726924180551_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s50x50&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Y3yVXyCeu8EQ7kNvwHB28xB&_nc_oc=AdpsxIXJI8ySPsBr9pDe8vFNUlefGlAG9UG5X5fMaluzao1WcLOaEcoNVmEHBqsStY9IoJTRR4RvkQwRp4P99Tzm&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQLv_YKKbgC3BMGJdG9qP03Jsg7q2ofKqOPxDAkNesZhbg&oe=6AB70DD8"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/279963998_3247138765517478_558462726924180551_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s40x40&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Y3yVXyCeu8EQ7kNvwHB28xB&_nc_oc=AdpsxIXJI8ySPsBr9pDe8vFNUlefGlAG9UG5X5fMaluzao1WcLOaEcoNVmEHBqsStY9IoJTRR4RvkQwRp4P99Tzm&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQLv_YKKbgC3BMGJdG9qP03Jsg7q2ofKqOPxDAkNesZhbg&oe=6AB70DD8",
+              "photo_image": {
+                "uri": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/279963998_3247138765517478_558462726924180551_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s40x40&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Y3yVXyCeu8EQ7kNvwHB28xB&_nc_oc=AdpsxIXJI8ySPsBr9pDe8vFNUlefGlAG9UG5X5fMaluzao1WcLOaEcoNVmEHBqsStY9IoJTRR4RvkQwRp4P99Tzm&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=pFq_oxiMGsJ4D9hd0UPdwg&_nc_ss=73180&oh=00_AQLv_YKKbgC3BMGJdG9qP03Jsg7q2ofKqOPxDAkNesZhbg&oe=6AB70DD8"
+              }
+            }
+          ],
+          "photoCount": 3,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:45:19.833Z",
+          "source": "facebook.com"
+        }
+      ]
+    }
+  ]
+}

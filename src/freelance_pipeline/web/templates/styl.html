@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block page %}styl{% endblock %}
+{% block title %}Styl · zadania{% endblock %}
+{% block body %}
+<div class="shell">
+  {% set active = 'styl' %}
+  {% include "_rail.html" %}
+
+  <main class="card">
+    <header class="card-head"><h1>Styl: zadania</h1></header>
+    <p class="muted">Otwórz zadanie, przeczytaj draft DeepSeeka i napisz swoją wersję. Zapis przenosi zadanie do Zrobionych.</p>
+    {% if ok == "1" %}<div class="notice ok">Zapisane i przeniesione do Zrobionych.</div>
+    {% elif ok == "4" %}<div class="notice ok">Przywrócone do zadań.</div>
+    {% elif ok == "5" %}<div class="notice err">Przykład zapisany, ale draft oferty nie. Sprawdź ledger.</div>
+    {% elif ok == "err" %}<div class="notice err">Nie udało się. Sprawdź humanizer.</div>{% endif %}
+
+    <div class="styl-tabs">
+      <a class="styl-tab{% if view == 'todo' %} on{% endif %}" href="/styl?view=todo">Do odpisania ({{ ile_todo }})</a>
+      <a class="styl-tab{% if view == 'done' %} on{% endif %}" href="/styl?view=done">Zrobione ({{ ile_done }})</a>
+      <a class="link tiny" href="/styl/przyklady" style="margin-left:auto">Przykłady ({{ przyklady }}) →</a>
+    </div>
+
+    {% if oferty %}
+    <ul class="styl-zadania">
+      {% for o in oferty %}
+      <li class="styl-item">
+        {% if o.zapisany %}
+        <form method="post" action="/styl/przywroc" class="styl-tick">
+          <input type="hidden" name="lead_key" value="{{ o.key }}">
+          <button class="styl-check on" type="submit" title="Odznacz i przywróć do zadań">✓</button>
+        </form>
+        {% else %}
+        <a class="styl-check" href="/styl/{{ o.key|urlencode }}" title="Otwórz zadanie"></a>
+        {% endif %}
+        <a class="styl-row" href="/styl/{{ o.key|urlencode }}">
+          <span class="styl-tytul">{{ o.title|clean or "(bez tytułu)" }}</span>
+          <span class="styl-meta">{% if o.zapisany %}{{ o.zapisany_data }} · {{ o.status_przykladu }}{% else %}{{ o.status }} · {{ o.first_seen_at|stamp }}{% endif %}</span>
+        </a>
+        {% if o.zapisany %}
+        <form method="post" action="/styl/przywroc" class="styl-akcja">
+          <input type="hidden" name="lead_key" value="{{ o.key }}">
+          <button class="btn ghost sm" type="submit">Przywróć</button>
+        </form>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="muted">{% if view == 'done' %}Nic jeszcze nie ma w Zrobionych.{% else %}Wszystko odpisane. Zajrzyj do Zrobionych.{% endif %}</p>
+    {% endif %}
+  </main>
+</div>
+{% endblock %}

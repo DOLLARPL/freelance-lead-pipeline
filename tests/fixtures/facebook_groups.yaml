@@ -1,0 +1,52 @@
+# Test fixture: the same schema as config/facebook_groups.yaml, scoped to the
+# groups that appear in tests/fixtures/facebook_posts_*.json (real pilot payloads
+# from stage 1). Used by offline mode (freelance_pipeline.offline) and by
+# tests/test_sources_facebook.py so no test ever reads the production cache.
+
+- url: https://www.facebook.com/groups/programiscipoland
+  name: "Programiści Polska / Developers Poland"
+  tag: freelancing
+  lang: pl
+  public: true
+  enabled: true
+  max_posts: 30
+  view: CHRONOLOGICAL
+
+- url: https://www.facebook.com/groups/dlaprzedsiebiorcow
+  name: "Grupa dla przedsiębiorców"
+  tag: founderzy
+  lang: pl
+  public: true
+  enabled: true
+  max_posts: 30
+  view: CHRONOLOGICAL
+
+- url: https://www.facebook.com/groups/417702252034285
+  name: "Social Media - ZLECĘ / WYKONAM"
+  tag: freelancing
+  lang: pl
+  public: true
+  enabled: true
+  max_posts: 30
+  view: CHRONOLOGICAL
+
+# Enabled in production, disabled here: the payload still carries its posts, so a
+# test can prove that a disabled group is skipped and reported, not mapped.
+- url: https://www.facebook.com/groups/socialmediapracazlecenia
+  name: "Social Media, marketing - ZLECĘ/WYKONAM, praca w marketingu"
+  tag: freelancing
+  lang: pl
+  public: true
+  enabled: false
+  max_posts: 30
+  view: CHRONOLOGICAL
+
+# Private group: the apify pilot payload returned "no_items" for it.
+- url: https://www.facebook.com/groups/przygodyprzedsiebiorcow
+  name: "Przygody Przedsiębiorców | Biznes i Wideomarketing"
+  tag: founderzy
+  lang: pl
+  public: false
+  enabled: false
+  max_posts: 30
+  view: CHRONOLOGICAL

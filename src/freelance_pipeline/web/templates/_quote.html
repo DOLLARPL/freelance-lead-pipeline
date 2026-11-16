@@ -1,0 +1,22 @@
+{% if quote %}
+<div class="quote">
+  <div class="amount">{{ quote.amount|money }}</div>
+  <div class="qmeta">
+    <span>ok. {{ quote.days }} dni roboczych</span>
+    {% if quote.cennik_version == 'manual' %}<span>moja wycena</span>{% elif quote.cennik_version %}<span class="muted">cennik {{ quote.cennik_version }}</span>{% endif %}
+  </div>
+  {% if quote.note %}<div class="qnote muted tiny">{{ quote.note }}</div>{% endif %}
+</div>
+{% else %}
+<div class="notice">Brak wyceny. Wpisz kwotę i termin poniżej.</div>
+{% endif %}
+
+<form class="quote-edit" method="post" action="/lead/{{ lead.key }}/quote/manual"
+      hx-post="/lead/{{ lead.key }}/quote/manual" hx-target="#quote" hx-swap="innerHTML">
+  <label>kwota <input type="number" name="amount" min="1" step="1" value="{{ quote.amount|int if quote else '' }}" required></label>
+  <label>dni <input type="number" name="days" min="0" step="1" value="{{ quote.days if quote else '' }}" required></label>
+  <label class="grow">notatka <input type="text" name="note" value="{{ quote.note if quote and quote.cennik_version == 'manual' else '' }}" placeholder="np. klient chce fakturę, zakres bez SEO"></label>
+  <button class="btn" type="submit">Zapisz moją wycenę</button>
+</form>
+{% if error %}<p class="notice err">{{ error }}</p>{% endif %}
+{% if notice %}<p class="notice ok">{{ notice }}</p>{% endif %}

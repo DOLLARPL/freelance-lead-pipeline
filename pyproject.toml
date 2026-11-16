@@ -1,0 +1,20 @@
+[project]
+name = "freelance-pipeline-v2"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.32", "beautifulsoup4>=4.12", "lxml>=5", "pyyaml>=6"]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.9"]
+# Klient Gmaila dla adaptera Oferteo z maila (mailbox.py importuje leniwie, więc bez tej
+# grupy reszta projektu działa). Instalacja: `uv sync --group mail` albo
+# `uv pip install --python .venv/bin/python google-api-python-client`.
+mail = ["google-api-python-client>=2.201,<3"]
+# Panel webowy (etap 5) i powiadomienia push. Osobna grupa, bo pipeline działa bez niej.
+web = ["fastapi>=0.115", "uvicorn>=0.30", "jinja2>=3.1", "python-multipart>=0.0.9", "pywebpush>=2.0.3"]
+
+[tool.ruff]
+exclude = ["legacy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

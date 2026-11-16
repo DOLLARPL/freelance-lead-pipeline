@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08090a">
+<meta name="robots" content="noindex, nofollow">
+<title>Zaloguj się · Snajper</title>
+<link rel="icon" href="/static/icon-192.png">
+<style>
+  :root {
+    --bg: #08090a; --panel: #0d0e10; --raised: #141619; --border: #22262b;
+    --text: #e8eaed; --muted: #b3bac3; --accent: #5e6ad2; --danger: #e5484d;
+    --sans: Inter, -apple-system, "Segoe UI", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; min-height: 100%; background: var(--bg); color: var(--text);
+    font: 13.5px/1.45 var(--sans); -webkit-font-smoothing: antialiased;
+  }
+  .wrap { min-height: 100dvh; display: grid; place-items: center; padding: 24px; }
+  .card {
+    width: 100%; max-width: 360px; background: var(--panel);
+    border: 1px solid var(--border); border-radius: 14px; padding: 26px 24px 22px;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(94,106,210,.18); }
+  .brand b { font-size: 15px; letter-spacing: -.01em; }
+  h1 { margin: 0 0 4px; font-size: 17px; font-weight: 600; letter-spacing: -.01em; }
+  p.sub { margin: 0 0 18px; color: var(--muted); font-size: 12.5px; }
+  label { display: block; font-size: 11.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 6px; }
+  input {
+    width: 100%; padding: 10px 12px; margin-bottom: 14px; border-radius: 9px;
+    border: 1px solid var(--border); background: var(--raised); color: var(--text);
+    font: 14px var(--sans);
+  }
+  input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(94,106,210,.22); }
+  button {
+    width: 100%; padding: 11px 14px; border: 0; border-radius: 9px; cursor: pointer;
+    background: var(--accent); color: #fff; font: 600 14px var(--sans);
+  }
+  button:hover { filter: brightness(1.08); }
+  .blad {
+    margin: 0 0 14px; padding: 9px 11px; border-radius: 8px; font-size: 12.5px;
+    background: rgba(229,72,77,.12); border: 1px solid rgba(229,72,77,.4); color: #ffb4b6;
+  }
+  .stopka { margin-top: 16px; color: #6f767f; font-size: 11.5px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <form class="card" method="post" action="/login" autocomplete="on">
+    <div class="brand"><span class="dot"></span><b>Snajper</b></div>
+    <h1>Zaloguj się</h1>
+    <p class="sub">Kolejka ofert, drafty i wyceny. Dostęp tylko dla dwóch kont.</p>
+    {% if blad %}<div class="blad">{{ blad }}</div>{% endif %}
+    <input type="hidden" name="next" value="{{ next }}">
+    <label for="login">E-mail</label>
+    <input id="login" name="login" type="email" value="{{ login }}" autocomplete="username" required autofocus>
+    <label for="haslo">Hasło</label>
+    <input id="haslo" name="haslo" type="password" autocomplete="current-password" required>
+    <button type="submit">Wejdź</button>
+    <div class="stopka">snajper.jnxautomation.pl</div>
+  </form>
+</div>
+</body>
+</html>

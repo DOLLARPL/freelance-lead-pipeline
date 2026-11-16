@@ -1,0 +1,21 @@
+<div id="contact">
+  <form method="post" action="/lead/{{ lead.key }}/contact"
+        hx-post="/lead/{{ lead.key }}/contact" hx-target="#contact" hx-swap="innerHTML">
+    <input name="email" type="email" value="{{ lead.contact_email }}" placeholder="mail klienta, np. z Oferteo po wykupieniu" autocomplete="off">
+    <button class="btn sm" type="submit">Zapisz mail</button>
+  </form>
+  {% if lead.contact_email %}
+  <details class="mail-box">
+    <summary>Wyślij maila na {{ lead.contact_email }}</summary>
+    <form method="post" action="/lead/{{ lead.key }}/mail/send"
+          hx-post="/lead/{{ lead.key }}/mail/send" hx-target="#contact" hx-swap="innerHTML"
+          hx-disabled-elt="find button" hx-confirm="Wysłać tego maila do {{ lead.contact_email }}?">
+      <input type="hidden" name="to" value="{{ lead.contact_email }}">
+      <input name="subject" value="Zapytanie: {{ lead.title|clean }}" placeholder="temat" autocomplete="off">
+      <textarea name="body" rows="10" spellcheck="false" class="draft">{{ lead.draft or '' }}</textarea>
+      <button class="btn ok" type="submit">Wyślij maila</button>
+    </form>
+  </details>
+  {% endif %}
+  {% if notice %}<p class="notice ok">{{ notice }}</p>{% endif %}
+</div>

@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block page %}styl{% endblock %}
+{% block title %}{{ lead.title[:60] }} · Styl{% endblock %}
+{% block body %}
+<div class="shell">
+  {% set active = 'styl' %}
+  {% include "_rail.html" %}
+
+  <main class="card">
+    <p class="tiny"><a class="link" href="/styl">← Wszystkie zadania</a></p>
+    {% if ok == "1" %}<div class="notice ok">Zapisane. Możesz poprawiać dalej.</div>
+    {% elif ok == "2" %}<div class="notice ok">Przykład zatwierdzony.</div>
+    {% elif ok == "3" %}<div class="notice ok">DeepSeek napisał nową wersję.</div>
+    {% elif ok == "err" %}<div class="notice err">Nie udało się. Sprawdź humanizer i klucz modelu.</div>{% endif %}
+
+    <h1>{{ lead.title|clean or "(bez tytułu)" }}</h1>
+    <p class="muted tiny"><a class="link" href="{{ lead.url }}" target="_blank" rel="noopener">ogłoszenie ↗</a></p>
+    <div class="styl-opis">{{ opis or lead.description or "Brak treści ogłoszenia w plikach przebiegu." }}</div>
+
+    <div class="card-cols">
+      <div class="col-a">
+        <section class="block">
+          <div class="block-head">
+            <h2>Draft AI</h2>
+            <span class="muted tiny">{% if lead.draft %}v{{ lead.version }} · {{ lead.draft_at|date }}{% else %}brak wersji{% endif %}</span>
+          </div>
+          {% if lead.draft %}
+          <pre class="draft styl-draft" id="ds-draft">{{ lead.draft }}</pre>
+          <div class="draft-actions">
+            <button class="btn ghost" type="button" id="copy-ds">Kopiuj</button>
+            <form method="post" action="/styl/generuj" class="inline grow"
+                  onsubmit="var b=this.querySelector('button');b.disabled=true;b.textContent='Pisze...'">
+              <input type="hidden" name="lead_key" value="{{ lead.key }}">
+              <button class="btn ghost" type="submit">Wygeneruj ponownie</button>
+            </form>
+          </div>
+          {% else %}
+          <p class="muted">Ta oferta nie ma jeszcze wersji modelu.</p>
+          <form method="post" action="/styl/generuj"
+                onsubmit="var b=this.querySelector('button');b.disabled=true;b.textContent='Pisze...'">
+            <input type="hidden" name="lead_key" value="{{ lead.key }}">
+            <button class="btn ghost" type="submit">Napisz DeepSeekiem</button>
+          </form>
+          {% endif %}
+        </section>
+      </div>
+
+      <div class="col-b">
+        <section class="block">
+          <div class="block-head">
+            <h2>Twoja odpowiedź</h2>
+            {% if przyklad %}<span class="muted tiny">{{ przyklad.status }} · {{ przyklad.meta.data }}</span>{% endif %}
+          </div>
+          <form id="form-zapisz" method="post" action="/styl/zapisz">
+            <input type="hidden" name="lead_key" value="{{ lead.key }}">
+                        <input type="hidden" name="kategoria" value="{{ przyklad.meta.kategoria if przyklad else '' }}">
+            <textarea class="draft" id="odpowiedz" name="odpowiedz" rows="18" required
+                      placeholder="Dzień dobry, ...">{{ przyklad.odpowiedz if przyklad else "" }}</textarea>
+            <div class="draft-actions">
+              <button class="btn ok" type="submit">Zapisz</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <div class="sticky-bar">
+      <button class="btn ok grow" type="submit" form="form-zapisz">Zapisz i oznacz jako zrobione</button>
+    </div>
+  </main>
+</div>
+<script>
+document.getElementById("copy-ds")?.addEventListener("click", function () {
+  var t = document.getElementById("ds-draft");
+  if (t) navigator.clipboard.writeText(t.textContent);
+});
+</script>
+{% endblock %}

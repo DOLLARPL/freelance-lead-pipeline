@@ -1,0 +1,997 @@
+{
+  "collected_at": "2026-09-21T12:48:51.004591+00:00",
+  "actor": "blackfalcondata/facebook-group-post-scraper",
+  "run_id": "2k4fSHE7U32Wjzgxj",
+  "cost_usd": 0.16092432808618579,
+  "groups_requested": [
+    "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+    "https://www.facebook.com/groups/przygodyprzedsiebiorcow",
+    "https://www.facebook.com/groups/417702252034285",
+    "https://www.facebook.com/groups/socialmediapracazlecenia"
+  ],
+  "groups": [
+    {
+      "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+      "status": "SUCCEEDED",
+      "diagnostic": null,
+      "error": null,
+      "posts": [
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "facebookId": null,
+          "groupTitle": "Grupa dla przedsiębiorców",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341724259974248/",
+          "portalUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341724259974248/",
+          "legacyId": "2341724259974248",
+          "id": "2341724259974248",
+          "text": "Firmy z branży HoReCa, od 2 do 16 października 2026 r. potrwa nabór HORECA UP dotyczący cyberbezpieczeństwa.\n\nDofinansowanie może objąć szkolenia i doradztwo z zakresu:\n\n🔐 cyberhigieny\n🔐 ochrony danych\n🔐 rozpoznawania oszustw i socjotechnik\n🔐 reagowania na incydenty\n\nNajważniejsze warunki:\n\n✅ co do zasady do 80% refundacji kosztów\n✅ maksymalna wartość usług 11 450 zł brutto na jednego pracownika\n✅ nabór ogólnopolski\n✅ ocena zgłoszeń w systemie punktowym\n\nWażne: 11 450 zł to limit wartości usług na pracownika, a nie wysokość dotacji. W tym naborze nie liczy się wyłącznie kolejność zgłoszeń.\n\nChcesz sprawdzić, czy Twoja firma i pracownicy spełniają warunki? Napisz „HORECA UP” w komentarzu lub wiadomości prywatnej.\n\nFSL Consulting\n[https://fslconsulting.eu](https://fslconsulting.eu/)\n\n#HORECAUP #HoReCa #Cyberbezpieczenstwo #Dofinansowanie #FunduszeUE #FunduszeEuropejskie",
+          "time": "2026-09-21T12:08:37.000Z",
+          "user": {
+            "id": null,
+            "name": "FSL Consulting"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/819561090_1916087276367711_8800189516630889303_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=hKKvxDgBgXwQ7kNvwFwEFMR&_nc_oc=Adrx1XUKFSeVTG8eoiajE5OVk7lmdVdo5d6KCceGmM8-WkxQ-WV4laKkzATVb6fXtr69F6YQu2WL6J81xfCxJKBQ&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=CuqBbjfvpmR5vrI3Kl0ovA&_nc_ss=73289&oh=00_AQJlcjd_IF6RTfZVly0U5KZ8wBZd11bSM08f6f6pcSgWRQ&oe=6AB6E9DC",
+              "photo_image": {
+                "uri": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/819561090_1916087276367711_8800189516630889303_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=hKKvxDgBgXwQ7kNvwFwEFMR&_nc_oc=Adrx1XUKFSeVTG8eoiajE5OVk7lmdVdo5d6KCceGmM8-WkxQ-WV4laKkzATVb6fXtr69F6YQu2WL6J81xfCxJKBQ&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=CuqBbjfvpmR5vrI3Kl0ovA&_nc_ss=73289&oh=00_AQJlcjd_IF6RTfZVly0U5KZ8wBZd11bSM08f6f6pcSgWRQ&oe=6AB6E9DC"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/799755370_1903092194333886_1073875946517817123_n.jpg?stp=c143.143.968.968a_cp0_dst-jpg_tt6&cstp=mx968x968&ctp=s50x50&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=o3GBMzon9B8Q7kNvwFm9yXT&_nc_oc=Ado0mEGzve64bzhfzH2jQKlToN8KdS_9oSuyCzu2EentCEgd0JVs65QEWGDaogSkmiqbY7pb3HIjWokcis_c19oq&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=CuqBbjfvpmR5vrI3Kl0ovA&_nc_ss=73289&oh=00_AQK111nzisKVFLg8wSNm6Khvz8Hq1B6Td8f7jT59k7ZoLw&oe=6AB70FD8",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/799755370_1903092194333886_1073875946517817123_n.jpg?stp=c143.143.968.968a_cp0_dst-jpg_tt6&cstp=mx968x968&ctp=s50x50&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=o3GBMzon9B8Q7kNvwFm9yXT&_nc_oc=Ado0mEGzve64bzhfzH2jQKlToN8KdS_9oSuyCzu2EentCEgd0JVs65QEWGDaogSkmiqbY7pb3HIjWokcis_c19oq&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=CuqBbjfvpmR5vrI3Kl0ovA&_nc_ss=73289&oh=00_AQK111nzisKVFLg8wSNm6Khvz8Hq1B6Td8f7jT59k7ZoLw&oe=6AB70FD8"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/799755370_1903092194333886_1073875946517817123_n.jpg?stp=c143.143.968.968a_cp0_dst-jpg_tt6&cstp=mx968x968&ctp=s40x40&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=o3GBMzon9B8Q7kNvwFm9yXT&_nc_oc=Ado0mEGzve64bzhfzH2jQKlToN8KdS_9oSuyCzu2EentCEgd0JVs65QEWGDaogSkmiqbY7pb3HIjWokcis_c19oq&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=CuqBbjfvpmR5vrI3Kl0ovA&_nc_ss=73289&oh=00_AQK111nzisKVFLg8wSNm6Khvz8Hq1B6Td8f7jT59k7ZoLw&oe=6AB70FD8",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/799755370_1903092194333886_1073875946517817123_n.jpg?stp=c143.143.968.968a_cp0_dst-jpg_tt6&cstp=mx968x968&ctp=s40x40&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=o3GBMzon9B8Q7kNvwFm9yXT&_nc_oc=Ado0mEGzve64bzhfzH2jQKlToN8KdS_9oSuyCzu2EentCEgd0JVs65QEWGDaogSkmiqbY7pb3HIjWokcis_c19oq&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=CuqBbjfvpmR5vrI3Kl0ovA&_nc_ss=73289&oh=00_AQK111nzisKVFLg8wSNm6Khvz8Hq1B6Td8f7jT59k7ZoLw&oe=6AB70FD8"
+              }
+            }
+          ],
+          "photoCount": 3,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:07.809Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "facebookId": null,
+          "groupTitle": "FSL Consulting",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341723513307656/",
+          "portalUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341723513307656/",
+          "legacyId": "2341723513307656",
+          "id": "2341723513307656",
+          "text": "Prowadzisz małą firmę i tonie w arkuszach, fakturach albo papierologii? 🙋‍♀️\n\nPodejmuję się jednorazowych zleceń freelance, w 100% zdalnie. Wcześniej pracowałam jako Data Analyst w jednej z największych europejskich firm energetycznych.\n\nMogę pomóc w zakresie:\n✅ Zaawansowanego Excela (tabele przestawne, formuły, dashboardy)\n✅ Porządkowania i raportowania danych\n✅ Fakturowania i zarządzania zamówieniami\n✅ Organizacji CRM/baz danych\n✅ Koordynacji wydarzeń i dostawców\n✅ Podstawowego wsparcia marketingowego/social media\n\nRzetelna, dokładna, bardzo dobra znajomość angielskiego. Dostępna 24/7. Nie szukam etatu — tylko zleceń. Napisz do mnie na pw! 🙂",
+          "time": "2026-09-21T12:07:36.000Z",
+          "user": {
+            "id": null,
+            "name": "FSL Consulting"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad6-1.xx.fbcdn.net/v/t1.6435-1/122322433_2251972511613439_5461227815465345348_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1920x1916&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=RlMzcP22z7QQ7kNvwG_w74g&_nc_oc=Adpu5qE39khegBQVdmv-Q3A-BiM9XgfYzBV2OWVDoHWu0HPP3YsvCRe321H-EIgdmfMDZ1NpUVkP1jqSh-Jj4_Uz&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQLkPGcnYFIt6CiGUCqDG5A0OEZHFBLd3Ap4-7NrnwQTFg&oe=6AD88BBE",
+              "photo_image": {
+                "uri": "https://scontent-iad6-1.xx.fbcdn.net/v/t1.6435-1/122322433_2251972511613439_5461227815465345348_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1920x1916&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=RlMzcP22z7QQ7kNvwG_w74g&_nc_oc=Adpu5qE39khegBQVdmv-Q3A-BiM9XgfYzBV2OWVDoHWu0HPP3YsvCRe321H-EIgdmfMDZ1NpUVkP1jqSh-Jj4_Uz&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQLkPGcnYFIt6CiGUCqDG5A0OEZHFBLd3Ap4-7NrnwQTFg&oe=6AD88BBE"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad6-1.xx.fbcdn.net/v/t1.6435-1/122322433_2251972511613439_5461227815465345348_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1920x1916&ctp=s40x40&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=RlMzcP22z7QQ7kNvwG_w74g&_nc_oc=Adpu5qE39khegBQVdmv-Q3A-BiM9XgfYzBV2OWVDoHWu0HPP3YsvCRe321H-EIgdmfMDZ1NpUVkP1jqSh-Jj4_Uz&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQLkPGcnYFIt6CiGUCqDG5A0OEZHFBLd3Ap4-7NrnwQTFg&oe=6AD88BBE",
+              "photo_image": {
+                "uri": "https://scontent-iad6-1.xx.fbcdn.net/v/t1.6435-1/122322433_2251972511613439_5461227815465345348_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1920x1916&ctp=s40x40&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=RlMzcP22z7QQ7kNvwG_w74g&_nc_oc=Adpu5qE39khegBQVdmv-Q3A-BiM9XgfYzBV2OWVDoHWu0HPP3YsvCRe321H-EIgdmfMDZ1NpUVkP1jqSh-Jj4_Uz&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQLkPGcnYFIt6CiGUCqDG5A0OEZHFBLd3Ap4-7NrnwQTFg&oe=6AD88BBE"
+              }
+            }
+          ],
+          "photoCount": 2,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:07.809Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "facebookId": null,
+          "groupTitle": "FSL Consulting",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341657566647584/",
+          "portalUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341657566647584/",
+          "legacyId": "2341657566647584",
+          "id": "2341657566647584",
+          "text": "Prowadzisz zakład produkcyjny, przetwórnię spożywczą albo chłodnię? Planujesz nową linię lub rozbudowę obiektu?\n\nZanim ustalisz termin uruchomienia, sprawdź, czy infrastruktura energetyczna jest gotowa na dodatkowe obciążenie.\n\nW przetwórni może to być kolejna linia i układ chłodzenia. \nW zakładzie produkcyjnym - nowe urządzenia i automatyka. \nW chłodni - rozbudowa instalacji, która musi pracować niezawodnie od pierwszego dnia.\n\nSama informacja o dostępnej mocy nie daje jeszcze pełnej odpowiedzi. Trzeba sprawdzić, czy stacja transformatorowa, rozdzielnice, zabezpieczenia i przewody pozwolą zasilić nowe urządzenia tam, gdzie będą pracować.\n\nJeśli konieczne zmiany wyjdą na jaw dopiero podczas montażu, mogą wpłynąć na budżet i termin uruchomienia.\n\nW AMC Energy sprawdzamy istniejącą infrastrukturę, planujemy potrzebne prace, przygotowujemy projekt i możemy poprowadzić realizację aż do uruchomienia.\n\nPlanujesz inwestycję w zakładzie? Napisz do AMC Energy, zanim zatwierdzisz jej zakres i harmonogram.\n\nAMC Energy — cała energetyka firmy. Jeden partner.\n\n#AMCEnergy #Przemysł #Przetwórstwo #Chłodnictwo",
+          "time": "2026-09-21T12:07:36.000Z",
+          "user": {
+            "id": null,
+            "name": "Kamila Kłos"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/818518007_122204189606944915_3175344336435731481_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qn5AeGq8-IwQ7kNvwH0ZFFW&_nc_oc=Adpnlfvytwcg_RV2BNzPnaCdcNvekxpWHBvG4uzdvTqcr9t4HNlT2bSxySLHrU0qMe35iInapxL-7dszg6qjMVrH&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQLamxTzmuc9qZxq2vsek75BDt1UsomfD66NxAbhLBWkJA&oe=6AB6E0FD",
+              "photo_image": {
+                "uri": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/818518007_122204189606944915_3175344336435731481_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=100&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qn5AeGq8-IwQ7kNvwH0ZFFW&_nc_oc=Adpnlfvytwcg_RV2BNzPnaCdcNvekxpWHBvG4uzdvTqcr9t4HNlT2bSxySLHrU0qMe35iInapxL-7dszg6qjMVrH&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQLamxTzmuc9qZxq2vsek75BDt1UsomfD66NxAbhLBWkJA&oe=6AB6E0FD"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/517409853_122094043982944915_6764528321110835234_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1000x1000&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=2ZlPn-03-lYQ7kNvwEgeayd&_nc_oc=Adq8w1mMTMt1lB8yjHNv42n5CMEyiwYShyKu3d_4tyEWL5h8MFywjxIeWpiZSNYnXTPBqhwEzcAZRxXUCm2EQ_hN&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQI0kuPi3pj2lZd9rREu3W1QSw3DmIzvFfWesWNk8VyEJg&oe=6AB7034B",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/517409853_122094043982944915_6764528321110835234_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1000x1000&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=2ZlPn-03-lYQ7kNvwEgeayd&_nc_oc=Adq8w1mMTMt1lB8yjHNv42n5CMEyiwYShyKu3d_4tyEWL5h8MFywjxIeWpiZSNYnXTPBqhwEzcAZRxXUCm2EQ_hN&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQI0kuPi3pj2lZd9rREu3W1QSw3DmIzvFfWesWNk8VyEJg&oe=6AB7034B"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/517409853_122094043982944915_6764528321110835234_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1000x1000&ctp=s40x40&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=2ZlPn-03-lYQ7kNvwEgeayd&_nc_oc=Adq8w1mMTMt1lB8yjHNv42n5CMEyiwYShyKu3d_4tyEWL5h8MFywjxIeWpiZSNYnXTPBqhwEzcAZRxXUCm2EQ_hN&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQI0kuPi3pj2lZd9rREu3W1QSw3DmIzvFfWesWNk8VyEJg&oe=6AB7034B",
+              "photo_image": {
+                "uri": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/517409853_122094043982944915_6764528321110835234_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1000x1000&ctp=s40x40&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=2ZlPn-03-lYQ7kNvwEgeayd&_nc_oc=Adq8w1mMTMt1lB8yjHNv42n5CMEyiwYShyKu3d_4tyEWL5h8MFywjxIeWpiZSNYnXTPBqhwEzcAZRxXUCm2EQ_hN&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQI0kuPi3pj2lZd9rREu3W1QSw3DmIzvFfWesWNk8VyEJg&oe=6AB7034B"
+              }
+            }
+          ],
+          "photoCount": 3,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:07.809Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "facebookId": null,
+          "groupTitle": "FSL Consulting",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341581566655184/",
+          "portalUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341581566655184/",
+          "legacyId": "2341581566655184",
+          "id": "2341581566655184",
+          "text": "Ministerstwo Finansów wydłuża okres odroczenia kar za błędy związane ze stosowaniem Krajowego Systemu e-Faktur do 31 grudnia 2027 r. To odpowiedź na postulaty przedsiębiorców, organizacji branżowych i ekspertów podatkowych związane z etapowym wdrożeniem systemu. \nPrzypominamy, że od 1 stycznia 2027 r. KSeF będzie obowiązkowy dla wszystkich przedsiębiorców, a z dniem 31.12. 2026 kończą się okresy przejściowe dla niektórych podatników.\n\n#Bądźnabieżąco\nZespół Doradców Podatkowych Jacek Czernecki pomaga przedsiębiorcom przygotować się do obowiązkowego KSeF, prawidłowo wystawiać i odbierać e-faktury oraz rozliczać je zgodnie z obowiązującymi przepisami.",
+          "time": "2026-09-21T08:38:15.000Z",
+          "user": {
+            "id": null,
+            "name": "AMC Energy"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/807284088_1610710644174972_1157070058007583508_n.jpg?stp=dst-jpg_tt6&cstp=mx940x788&ctp=s600x600&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=n2Blw7rHeKUQ7kNvwFJjuR3&_nc_oc=AdopPljXFmOwDvItvTKSwU9Y2xxu84vkf6jERcxiDlSh7KqUMuNOm9Ofiol0nZgirSuhK_eQTnzzkucfHNBBmMTe&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQJ-3f60oexnwcTq_hEDvkysJG6BrWU6EgLqxloCcAH19A&oe=6AB6E6B3",
+              "photo_image": {
+                "uri": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/807284088_1610710644174972_1157070058007583508_n.jpg?stp=dst-jpg_tt6&cstp=mx940x788&ctp=s600x600&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=n2Blw7rHeKUQ7kNvwFJjuR3&_nc_oc=AdopPljXFmOwDvItvTKSwU9Y2xxu84vkf6jERcxiDlSh7KqUMuNOm9Ofiol0nZgirSuhK_eQTnzzkucfHNBBmMTe&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQJ-3f60oexnwcTq_hEDvkysJG6BrWU6EgLqxloCcAH19A&oe=6AB6E6B3"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/465253879_9469558096407075_4702690459870766964_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx180x180&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=xhF3rfzXhOgQ7kNvwHeKb8X&_nc_oc=Adpmna7hfJMBzOQ3ZWqHm7w2HEUONMA-i-PZK1FmMoLO6v0jD6BA_xLHPmpgug3CBoTWhTVSOa_6Nb2IU3SWHBni&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQL3gjzmULKtiJ9Nx74s1_0rk7QDICQfglhmHzVVOu3a_Q&oe=6AB6EDAB",
+              "photo_image": {
+                "uri": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/465253879_9469558096407075_4702690459870766964_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx180x180&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=xhF3rfzXhOgQ7kNvwHeKb8X&_nc_oc=Adpmna7hfJMBzOQ3ZWqHm7w2HEUONMA-i-PZK1FmMoLO6v0jD6BA_xLHPmpgug3CBoTWhTVSOa_6Nb2IU3SWHBni&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQL3gjzmULKtiJ9Nx74s1_0rk7QDICQfglhmHzVVOu3a_Q&oe=6AB6EDAB"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/465253879_9469558096407075_4702690459870766964_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx180x180&ctp=s40x40&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=xhF3rfzXhOgQ7kNvwHeKb8X&_nc_oc=Adpmna7hfJMBzOQ3ZWqHm7w2HEUONMA-i-PZK1FmMoLO6v0jD6BA_xLHPmpgug3CBoTWhTVSOa_6Nb2IU3SWHBni&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQL3gjzmULKtiJ9Nx74s1_0rk7QDICQfglhmHzVVOu3a_Q&oe=6AB6EDAB",
+              "photo_image": {
+                "uri": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/465253879_9469558096407075_4702690459870766964_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx180x180&ctp=s40x40&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=xhF3rfzXhOgQ7kNvwHeKb8X&_nc_oc=Adpmna7hfJMBzOQ3ZWqHm7w2HEUONMA-i-PZK1FmMoLO6v0jD6BA_xLHPmpgug3CBoTWhTVSOa_6Nb2IU3SWHBni&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQL3gjzmULKtiJ9Nx74s1_0rk7QDICQfglhmHzVVOu3a_Q&oe=6AB6EDAB"
+              }
+            }
+          ],
+          "photoCount": 3,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:07.809Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "facebookId": null,
+          "groupTitle": "FSL Consulting",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2340789483401059/",
+          "portalUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2340789483401059/",
+          "legacyId": "2340789483401059",
+          "id": "2340789483401059",
+          "text": null,
+          "time": "2026-09-20T10:39:42.000Z",
+          "user": {
+            "id": null,
+            "name": "Ol Mez"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/795465535_38560722183573990_8539440101055208870_n.jpg?stp=dst-jpg_tt6&cstp=mx500x154&ctp=s500x154&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MnQohsCgjQMQ7kNvwG3lt-s&_nc_oc=AdqqZBf-Hy8fUY_pH4nJtxiZ7keWZFjoOuHvKfbKoYhOYczBwYn2KiCaZfq22IH_W-xZPJthgI1Qekp0boRPUnZo&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQJNsnRdDgZckrehv4cJBGKMS9Gflb3HLH5bR24G1NPqqg&oe=6AB6E1B3",
+              "photo_image": {
+                "uri": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/795465535_38560722183573990_8539440101055208870_n.jpg?stp=dst-jpg_tt6&cstp=mx500x154&ctp=s500x154&_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=MnQohsCgjQMQ7kNvwG3lt-s&_nc_oc=AdqqZBf-Hy8fUY_pH4nJtxiZ7keWZFjoOuHvKfbKoYhOYczBwYn2KiCaZfq22IH_W-xZPJthgI1Qekp0boRPUnZo&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQJNsnRdDgZckrehv4cJBGKMS9Gflb3HLH5bR24G1NPqqg&oe=6AB6E1B3"
+              }
+            }
+          ],
+          "photoCount": 1,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:07.809Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "facebookId": null,
+          "groupTitle": "FSL Consulting",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2339904113489596/",
+          "portalUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2339904113489596/",
+          "legacyId": "2339904113489596",
+          "id": "2339904113489596",
+          "text": null,
+          "time": "2026-09-20T10:38:43.000Z",
+          "user": {
+            "id": null,
+            "name": "Biuro Rachunkowe Hando"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/468324262_1075224801280455_7640082843365074687_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx750x748&ctp=s40x40&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=fSLZXwrB-LkQ7kNvwGzMMWt&_nc_oc=AdoqMTprOP013T3yjpekE89W9YBZMdrlMmd5u-vSe84cIiWYwYzWPhQCMk4ooVBjpNQrOz7KATVhxdpYbwi8V5JY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQIkTflY3QKlZu9kQg_8Ne-5_gxHV43CDnCtRmnGh5VRkw&oe=6AB6F262",
+              "photo_image": {
+                "uri": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/468324262_1075224801280455_7640082843365074687_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx750x748&ctp=s40x40&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=fSLZXwrB-LkQ7kNvwGzMMWt&_nc_oc=AdoqMTprOP013T3yjpekE89W9YBZMdrlMmd5u-vSe84cIiWYwYzWPhQCMk4ooVBjpNQrOz7KATVhxdpYbwi8V5JY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=P196JK1Z6vgs14NvGfr8Wg&_nc_ss=70180&oh=00_AQIkTflY3QKlZu9kQg_8Ne-5_gxHV43CDnCtRmnGh5VRkw&oe=6AB6F262"
+              }
+            }
+          ],
+          "photoCount": 1,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:07.809Z",
+          "source": "facebook.com"
+        }
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/groups/417702252034285",
+      "status": "SUCCEEDED",
+      "diagnostic": null,
+      "error": null,
+      "posts": [
+        {
+          "facebookUrl": "https://www.facebook.com/groups/417702252034285",
+          "inputUrl": "https://www.facebook.com/groups/417702252034285",
+          "facebookId": "417702252034285",
+          "groupTitle": "Radek Chrobok",
+          "url": "https://www.facebook.com/groups/417702252034285/permalink/2624967377974417/",
+          "portalUrl": "https://www.facebook.com/groups/417702252034285/permalink/2624967377974417/",
+          "legacyId": "2624967377974417",
+          "id": "2624853497985805",
+          "text": "To zależy - ja akurat mam IPhone 17 pro i DJI Pocket 3.\nDJI na plus połączenie ekspresowe z mikrofonami DJI, możliwość podglądu kadru w telefonie, wbudowany gimbal\niPhone 17 pro - mam pod ręką, nie trzeba go wyciągać z etui (na plus przy nagraniach w terenie)\nMyślę że obydwie opcje są bardzo dobre",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Julita Olejniczak"
+          },
+          "feedbackId": null,
+          "topReactionsCount": 2,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s32x32&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwE9m8lg&_nc_oc=AdoJsmjVFUV0RKY4BR28WoHVsZJMpvTZQSar_FWn23zB1kUyAchGZNRA6lYNbitsvAhfetjbXRgrW4tBDD00WXiy&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJ3FXMmRzD-cltd9HP1fe-UmvPStChw9Ds2y05dbeixfQ&oe=6AB6FC6E",
+              "photo_image": {
+                "uri": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s32x32&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwE9m8lg&_nc_oc=AdoJsmjVFUV0RKY4BR28WoHVsZJMpvTZQSar_FWn23zB1kUyAchGZNRA6lYNbitsvAhfetjbXRgrW4tBDD00WXiy&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJ3FXMmRzD-cltd9HP1fe-UmvPStChw9Ds2y05dbeixfQ&oe=6AB6FC6E"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s40x40&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwE9m8lg&_nc_oc=AdoJsmjVFUV0RKY4BR28WoHVsZJMpvTZQSar_FWn23zB1kUyAchGZNRA6lYNbitsvAhfetjbXRgrW4tBDD00WXiy&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJ3FXMmRzD-cltd9HP1fe-UmvPStChw9Ds2y05dbeixfQ&oe=6AB6FC6E",
+              "photo_image": {
+                "uri": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s40x40&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwE9m8lg&_nc_oc=AdoJsmjVFUV0RKY4BR28WoHVsZJMpvTZQSar_FWn23zB1kUyAchGZNRA6lYNbitsvAhfetjbXRgrW4tBDD00WXiy&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJ3FXMmRzD-cltd9HP1fe-UmvPStChw9Ds2y05dbeixfQ&oe=6AB6FC6E"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s24x24&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwE9m8lg&_nc_oc=AdoJsmjVFUV0RKY4BR28WoHVsZJMpvTZQSar_FWn23zB1kUyAchGZNRA6lYNbitsvAhfetjbXRgrW4tBDD00WXiy&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJ3FXMmRzD-cltd9HP1fe-UmvPStChw9Ds2y05dbeixfQ&oe=6AB6FC6E",
+              "photo_image": {
+                "uri": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s24x24&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwE9m8lg&_nc_oc=AdoJsmjVFUV0RKY4BR28WoHVsZJMpvTZQSar_FWn23zB1kUyAchGZNRA6lYNbitsvAhfetjbXRgrW4tBDD00WXiy&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJ3FXMmRzD-cltd9HP1fe-UmvPStChw9Ds2y05dbeixfQ&oe=6AB6FC6E"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwE9m8lg&_nc_oc=AdoJsmjVFUV0RKY4BR28WoHVsZJMpvTZQSar_FWn23zB1kUyAchGZNRA6lYNbitsvAhfetjbXRgrW4tBDD00WXiy&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJ3FXMmRzD-cltd9HP1fe-UmvPStChw9Ds2y05dbeixfQ&oe=6AB6FC6E",
+              "photo_image": {
+                "uri": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwE9m8lg&_nc_oc=AdoJsmjVFUV0RKY4BR28WoHVsZJMpvTZQSar_FWn23zB1kUyAchGZNRA6lYNbitsvAhfetjbXRgrW4tBDD00WXiy&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJ3FXMmRzD-cltd9HP1fe-UmvPStChw9Ds2y05dbeixfQ&oe=6AB6FC6E"
+              }
+            }
+          ],
+          "photoCount": 4,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:18.199Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/417702252034285",
+          "inputUrl": "https://www.facebook.com/groups/417702252034285",
+          "facebookId": "417702252034285",
+          "groupTitle": "Radek Chrobok",
+          "url": "https://www.facebook.com/groups/417702252034285/permalink/2624357248035430/",
+          "portalUrl": "https://www.facebook.com/groups/417702252034285/permalink/2624357248035430/",
+          "legacyId": "2624357248035430",
+          "id": "2624340154703806",
+          "text": "hej, mamy prompter - nagrywamy materiały kamerami sony fx30 🎥",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Kuba Makowski"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/249023563_4517137761680629_6961298995473406797_n.jpg?stp=c0.211.1365.1365a_cp0_dst-jpg_tt6&cstp=mx1365x1365&ctp=s32x32&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=-Vv_iFm7wTMQ7kNvwGkE3nT&_nc_oc=AdoQ5fGDqfc-AI9AwhGYDLrh62PlP21mmgOt6-Ep5-E2-Pk0XDsF5dylT_Z4OKvKr25RlQSDANlpnfsTcuw3Juq5&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIrOnDa6VL65_3fk325O9pQRNREal9P4l0B0emST1a7mA&oe=6AB70DD6",
+              "photo_image": {
+                "uri": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/249023563_4517137761680629_6961298995473406797_n.jpg?stp=c0.211.1365.1365a_cp0_dst-jpg_tt6&cstp=mx1365x1365&ctp=s32x32&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=-Vv_iFm7wTMQ7kNvwGkE3nT&_nc_oc=AdoQ5fGDqfc-AI9AwhGYDLrh62PlP21mmgOt6-Ep5-E2-Pk0XDsF5dylT_Z4OKvKr25RlQSDANlpnfsTcuw3Juq5&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIrOnDa6VL65_3fk325O9pQRNREal9P4l0B0emST1a7mA&oe=6AB70DD6"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/249023563_4517137761680629_6961298995473406797_n.jpg?stp=c0.211.1365.1365a_cp0_dst-jpg_tt6&cstp=mx1365x1365&ctp=s40x40&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=-Vv_iFm7wTMQ7kNvwGkE3nT&_nc_oc=AdoQ5fGDqfc-AI9AwhGYDLrh62PlP21mmgOt6-Ep5-E2-Pk0XDsF5dylT_Z4OKvKr25RlQSDANlpnfsTcuw3Juq5&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIrOnDa6VL65_3fk325O9pQRNREal9P4l0B0emST1a7mA&oe=6AB70DD6",
+              "photo_image": {
+                "uri": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/249023563_4517137761680629_6961298995473406797_n.jpg?stp=c0.211.1365.1365a_cp0_dst-jpg_tt6&cstp=mx1365x1365&ctp=s40x40&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=-Vv_iFm7wTMQ7kNvwGkE3nT&_nc_oc=AdoQ5fGDqfc-AI9AwhGYDLrh62PlP21mmgOt6-Ep5-E2-Pk0XDsF5dylT_Z4OKvKr25RlQSDANlpnfsTcuw3Juq5&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIrOnDa6VL65_3fk325O9pQRNREal9P4l0B0emST1a7mA&oe=6AB70DD6"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/249023563_4517137761680629_6961298995473406797_n.jpg?stp=c0.211.1365.1365a_cp0_dst-jpg_tt6&cstp=mx1365x1365&ctp=s24x24&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=-Vv_iFm7wTMQ7kNvwGkE3nT&_nc_oc=AdoQ5fGDqfc-AI9AwhGYDLrh62PlP21mmgOt6-Ep5-E2-Pk0XDsF5dylT_Z4OKvKr25RlQSDANlpnfsTcuw3Juq5&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIrOnDa6VL65_3fk325O9pQRNREal9P4l0B0emST1a7mA&oe=6AB70DD6",
+              "photo_image": {
+                "uri": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/249023563_4517137761680629_6961298995473406797_n.jpg?stp=c0.211.1365.1365a_cp0_dst-jpg_tt6&cstp=mx1365x1365&ctp=s24x24&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=-Vv_iFm7wTMQ7kNvwGkE3nT&_nc_oc=AdoQ5fGDqfc-AI9AwhGYDLrh62PlP21mmgOt6-Ep5-E2-Pk0XDsF5dylT_Z4OKvKr25RlQSDANlpnfsTcuw3Juq5&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIrOnDa6VL65_3fk325O9pQRNREal9P4l0B0emST1a7mA&oe=6AB70DD6"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/249023563_4517137761680629_6961298995473406797_n.jpg?stp=c0.211.1365.1365a_cp0_dst-jpg_tt6&cstp=mx1365x1365&ctp=s50x50&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=-Vv_iFm7wTMQ7kNvwGkE3nT&_nc_oc=AdoQ5fGDqfc-AI9AwhGYDLrh62PlP21mmgOt6-Ep5-E2-Pk0XDsF5dylT_Z4OKvKr25RlQSDANlpnfsTcuw3Juq5&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIrOnDa6VL65_3fk325O9pQRNREal9P4l0B0emST1a7mA&oe=6AB70DD6",
+              "photo_image": {
+                "uri": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/249023563_4517137761680629_6961298995473406797_n.jpg?stp=c0.211.1365.1365a_cp0_dst-jpg_tt6&cstp=mx1365x1365&ctp=s50x50&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=-Vv_iFm7wTMQ7kNvwGkE3nT&_nc_oc=AdoQ5fGDqfc-AI9AwhGYDLrh62PlP21mmgOt6-Ep5-E2-Pk0XDsF5dylT_Z4OKvKr25RlQSDANlpnfsTcuw3Juq5&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIrOnDa6VL65_3fk325O9pQRNREal9P4l0B0emST1a7mA&oe=6AB70DD6"
+              }
+            }
+          ],
+          "photoCount": 4,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:18.199Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/417702252034285",
+          "inputUrl": "https://www.facebook.com/groups/417702252034285",
+          "facebookId": "417702252034285",
+          "groupTitle": "Radek Chrobok",
+          "url": "https://www.facebook.com/groups/417702252034285/permalink/2625302001274288/",
+          "portalUrl": "https://www.facebook.com/groups/417702252034285/permalink/2625302001274288/",
+          "legacyId": "2625302001274288",
+          "id": "2623974328073722",
+          "text": "Nazywam się Julia Krasnowska, mam 18 lat i jestem twórczynią internetową z Olsztyna oraz uczestniczką programu MasterChef. Uczę się w szkole gastronomicznej i tworzę content związany głównie z gotowaniem, gastronomią i lifestylem.\n\nMam doświadczenie we współpracach m.in. z markami Dawtona, Krakus, Lubella, Łowicz, Pol-Mak, Dajar, Oxford, Lyofio i Lyo2Go.\n\nChętnie podejmę współpracę przy kreatywnych kampaniach, rolkach, TikTokach czy materiałach kulinarnych. Zależy mi na naturalnym i estetycznym pokazaniu produktów w moim stylu.\n\nJeśli są Państwo otwarci na współpracę, z przyjemnością prześlę statystyki oraz przykłady moich realizacji.\n\nInstagram: @julia_masterchefnastolatki2\nTikTok: @julia_mcn2",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Julia Krasnowska"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/557063373_1295920288667168_8419124745726601268_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1125x1125&ctp=s32x32&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Sutwie3ZvcEQ7kNvwHJw7e7&_nc_oc=AdrRXv1V8G-QqtgW3GLTUEpJanDA6FT5UW3lWoBviIBPjjWrKIS7AFM1Ys5jdZqj0stQina5tCFC57DacQ3hAoYw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIAtqELIhcs9YtCbseBKfI-patgaBRfMf-gbOtAxVQl_A&oe=6AB7118C",
+              "photo_image": {
+                "uri": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/557063373_1295920288667168_8419124745726601268_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1125x1125&ctp=s32x32&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Sutwie3ZvcEQ7kNvwHJw7e7&_nc_oc=AdrRXv1V8G-QqtgW3GLTUEpJanDA6FT5UW3lWoBviIBPjjWrKIS7AFM1Ys5jdZqj0stQina5tCFC57DacQ3hAoYw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIAtqELIhcs9YtCbseBKfI-patgaBRfMf-gbOtAxVQl_A&oe=6AB7118C"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/557063373_1295920288667168_8419124745726601268_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1125x1125&ctp=s40x40&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Sutwie3ZvcEQ7kNvwHJw7e7&_nc_oc=AdrRXv1V8G-QqtgW3GLTUEpJanDA6FT5UW3lWoBviIBPjjWrKIS7AFM1Ys5jdZqj0stQina5tCFC57DacQ3hAoYw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIAtqELIhcs9YtCbseBKfI-patgaBRfMf-gbOtAxVQl_A&oe=6AB7118C",
+              "photo_image": {
+                "uri": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/557063373_1295920288667168_8419124745726601268_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1125x1125&ctp=s40x40&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Sutwie3ZvcEQ7kNvwHJw7e7&_nc_oc=AdrRXv1V8G-QqtgW3GLTUEpJanDA6FT5UW3lWoBviIBPjjWrKIS7AFM1Ys5jdZqj0stQina5tCFC57DacQ3hAoYw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIAtqELIhcs9YtCbseBKfI-patgaBRfMf-gbOtAxVQl_A&oe=6AB7118C"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/557063373_1295920288667168_8419124745726601268_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1125x1125&ctp=s24x24&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Sutwie3ZvcEQ7kNvwHJw7e7&_nc_oc=AdrRXv1V8G-QqtgW3GLTUEpJanDA6FT5UW3lWoBviIBPjjWrKIS7AFM1Ys5jdZqj0stQina5tCFC57DacQ3hAoYw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIAtqELIhcs9YtCbseBKfI-patgaBRfMf-gbOtAxVQl_A&oe=6AB7118C",
+              "photo_image": {
+                "uri": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/557063373_1295920288667168_8419124745726601268_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1125x1125&ctp=s24x24&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Sutwie3ZvcEQ7kNvwHJw7e7&_nc_oc=AdrRXv1V8G-QqtgW3GLTUEpJanDA6FT5UW3lWoBviIBPjjWrKIS7AFM1Ys5jdZqj0stQina5tCFC57DacQ3hAoYw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIAtqELIhcs9YtCbseBKfI-patgaBRfMf-gbOtAxVQl_A&oe=6AB7118C"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/557063373_1295920288667168_8419124745726601268_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1125x1125&ctp=s50x50&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Sutwie3ZvcEQ7kNvwHJw7e7&_nc_oc=AdrRXv1V8G-QqtgW3GLTUEpJanDA6FT5UW3lWoBviIBPjjWrKIS7AFM1Ys5jdZqj0stQina5tCFC57DacQ3hAoYw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIAtqELIhcs9YtCbseBKfI-patgaBRfMf-gbOtAxVQl_A&oe=6AB7118C",
+              "photo_image": {
+                "uri": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/557063373_1295920288667168_8419124745726601268_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1125x1125&ctp=s50x50&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Sutwie3ZvcEQ7kNvwHJw7e7&_nc_oc=AdrRXv1V8G-QqtgW3GLTUEpJanDA6FT5UW3lWoBviIBPjjWrKIS7AFM1Ys5jdZqj0stQina5tCFC57DacQ3hAoYw&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQIAtqELIhcs9YtCbseBKfI-patgaBRfMf-gbOtAxVQl_A&oe=6AB7118C"
+              }
+            }
+          ],
+          "photoCount": 4,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:18.199Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/417702252034285",
+          "inputUrl": "https://www.facebook.com/groups/417702252034285",
+          "facebookId": "417702252034285",
+          "groupTitle": "Radek Chrobok",
+          "url": "https://www.facebook.com/groups/417702252034285/permalink/2623880861416402/",
+          "portalUrl": "https://www.facebook.com/groups/417702252034285/permalink/2623880861416402/",
+          "legacyId": "2623880861416402",
+          "id": "2623820881422400",
+          "text": "Napisałam na priv",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Nikola Pietruszyńska"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/531101790_23967177472981930_3953687393129527282_n.jpg?stp=c116.0.931.931a_cp0_dst-jpg_tt6&cstp=mx931x931&ctp=s32x32&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=bUaKW3HW_S0Q7kNvwHCUm44&_nc_oc=Adorm-MjQ2nBd8tH2jT_nZE4ZWS5Na0_ZTW4KVaJ05n5cp4aYdnP6Ktr1Ktkf9lWrq5aiHbTjrbJLHdLg0jEpeQy&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJcmypqoITRIYq5WsVF0_Y0myZrknTyZ7AKP3HJWnTDXA&oe=6AB70DA4",
+              "photo_image": {
+                "uri": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/531101790_23967177472981930_3953687393129527282_n.jpg?stp=c116.0.931.931a_cp0_dst-jpg_tt6&cstp=mx931x931&ctp=s32x32&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=bUaKW3HW_S0Q7kNvwHCUm44&_nc_oc=Adorm-MjQ2nBd8tH2jT_nZE4ZWS5Na0_ZTW4KVaJ05n5cp4aYdnP6Ktr1Ktkf9lWrq5aiHbTjrbJLHdLg0jEpeQy&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJcmypqoITRIYq5WsVF0_Y0myZrknTyZ7AKP3HJWnTDXA&oe=6AB70DA4"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/531101790_23967177472981930_3953687393129527282_n.jpg?stp=c116.0.931.931a_cp0_dst-jpg_tt6&cstp=mx931x931&ctp=s40x40&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=bUaKW3HW_S0Q7kNvwHCUm44&_nc_oc=Adorm-MjQ2nBd8tH2jT_nZE4ZWS5Na0_ZTW4KVaJ05n5cp4aYdnP6Ktr1Ktkf9lWrq5aiHbTjrbJLHdLg0jEpeQy&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJcmypqoITRIYq5WsVF0_Y0myZrknTyZ7AKP3HJWnTDXA&oe=6AB70DA4",
+              "photo_image": {
+                "uri": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/531101790_23967177472981930_3953687393129527282_n.jpg?stp=c116.0.931.931a_cp0_dst-jpg_tt6&cstp=mx931x931&ctp=s40x40&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=bUaKW3HW_S0Q7kNvwHCUm44&_nc_oc=Adorm-MjQ2nBd8tH2jT_nZE4ZWS5Na0_ZTW4KVaJ05n5cp4aYdnP6Ktr1Ktkf9lWrq5aiHbTjrbJLHdLg0jEpeQy&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJcmypqoITRIYq5WsVF0_Y0myZrknTyZ7AKP3HJWnTDXA&oe=6AB70DA4"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/531101790_23967177472981930_3953687393129527282_n.jpg?stp=c116.0.931.931a_cp0_dst-jpg_tt6&cstp=mx931x931&ctp=s24x24&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=bUaKW3HW_S0Q7kNvwHCUm44&_nc_oc=Adorm-MjQ2nBd8tH2jT_nZE4ZWS5Na0_ZTW4KVaJ05n5cp4aYdnP6Ktr1Ktkf9lWrq5aiHbTjrbJLHdLg0jEpeQy&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJcmypqoITRIYq5WsVF0_Y0myZrknTyZ7AKP3HJWnTDXA&oe=6AB70DA4",
+              "photo_image": {
+                "uri": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/531101790_23967177472981930_3953687393129527282_n.jpg?stp=c116.0.931.931a_cp0_dst-jpg_tt6&cstp=mx931x931&ctp=s24x24&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=bUaKW3HW_S0Q7kNvwHCUm44&_nc_oc=Adorm-MjQ2nBd8tH2jT_nZE4ZWS5Na0_ZTW4KVaJ05n5cp4aYdnP6Ktr1Ktkf9lWrq5aiHbTjrbJLHdLg0jEpeQy&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJcmypqoITRIYq5WsVF0_Y0myZrknTyZ7AKP3HJWnTDXA&oe=6AB70DA4"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/531101790_23967177472981930_3953687393129527282_n.jpg?stp=c116.0.931.931a_cp0_dst-jpg_tt6&cstp=mx931x931&ctp=s50x50&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=bUaKW3HW_S0Q7kNvwHCUm44&_nc_oc=Adorm-MjQ2nBd8tH2jT_nZE4ZWS5Na0_ZTW4KVaJ05n5cp4aYdnP6Ktr1Ktkf9lWrq5aiHbTjrbJLHdLg0jEpeQy&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJcmypqoITRIYq5WsVF0_Y0myZrknTyZ7AKP3HJWnTDXA&oe=6AB70DA4",
+              "photo_image": {
+                "uri": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/531101790_23967177472981930_3953687393129527282_n.jpg?stp=c116.0.931.931a_cp0_dst-jpg_tt6&cstp=mx931x931&ctp=s50x50&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=bUaKW3HW_S0Q7kNvwHCUm44&_nc_oc=Adorm-MjQ2nBd8tH2jT_nZE4ZWS5Na0_ZTW4KVaJ05n5cp4aYdnP6Ktr1Ktkf9lWrq5aiHbTjrbJLHdLg0jEpeQy&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=VIju_K_Ua9lfVuwp_TaRGQ&_nc_ss=70180&oh=00_AQJcmypqoITRIYq5WsVF0_Y0myZrknTyZ7AKP3HJWnTDXA&oe=6AB70DA4"
+              }
+            }
+          ],
+          "photoCount": 4,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:18.199Z",
+          "source": "facebook.com"
+        }
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/groups/socialmediapracazlecenia",
+      "status": "SUCCEEDED",
+      "diagnostic": null,
+      "error": null,
+      "posts": [
+        {
+          "facebookUrl": "https://www.facebook.com/groups/socialmediapracazlecenia",
+          "inputUrl": "https://www.facebook.com/groups/socialmediapracazlecenia",
+          "facebookId": null,
+          "groupTitle": "Social Media, marketing - ZLECĘ/WYKONAM, praca w marketingu",
+          "url": "https://www.facebook.com/groups/socialmediapracazlecenia/permalink/28044277688578141/",
+          "portalUrl": "https://www.facebook.com/groups/socialmediapracazlecenia/permalink/28044277688578141/",
+          "legacyId": "28044277688578141",
+          "id": "27952583621080882",
+          "text": "Polecam współpracę z Adrianna Wałaszewska - zajmie się tematem kompleksowo: od ustawiania kampanii po późniejsze decyzje związane z optymalizacją i wdrażaniem kolejnych działań marketingowych",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Anna Skarzyńska-Czmoch"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s32x32&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=Tp6A7gkCU-pIjZPcKhd3SQ&_nc_ss=73289&oh=00_AQJxsklHO-iGsHqC8KtdYgEKQ0W5H9ikrUJnvVViBlEgOw&oe=6AB70E85",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s32x32&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=Tp6A7gkCU-pIjZPcKhd3SQ&_nc_ss=73289&oh=00_AQJxsklHO-iGsHqC8KtdYgEKQ0W5H9ikrUJnvVViBlEgOw&oe=6AB70E85"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s40x40&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=Tp6A7gkCU-pIjZPcKhd3SQ&_nc_ss=73289&oh=00_AQJxsklHO-iGsHqC8KtdYgEKQ0W5H9ikrUJnvVViBlEgOw&oe=6AB70E85",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s40x40&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=Tp6A7gkCU-pIjZPcKhd3SQ&_nc_ss=73289&oh=00_AQJxsklHO-iGsHqC8KtdYgEKQ0W5H9ikrUJnvVViBlEgOw&oe=6AB70E85"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s24x24&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=Tp6A7gkCU-pIjZPcKhd3SQ&_nc_ss=73289&oh=00_AQJxsklHO-iGsHqC8KtdYgEKQ0W5H9ikrUJnvVViBlEgOw&oe=6AB70E85",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s24x24&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=Tp6A7gkCU-pIjZPcKhd3SQ&_nc_ss=73289&oh=00_AQJxsklHO-iGsHqC8KtdYgEKQ0W5H9ikrUJnvVViBlEgOw&oe=6AB70E85"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=Tp6A7gkCU-pIjZPcKhd3SQ&_nc_ss=73289&oh=00_AQJxsklHO-iGsHqC8KtdYgEKQ0W5H9ikrUJnvVViBlEgOw&oe=6AB70E85",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=Tp6A7gkCU-pIjZPcKhd3SQ&_nc_ss=73289&oh=00_AQJxsklHO-iGsHqC8KtdYgEKQ0W5H9ikrUJnvVViBlEgOw&oe=6AB70E85"
+              }
+            }
+          ],
+          "photoCount": 4,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:29.097Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/socialmediapracazlecenia",
+          "inputUrl": "https://www.facebook.com/groups/socialmediapracazlecenia",
+          "facebookId": null,
+          "groupTitle": "Małgorzata Rękawek",
+          "url": "https://www.facebook.com/groups/socialmediapracazlecenia/permalink/28025376100468300/",
+          "portalUrl": "https://www.facebook.com/groups/socialmediapracazlecenia/permalink/28025376100468300/",
+          "legacyId": "28025376100468300",
+          "id": "28012859611719949",
+          "text": "Polecam współpracę w tym zakresie z Adrianna Wałaszewska Prowadzi szkolenia 1:1 z samodzielnego ustawiania reklam Meta Ads",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Anna Skarzyńska-Czmoch"
+          },
+          "feedbackId": null,
+          "topReactionsCount": 1,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s32x32&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQLxOiDaGcc4aeexRbIxsFTgoMq2X3DTwlDEt_Sk2wMYdw&oe=6AB70E85",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s32x32&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQLxOiDaGcc4aeexRbIxsFTgoMq2X3DTwlDEt_Sk2wMYdw&oe=6AB70E85"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s40x40&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQLxOiDaGcc4aeexRbIxsFTgoMq2X3DTwlDEt_Sk2wMYdw&oe=6AB70E85",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s40x40&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQLxOiDaGcc4aeexRbIxsFTgoMq2X3DTwlDEt_Sk2wMYdw&oe=6AB70E85"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s24x24&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQLxOiDaGcc4aeexRbIxsFTgoMq2X3DTwlDEt_Sk2wMYdw&oe=6AB70E85",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s24x24&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQLxOiDaGcc4aeexRbIxsFTgoMq2X3DTwlDEt_Sk2wMYdw&oe=6AB70E85"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQLxOiDaGcc4aeexRbIxsFTgoMq2X3DTwlDEt_Sk2wMYdw&oe=6AB70E85",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/480092631_1130225358748681_7060362193433882175_n.jpg?stp=c0.0.1367.1367a_cp0_dst-jpg_tt6&cstp=mx1367x1367&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=HpIzNCltP5MQ7kNvwFM42oo&_nc_oc=AdovoH3-Hiv6DtllIZmkDgh6ch4UUWEtHRxXfYH_oiDLWx5ZXGYlHpNU6KCT6yfYrZ0WHOuHeejUvBdZF37YuTQj&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQLxOiDaGcc4aeexRbIxsFTgoMq2X3DTwlDEt_Sk2wMYdw&oe=6AB70E85"
+              }
+            }
+          ],
+          "photoCount": 4,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:29.097Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/socialmediapracazlecenia",
+          "inputUrl": "https://www.facebook.com/groups/socialmediapracazlecenia",
+          "facebookId": null,
+          "groupTitle": "Małgorzata Rękawek",
+          "url": "https://www.facebook.com/groups/socialmediapracazlecenia/permalink/28000290789643498/",
+          "portalUrl": "https://www.facebook.com/groups/socialmediapracazlecenia/permalink/28000290789643498/",
+          "legacyId": "28000290789643498",
+          "id": "27999668336372410",
+          "text": "jakie miasto?",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Sylwia Pawlicka"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-1/738243967_36899569309687408_2675462925871553136_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s32x32&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=4eu9CGveBaUQ7kNvwEMRvbK&_nc_oc=Adp2eVXU2pLAVBmEVypN1znaudckf1Hn7a-F4EkEyWSDHke76uSgcabzFuoMGNuEa7Om--TfBzO6xM7lqVxjuuZu&_nc_zt=24&_nc_ht=scontent-mia3-2.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQL6baL14b5-n32q24Tz5Zw7yyY3baBvJ_jdRogEAk5Hqg&oe=6AB6ECF2",
+              "photo_image": {
+                "uri": "https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-1/738243967_36899569309687408_2675462925871553136_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s32x32&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=4eu9CGveBaUQ7kNvwEMRvbK&_nc_oc=Adp2eVXU2pLAVBmEVypN1znaudckf1Hn7a-F4EkEyWSDHke76uSgcabzFuoMGNuEa7Om--TfBzO6xM7lqVxjuuZu&_nc_zt=24&_nc_ht=scontent-mia3-2.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQL6baL14b5-n32q24Tz5Zw7yyY3baBvJ_jdRogEAk5Hqg&oe=6AB6ECF2"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-1/738243967_36899569309687408_2675462925871553136_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s40x40&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=4eu9CGveBaUQ7kNvwEMRvbK&_nc_oc=Adp2eVXU2pLAVBmEVypN1znaudckf1Hn7a-F4EkEyWSDHke76uSgcabzFuoMGNuEa7Om--TfBzO6xM7lqVxjuuZu&_nc_zt=24&_nc_ht=scontent-mia3-2.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQL6baL14b5-n32q24Tz5Zw7yyY3baBvJ_jdRogEAk5Hqg&oe=6AB6ECF2",
+              "photo_image": {
+                "uri": "https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-1/738243967_36899569309687408_2675462925871553136_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s40x40&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=4eu9CGveBaUQ7kNvwEMRvbK&_nc_oc=Adp2eVXU2pLAVBmEVypN1znaudckf1Hn7a-F4EkEyWSDHke76uSgcabzFuoMGNuEa7Om--TfBzO6xM7lqVxjuuZu&_nc_zt=24&_nc_ht=scontent-mia3-2.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQL6baL14b5-n32q24Tz5Zw7yyY3baBvJ_jdRogEAk5Hqg&oe=6AB6ECF2"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-1/738243967_36899569309687408_2675462925871553136_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s24x24&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=4eu9CGveBaUQ7kNvwEMRvbK&_nc_oc=Adp2eVXU2pLAVBmEVypN1znaudckf1Hn7a-F4EkEyWSDHke76uSgcabzFuoMGNuEa7Om--TfBzO6xM7lqVxjuuZu&_nc_zt=24&_nc_ht=scontent-mia3-2.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQL6baL14b5-n32q24Tz5Zw7yyY3baBvJ_jdRogEAk5Hqg&oe=6AB6ECF2",
+              "photo_image": {
+                "uri": "https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-1/738243967_36899569309687408_2675462925871553136_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s24x24&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=4eu9CGveBaUQ7kNvwEMRvbK&_nc_oc=Adp2eVXU2pLAVBmEVypN1znaudckf1Hn7a-F4EkEyWSDHke76uSgcabzFuoMGNuEa7Om--TfBzO6xM7lqVxjuuZu&_nc_zt=24&_nc_ht=scontent-mia3-2.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQL6baL14b5-n32q24Tz5Zw7yyY3baBvJ_jdRogEAk5Hqg&oe=6AB6ECF2"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-1/738243967_36899569309687408_2675462925871553136_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=4eu9CGveBaUQ7kNvwEMRvbK&_nc_oc=Adp2eVXU2pLAVBmEVypN1znaudckf1Hn7a-F4EkEyWSDHke76uSgcabzFuoMGNuEa7Om--TfBzO6xM7lqVxjuuZu&_nc_zt=24&_nc_ht=scontent-mia3-2.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQL6baL14b5-n32q24Tz5Zw7yyY3baBvJ_jdRogEAk5Hqg&oe=6AB6ECF2",
+              "photo_image": {
+                "uri": "https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-1/738243967_36899569309687408_2675462925871553136_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=4eu9CGveBaUQ7kNvwEMRvbK&_nc_oc=Adp2eVXU2pLAVBmEVypN1znaudckf1Hn7a-F4EkEyWSDHke76uSgcabzFuoMGNuEa7Om--TfBzO6xM7lqVxjuuZu&_nc_zt=24&_nc_ht=scontent-mia3-2.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQL6baL14b5-n32q24Tz5Zw7yyY3baBvJ_jdRogEAk5Hqg&oe=6AB6ECF2"
+              }
+            }
+          ],
+          "photoCount": 4,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:29.097Z",
+          "source": "facebook.com"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/socialmediapracazlecenia",
+          "inputUrl": "https://www.facebook.com/groups/socialmediapracazlecenia",
+          "facebookId": null,
+          "groupTitle": "Małgorzata Rękawek",
+          "url": "https://www.facebook.com/groups/socialmediapracazlecenia/permalink/27985253141147263/",
+          "portalUrl": "https://www.facebook.com/groups/socialmediapracazlecenia/permalink/27985253141147263/",
+          "legacyId": "27985253141147263",
+          "id": "27954804690858775",
+          "text": "Polecam Julia Wiśniewska",
+          "time": null,
+          "user": {
+            "id": null,
+            "name": "Kasia Augustyniak"
+          },
+          "feedbackId": null,
+          "topReactionsCount": null,
+          "reactionLikeCount": null,
+          "reactionLoveCount": null,
+          "reactionHahaCount": null,
+          "reactionWowCount": null,
+          "reactionSadCount": null,
+          "reactionAngryCount": null,
+          "commentsCount": null,
+          "sharesCount": null,
+          "likesCount": null,
+          "attachments": [
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/285884795_10216885553609818_6579346901410426127_n.jpg?stp=c229.0.1538.1538a_cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s32x32&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=t06BmgLouAwQ7kNvwFKUm5k&_nc_oc=AdpvcF4dScwwcxNNKRW5ACg6buKxr84TRXFqzC9It5g4FFczz34tPxPtPzoDvin_z7YYbGzCD28cSs81z-4_OP0e&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQK_q8-REA2tjZsBzGqSs9UO-tlWnp43uvdr2hDCcDxJXw&oe=6AB70EA7",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/285884795_10216885553609818_6579346901410426127_n.jpg?stp=c229.0.1538.1538a_cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s32x32&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=t06BmgLouAwQ7kNvwFKUm5k&_nc_oc=AdpvcF4dScwwcxNNKRW5ACg6buKxr84TRXFqzC9It5g4FFczz34tPxPtPzoDvin_z7YYbGzCD28cSs81z-4_OP0e&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQK_q8-REA2tjZsBzGqSs9UO-tlWnp43uvdr2hDCcDxJXw&oe=6AB70EA7"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/285884795_10216885553609818_6579346901410426127_n.jpg?stp=c229.0.1538.1538a_cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s40x40&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=t06BmgLouAwQ7kNvwFKUm5k&_nc_oc=AdpvcF4dScwwcxNNKRW5ACg6buKxr84TRXFqzC9It5g4FFczz34tPxPtPzoDvin_z7YYbGzCD28cSs81z-4_OP0e&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQK_q8-REA2tjZsBzGqSs9UO-tlWnp43uvdr2hDCcDxJXw&oe=6AB70EA7",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/285884795_10216885553609818_6579346901410426127_n.jpg?stp=c229.0.1538.1538a_cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s40x40&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=t06BmgLouAwQ7kNvwFKUm5k&_nc_oc=AdpvcF4dScwwcxNNKRW5ACg6buKxr84TRXFqzC9It5g4FFczz34tPxPtPzoDvin_z7YYbGzCD28cSs81z-4_OP0e&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQK_q8-REA2tjZsBzGqSs9UO-tlWnp43uvdr2hDCcDxJXw&oe=6AB70EA7"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/285884795_10216885553609818_6579346901410426127_n.jpg?stp=c229.0.1538.1538a_cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s24x24&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=t06BmgLouAwQ7kNvwFKUm5k&_nc_oc=AdpvcF4dScwwcxNNKRW5ACg6buKxr84TRXFqzC9It5g4FFczz34tPxPtPzoDvin_z7YYbGzCD28cSs81z-4_OP0e&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQK_q8-REA2tjZsBzGqSs9UO-tlWnp43uvdr2hDCcDxJXw&oe=6AB70EA7",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/285884795_10216885553609818_6579346901410426127_n.jpg?stp=c229.0.1538.1538a_cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s24x24&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=t06BmgLouAwQ7kNvwFKUm5k&_nc_oc=AdpvcF4dScwwcxNNKRW5ACg6buKxr84TRXFqzC9It5g4FFczz34tPxPtPzoDvin_z7YYbGzCD28cSs81z-4_OP0e&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQK_q8-REA2tjZsBzGqSs9UO-tlWnp43uvdr2hDCcDxJXw&oe=6AB70EA7"
+              }
+            },
+            {
+              "__typename": "Photo",
+              "thumbnail": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/285884795_10216885553609818_6579346901410426127_n.jpg?stp=c229.0.1538.1538a_cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s50x50&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=t06BmgLouAwQ7kNvwFKUm5k&_nc_oc=AdpvcF4dScwwcxNNKRW5ACg6buKxr84TRXFqzC9It5g4FFczz34tPxPtPzoDvin_z7YYbGzCD28cSs81z-4_OP0e&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQK_q8-REA2tjZsBzGqSs9UO-tlWnp43uvdr2hDCcDxJXw&oe=6AB70EA7",
+              "photo_image": {
+                "uri": "https://scontent-mia5-1.xx.fbcdn.net/v/t39.30808-1/285884795_10216885553609818_6579346901410426127_n.jpg?stp=c229.0.1538.1538a_cp0_dst-jpg_tt6&cstp=mx1538x1538&ctp=s50x50&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=t06BmgLouAwQ7kNvwFKUm5k&_nc_oc=AdpvcF4dScwwcxNNKRW5ACg6buKxr84TRXFqzC9It5g4FFczz34tPxPtPzoDvin_z7YYbGzCD28cSs81z-4_OP0e&_nc_zt=24&_nc_ht=scontent-mia5-1.xx&_nc_gid=g1lGtyEvDKjTLGgBM80XTw&_nc_ss=73180&oh=00_AQK_q8-REA2tjZsBzGqSs9UO-tlWnp43uvdr2hDCcDxJXw&oe=6AB70EA7"
+              }
+            }
+          ],
+          "photoCount": 4,
+          "additionalPhotoCount": 0,
+          "topComments": null,
+          "isMarketplaceListing": false,
+          "marketplaceListingId": null,
+          "marketplaceUrl": null,
+          "marketplacePrice": null,
+          "marketplaceIsSold": null,
+          "marketplaceIsLive": null,
+          "marketplaceIsPending": null,
+          "marketplaceLocation": null,
+          "marketplaceLatitude": null,
+          "marketplaceLongitude": null,
+          "marketplaceTitle": null,
+          "changeType": null,
+          "scrapedAt": "2026-09-21T12:48:29.097Z",
+          "source": "facebook.com"
+        }
+      ]
+    }
+  ]
+}

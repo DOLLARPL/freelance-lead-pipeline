@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block page %}queue{% endblock %}
+{% block title %}Snajper · dziś{% endblock %}
+{% block body %}
+<div class="shell">
+  {% set active = 'all' if view == 'all' else 'queue' %}
+  {% include "_rail.html" %}
+
+  <main class="main">
+    <header class="topbar">
+      <div class="today-head">
+        <h1>Dziś</h1>
+        <span class="muted tiny">{{ counts.queue }} do decyzji</span>
+      </div>
+      <form class="filters" hx-get="/leads" hx-target="#rows"
+            hx-trigger="keyup delay:250ms from:input[name=q]" hx-push-url="false" hx-include="closest form">
+        <input type="hidden" name="view" value="{{ view }}">
+        <input class="search" name="q" value="{{ q }}" placeholder="szukaj ofert" autocomplete="off">
+        {% for s in sources %}{% if s in aktywne %}<input type="hidden" name="sources" value="{{ s }}">{% endif %}{% endfor %}
+      </form>
+    </header>
+
+    <div class="seg" role="tablist" aria-label="Filtr ofert">
+      <a class="{{ 'on' if view == 'queue' }}" href="/?view=queue">Do decyzji</a>
+      <a class="{{ 'on' if view == 'replied' }}" href="/?view=replied">Wysłane</a>
+      <a class="{{ 'on' if view == 'skipped' }}" href="/?view=skipped">Odrzucone</a>
+      <a class="{{ 'on' if view == 'noquote' }}" href="/?view=noquote">Bez wyceny</a>
+      <a class="{{ 'on' if view == 'all' }}" href="/?view=all">Wszystko</a>
+    </div>
+
+    <div class="chips-zrodla" style="padding:8px 12px;border-bottom:1px solid var(--border)">
+      {% for s in sources %}
+        {% set on = s in aktywne %}
+        {% set nowe_zrodla = (aktywne + [s]) if not on else (aktywne | reject('equalto', s) | list) %}
+        <a class="chip-zrodlo {{ 'on' if on else 'off' }}" href="{{ link_zrodel(request, nowe_zrodla) }}"
+           aria-pressed="{{ 'true' if on else 'false' }}"
+           title="{% if on %}odznacz {{ s|source_name }}{% else %}włącz {{ s|source_name }}{% endif %}">{{ s|source_name }}</a>
+      {% endfor %}
+    </div>
+
+    <div class="rows-head">
+      <span class="c-source">źródło</span>
+      <span class="c-title">oferta</span>
+      <span class="c-amount">cena</span>
+      <span class="c-age">wiek</span>
+    </div>
+
+    <div id="rows" class="rows">
+      {% include "_rows.html" %}
+    </div>
+  </main>
+</div>
+{% endblock %}

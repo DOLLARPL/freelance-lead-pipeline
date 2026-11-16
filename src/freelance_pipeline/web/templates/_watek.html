@@ -1,0 +1,46 @@
+<div id="watek">
+  <div class="block-head">
+    <h2>Wątek{% if wiadomosci %} <span class="muted tiny">({{ wiadomosci|length }})</span>{% endif %}</h2>
+    <div class="watek-tools">
+      {% if unread %}
+      <span class="unread-badge">{{ unread }} nieprzeczytane</span>
+      <form method="post" action="/lead/{{ lead.key }}/watek/przeczytane"
+            hx-post="/lead/{{ lead.key }}/watek/przeczytane"
+            hx-target="#watek" hx-swap="outerHTML">
+        <button class="btn sm" type="submit">Oznacz jako przeczytane</button>
+      </form>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if wiadomosci %}
+  <ol class="chat">
+    {% for m in wiadomosci %}
+    <li class="msg {{ 'msg-me' if m.kierunek == 'ja' else 'msg-them' }}">
+      <div class="msg-head">
+        <span class="msg-who">{{ 'TY' if m.kierunek == 'ja' else 'KLIENT' }}</span>
+        <span class="msg-time">{% if m.czas %}{{ m.czas }}{% elif m.created_at %}{{ m.created_at[11:16] }}{% endif %}</span>
+      </div>
+      <div class="msg-body">{{ m.tresc }}</div>
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="muted tiny">Brak wiadomości w wątku. Wklej tekst z UseMe poniżej — rozpoznam, kto co napisał.</p>
+  {% endif %}
+
+  <details class="watek-paste"{% if not wiadomosci %} open{% endif %}>
+    <summary>Wklej wątek z UseMe</summary>
+    <form method="post" action="/lead/{{ lead.key }}/watek/podglad"
+          hx-post="/lead/{{ lead.key }}/watek/podglad"
+          hx-target="#watek-podglad" hx-swap="innerHTML"
+          hx-disabled-elt="find button[type=submit]">
+      <textarea name="tekst" rows="6" spellcheck="false"
+        placeholder="Ctrl+A i Ctrl+C na stronie wątku w UseMe, potem wklej tutaj. Menu, stopki, „Pokaż więcej” i godziny w nawiasach zostaną pominięte."></textarea>
+      <button class="btn" type="submit">Rozpoznaj wiadomości</button>
+    </form>
+  </details>
+
+  <div id="watek-podglad"></div>
+  {% if notice %}<p class="notice ok">{{ notice }}</p>{% endif %}
+</div>

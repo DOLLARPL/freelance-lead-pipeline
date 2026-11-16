@@ -1,0 +1,1156 @@
+{
+  "collected_at": "2026-09-21T12:47:30.440099+00:00",
+  "actor": "apify/facebook-groups-scraper",
+  "run_id": "z2TV7JeWZHWT2uX8t",
+  "cost_usd": 0.799,
+  "groups_requested": [
+    "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+    "https://www.facebook.com/groups/przygodyprzedsiebiorcow",
+    "https://www.facebook.com/groups/417702252034285"
+  ],
+  "groups": [
+    {
+      "url": "https://www.facebook.com/groups/przygodyprzedsiebiorcow",
+      "status": "SUCCEEDED",
+      "diagnostic": null,
+      "error": "no_items",
+      "posts": [],
+      "error_description": "Empty or private data for provided input"
+    },
+    {
+      "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+      "status": "SUCCEEDED",
+      "diagnostic": null,
+      "error": null,
+      "posts": [
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341724259974248/",
+          "time": "2026-09-21T12:08:37.000Z",
+          "user": {
+            "id": "100038993720390",
+            "name": "FSL Consulting",
+            "profilePic": "https://scontent.fagc3-1.fna.fbcdn.net/v/t39.30808-1/799755370_1903092194333886_1073875946517817123_n.jpg?stp=c143.143.968.968a_cp0_dst-jpg_tt6&cstp=mx968x968&ctp=s50x50&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=o3GBMzon9B8Q7kNvwG-xBKc&_nc_oc=AdqQXj4stfabmpLuPaAZ9F_Rm3GvHayg-naZgju9y73-Nos4n3RqT3v_aXwJGUfh7Q-2JX1j1ogNQ4bu6VtPdjFA&_nc_zt=24&_nc_ht=scontent.fagc3-1.fna&_nc_gid=SnxnXXjTk9GvGiFWfbHYNQ&_nc_ss=73289&oh=00_AQLK7a8-OaVb5SUsklgjo0eVcDL2epecvYEolJ9Jhh6JLw&oe=6AB70FD8"
+          },
+          "collaborators": [],
+          "text": "Firmy z branży HoReCa, od 2 do 16 października 2026 r. potrwa nabór HORECA UP dotyczący cyberbezpieczeństwa.\n\nDofinansowanie może objąć szkolenia i doradztwo z zakresu:\n\n🔐 cyberhigieny\n🔐 ochrony danych\n🔐 rozpoznawania oszustw i socjotechnik\n🔐 reagowania na incydenty\n\nNajważniejsze warunki:\n\n✅ co do zasady do 80% refundacji kosztów\n✅ maksymalna wartość usług 11 450 zł brutto na jednego pracownika\n✅ nabór ogólnopolski\n✅ ocena zgłoszeń w systemie punktowym\n\nWażne: 11 450 zł to limit wartości usług na pracownika, a nie wysokość dotacji. W tym naborze nie liczy się wyłącznie kolejność zgłoszeń.\n\nChcesz sprawdzić, czy Twoja firma i pracownicy spełniają warunki? Napisz „HORECA UP” w komentarzu lub wiadomości prywatnej.\n\nFSL Consulting\n[https://fslconsulting.eu](https://fslconsulting.eu/)\n\n#HORECAUP #HoReCa #Cyberbezpieczenstwo #Dofinansowanie #FunduszeUE #FunduszeEuropejskie",
+          "textReferences": [
+            {
+              "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Ffslconsulting.eu%2F&h=AUDXEi-dNekFieM8q3oSgu2wzc5D1pzVbVdK1vGKJiMf5UJ44hwSGl4G7YgT3FEjX3QzQ1pfDPbIbcbQ8LF6BNqZfc0GWuK97ILimBs-bx-RgyaGXI3nmPjjfKFlHHgELd-J1a-5-6v-izid7huOw-nxiWr9HpO-iJj2U4kQOknHt0SQ&s=1",
+              "external_url": "https://fslconsulting.eu/",
+              "web_link": {
+                "__typename": "ExternalWebLink",
+                "url": "https://fslconsulting.eu/",
+                "fbclid": null,
+                "lynx_mode": "ASYNCLAZY"
+              },
+              "mobileUrl": "https://lm.facebook.com/l.php?u=https%3A%2F%2Ffslconsulting.eu%2F&h=AUCggSqQzoSjCmG9sgEwU8zFBANlOP5vJujFukeFy8hhsETYnnI9qa393xJelvcPuTzEiIeyd4jJwQ5MM-fkB1IaE0552_Nd-GYZ8GqqGnvTUpqAYmoyK5tB58AebiJ-thLebTaTwsGPp-c2hzNra-D3x8kPuggXgTuFKdstD1VuDVmS&s=1",
+              "id": "NjQyMTgzOTU5MjA4MTA3Omh0dHBzXGEvL2ZzbGNvbnN1bHRpbmcuZXUvOjo6OjoyMzQxNzI0MjU5OTc0MjQ4Og=="
+            },
+            {
+              "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Ffslconsulting.eu%2F&h=AUDXEi-dNekFieM8q3oSgu2wzc5D1pzVbVdK1vGKJiMf5UJ44hwSGl4G7YgT3FEjX3QzQ1pfDPbIbcbQ8LF6BNqZfc0GWuK97ILimBs-bx-RgyaGXI3nmPjjfKFlHHgELd-J1a-5-6v-izid7huOw-nxiWr9HpO-iJj2U4kQOknHt0SQ&s=1",
+              "external_url": "https://fslconsulting.eu/",
+              "web_link": {
+                "__typename": "ExternalWebLink",
+                "url": "https://fslconsulting.eu/",
+                "fbclid": null,
+                "lynx_mode": "ASYNCLAZY"
+              },
+              "mobileUrl": "https://lm.facebook.com/l.php?u=https%3A%2F%2Ffslconsulting.eu%2F&h=AUCggSqQzoSjCmG9sgEwU8zFBANlOP5vJujFukeFy8hhsETYnnI9qa393xJelvcPuTzEiIeyd4jJwQ5MM-fkB1IaE0552_Nd-GYZ8GqqGnvTUpqAYmoyK5tB58AebiJ-thLebTaTwsGPp-c2hzNra-D3x8kPuggXgTuFKdstD1VuDVmS&s=1",
+              "id": "NjQyMTgzOTU5MjA4MTA3Omh0dHBzXGEvL2ZzbGNvbnN1bHRpbmcuZXUvOjo6OjoyMzQxNzI0MjU5OTc0MjQ4Og=="
+            },
+            {
+              "url": "https://www.facebook.com/hashtag/horecaup?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/horecaup",
+              "id": "890084914376867"
+            },
+            {
+              "url": "https://www.facebook.com/hashtag/horeca?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/horeca",
+              "id": "165238300294327"
+            },
+            {
+              "url": "https://www.facebook.com/hashtag/cyberbezpieczenstwo?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/cyberbezpieczenstwo",
+              "id": "641848872542998"
+            },
+            {
+              "url": "https://www.facebook.com/hashtag/dofinansowanie?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/dofinansowanie",
+              "id": "575611895792709"
+            },
+            {
+              "url": "https://www.facebook.com/hashtag/funduszeue?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/funduszeue",
+              "id": "640481942648242"
+            },
+            {
+              "url": "https://www.facebook.com/hashtag/funduszeeuropejskie?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/funduszeeuropejskie",
+              "id": "161124684070988"
+            }
+          ],
+          "link": "https://fslconsulting.eu/",
+          "topReactionsCount": 0,
+          "feedbackId": "ZmVlZGJhY2s6MjM0MTcyNDI1OTk3NDI0OA==",
+          "paidPartnership": false,
+          "id": "UzpfSTEwMDAzODk5MzcyMDM5MDpWSzoyMzQxNzI0MjU5OTc0MjQ4",
+          "legacyId": "2341724259974248",
+          "attachments": [
+            {
+              "thumbnail": "https://scontent.fagc3-1.fna.fbcdn.net/v/t39.30808-6/819561090_1916087276367711_8800189516630889303_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=hKKvxDgBgXwQ7kNvwGJereO&_nc_oc=AdrPqEFCfxnwuMmErHUMLPOE3H3GUkNlaj5_cfPoPMoYMoDgGnjwqiaKVzN6t14RUzg8OTzDWKfZ2rizWHGOtpoX&_nc_zt=23&_nc_ht=scontent.fagc3-1.fna&_nc_gid=SnxnXXjTk9GvGiFWfbHYNQ&_nc_ss=73289&oh=00_AQKXOA8jq22DgBIrmQRyLnQ3edvDjG3LKGmLSSugfQ2EYw&oe=6AB6E9DC",
+              "__typename": "Photo",
+              "__isMedia": "Photo",
+              "accent_color": "FF071836",
+              "photo_product_tags": [],
+              "photo_image": {
+                "uri": "https://scontent.fagc3-1.fna.fbcdn.net/v/t39.30808-6/819561090_1916087276367711_8800189516630889303_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=hKKvxDgBgXwQ7kNvwGJereO&_nc_oc=AdrPqEFCfxnwuMmErHUMLPOE3H3GUkNlaj5_cfPoPMoYMoDgGnjwqiaKVzN6t14RUzg8OTzDWKfZ2rizWHGOtpoX&_nc_zt=23&_nc_ht=scontent.fagc3-1.fna&_nc_gid=SnxnXXjTk9GvGiFWfbHYNQ&_nc_ss=73289&oh=00_AQKXOA8jq22DgBIrmQRyLnQ3edvDjG3LKGmLSSugfQ2EYw&oe=6AB6E9DC",
+                "height": 640,
+                "width": 512
+              },
+              "url": "https://www.facebook.com/photo/?fbid=1916087266367712&set=gm.2341724259974248&idorvanity=653480085465349",
+              "id": "1916087266367712",
+              "feedback": {
+                "can_viewer_comment": false,
+                "id": "ZmVlZGJhY2s6MjM0MTcyNDI1OTk3NDI0OA=="
+              },
+              "ocrText": "May be an image of text that says 'NOWY NABÓR HoBECA UP! DO DO80% 80% REFUNDACJI KOSZTÓW Cyberbezpieczeństwo dla firm HoReCa NABÓR 2-16 PAŻDZIERNIKA 2026 NAJWAŻNIEJSZE 11 450 zł brutto limitu usług na pracownika nabór ogólnopolski ocena punktowa FSL FSL CONSULTING Sprawdzimy y,czy czy Twoja firma się xwal ikuje'"
+            }
+          ],
+          "likesCount": 0,
+          "sharesCount": 0,
+          "commentsCount": 0,
+          "facebookId": "653480085465349",
+          "groupTitle": "Grupa dla przedsiębiorców",
+          "pageAdLibrary": {
+            "is_business_page_active": false,
+            "id": "291320147395959"
+          },
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341723513307656/",
+          "time": "2026-09-21T12:07:36.000Z",
+          "user": {
+            "id": "pfbid023D4yMAFVoiLYWuyvDh3S57bnK2L4B5Yx7KnL6hmykUuFJvPUuj8bCnn3AWLh9eDnl",
+            "name": "Kamila Kłos",
+            "profilePic": "https://scontent.fagc3-1.fna.fbcdn.net/v/t1.6435-1/122322433_2251972511613439_5461227815465345348_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1920x1916&ctp=s50x50&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=e99d92&_nc_ohc=RlMzcP22z7QQ7kNvwHveb0t&_nc_oc=Adr8tDjt83eLvR9onqX50QYnOERqZryKTY8FmZIJ3Hu6HVamkd1cFvpOZfift07usjmQgUMemlhmSnpxEHqv64Ns&_nc_zt=24&_nc_ht=scontent.fagc3-1.fna&_nc_gid=SnxnXXjTk9GvGiFWfbHYNQ&_nc_ss=73289&oh=00_AQK03DySYJMsFJkX8WbdXOxdogH6__e0zyyezKCIuuSThA&oe=6AD88BBE"
+          },
+          "collaborators": [],
+          "text": "Prowadzisz małą firmę i tonie w arkuszach, fakturach albo papierologii? 🙋‍♀️\n\nPodejmuję się jednorazowych zleceń freelance, w 100% zdalnie. Wcześniej pracowałam jako Data Analyst w jednej z największych europejskich firm energetycznych.\n\nMogę pomóc w zakresie:\n✅ Zaawansowanego Excela (tabele przestawne, formuły, dashboardy)\n✅ Porządkowania i raportowania danych\n✅ Fakturowania i zarządzania zamówieniami\n✅ Organizacji CRM/baz danych\n✅ Koordynacji wydarzeń i dostawców\n✅ Podstawowego wsparcia marketingowego/social media\n\nRzetelna, dokładna, bardzo dobra znajomość angielskiego. Dostępna 24/7. Nie szukam etatu — tylko zleceń. Napisz do mnie na pw! 🙂",
+          "topReactionsCount": 0,
+          "feedbackId": "ZmVlZGJhY2s6MjM0MTcyMzUxMzMwNzY1Ng==",
+          "paidPartnership": false,
+          "id": "UzpfSTEwMDAwNDAyMTM2OTkxNzpWSzoyMzQxNzIzNTEzMzA3NjU2",
+          "legacyId": "2341723513307656",
+          "likesCount": 0,
+          "sharesCount": 0,
+          "commentsCount": 0,
+          "facebookId": "653480085465349",
+          "groupTitle": "Grupa dla przedsiębiorców",
+          "pageAdLibrary": {
+            "is_business_page_active": false,
+            "id": "291320147395959"
+          },
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341657566647584/",
+          "time": "2026-09-21T10:28:21.000Z",
+          "user": {
+            "id": "61578347450968",
+            "name": "AMC Energy",
+            "profilePic": "https://scontent.fagc3-1.fna.fbcdn.net/v/t39.30808-1/517409853_122094043982944915_6764528321110835234_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1000x1000&ctp=s50x50&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=2ZlPn-03-lYQ7kNvwExsgTg&_nc_oc=Adq9jq1PXds472d6WlJKsOx1iGM7qqhyCVUjPePGeoGnE_Qe4_CeI8J6xFpvO9Nvqmhh6HSr9LK-IpuzWWksKk3O&_nc_zt=24&_nc_ht=scontent.fagc3-1.fna&_nc_gid=SnxnXXjTk9GvGiFWfbHYNQ&_nc_ss=73289&oh=00_AQIWm_Jgz3507UwJTgorYXy3tn-TMl3R35iIPr92mJ38PA&oe=6AB7034B"
+          },
+          "collaborators": [],
+          "text": "Prowadzisz zakład produkcyjny, przetwórnię spożywczą albo chłodnię? Planujesz nową linię lub rozbudowę obiektu?\n\nZanim ustalisz termin uruchomienia, sprawdź, czy infrastruktura energetyczna jest gotowa na dodatkowe obciążenie.\n\nW przetwórni może to być kolejna linia i układ chłodzenia. \nW zakładzie produkcyjnym - nowe urządzenia i automatyka. \nW chłodni - rozbudowa instalacji, która musi pracować niezawodnie od pierwszego dnia.\n\nSama informacja o dostępnej mocy nie daje jeszcze pełnej odpowiedzi. Trzeba sprawdzić, czy stacja transformatorowa, rozdzielnice, zabezpieczenia i przewody pozwolą zasilić nowe urządzenia tam, gdzie będą pracować.\n\nJeśli konieczne zmiany wyjdą na jaw dopiero podczas montażu, mogą wpłynąć na budżet i termin uruchomienia.\n\nW AMC Energy sprawdzamy istniejącą infrastrukturę, planujemy potrzebne prace, przygotowujemy projekt i możemy poprowadzić realizację aż do uruchomienia.\n\nPlanujesz inwestycję w zakładzie? Napisz do AMC Energy, zanim zatwierdzisz jej zakres i harmonogram.\n\nAMC Energy — cała energetyka firmy. Jeden partner.\n\n#AMCEnergy #Przemysł #Przetwórstwo #Chłodnictwo",
+          "textReferences": [
+            {
+              "id": "61578347450968",
+              "url": "https://www.facebook.com/people/AMC-Energy/61578347450968/",
+              "profile_url": "https://www.facebook.com/people/AMC-Energy/61578347450968/",
+              "short_name": "AMC Energy",
+              "work_info": null,
+              "work_foreign_entity_info": null,
+              "is_verified": false,
+              "mobileUrl": "https://m.facebook.com/61578347450968/"
+            },
+            {
+              "id": "61578347450968",
+              "url": "https://www.facebook.com/people/AMC-Energy/61578347450968/",
+              "profile_url": "https://www.facebook.com/people/AMC-Energy/61578347450968/",
+              "short_name": "AMC Energy",
+              "work_info": null,
+              "work_foreign_entity_info": null,
+              "is_verified": false,
+              "mobileUrl": "https://m.facebook.com/61578347450968/"
+            },
+            {
+              "url": "https://www.facebook.com/hashtag/amcenergy?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/amcenergy",
+              "id": "994964483872065"
+            },
+            {
+              "url": "https://www.facebook.com/hashtag/przemys%C5%82?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/przemys%C5%82",
+              "id": "195861617227643"
+            },
+            {
+              "url": "https://www.facebook.com/hashtag/przetw%C3%B3rstwo?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/przetw%C3%B3rstwo",
+              "id": "396524567135167"
+            },
+            {
+              "url": "https://www.facebook.com/hashtag/ch%C5%82odnictwo?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/ch%C5%82odnictwo",
+              "id": "705464202804638"
+            }
+          ],
+          "topReactionsCount": 0,
+          "feedbackId": "ZmVlZGJhY2s6MjM0MTY1NzU2NjY0NzU4NA==",
+          "paidPartnership": false,
+          "id": "UzpfSTYxNTc4MzQ3NDUwOTY4OlZLOjIzNDE2NTc1NjY2NDc1ODQ=",
+          "legacyId": "2341657566647584",
+          "attachments": [
+            {
+              "thumbnail": "https://scontent.fagc3-1.fna.fbcdn.net/v/t39.30808-6/818518007_122204189606944915_3175344336435731481_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qn5AeGq8-IwQ7kNvwEibuZv&_nc_oc=AdrwUvQzUtxsssBtTcFRcC6vnO6-wx_OQ64EWc_Nm6WlOwhbpvSTjUQeuVI80BTexDTQnzb2eIRLpRBSTyLLnH9l&_nc_zt=23&_nc_ht=scontent.fagc3-1.fna&_nc_gid=SnxnXXjTk9GvGiFWfbHYNQ&_nc_ss=73289&oh=00_AQIvoEDfqJwW216Mfy_Abs7bN25g4-D_2v7ca0ledy5FsQ&oe=6AB6E0FD",
+              "__typename": "Photo",
+              "__isMedia": "Photo",
+              "accent_color": "FF091E37",
+              "photo_product_tags": [],
+              "photo_image": {
+                "uri": "https://scontent.fagc3-1.fna.fbcdn.net/v/t39.30808-6/818518007_122204189606944915_3175344336435731481_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=p526x296&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=qn5AeGq8-IwQ7kNvwEibuZv&_nc_oc=AdrwUvQzUtxsssBtTcFRcC6vnO6-wx_OQ64EWc_Nm6WlOwhbpvSTjUQeuVI80BTexDTQnzb2eIRLpRBSTyLLnH9l&_nc_zt=23&_nc_ht=scontent.fagc3-1.fna&_nc_gid=SnxnXXjTk9GvGiFWfbHYNQ&_nc_ss=73289&oh=00_AQIvoEDfqJwW216Mfy_Abs7bN25g4-D_2v7ca0ledy5FsQ&oe=6AB6E0FD",
+                "height": 526,
+                "width": 526
+              },
+              "url": "https://www.facebook.com/photo/?fbid=122204189912944915&set=gm.2341657566647584&idorvanity=653480085465349",
+              "id": "122204189912944915",
+              "feedback": {
+                "can_viewer_comment": false,
+                "id": "ZmVlZGJhY2s6MjM0MTY1NzU2NjY0NzU4NA=="
+              },
+              "ocrText": "May be an image of text that says 'AMCENERGY PRODUKCJA PRODUKCJA-PRZETWORSTIWO-CHODI PRZETWÓRSTWO CHŁODNIE ROZBUDOWUJESZ ZAKŁAD? CZY ZASILANIE JEST NA TO GOTOWE? Sprawdź to przed inwestycją. AMC Energy cała energetyka firmy. Jeden partner.'"
+            }
+          ],
+          "likesCount": 0,
+          "sharesCount": 0,
+          "commentsCount": 0,
+          "facebookId": "653480085465349",
+          "groupTitle": "Grupa dla przedsiębiorców",
+          "pageAdLibrary": {
+            "is_business_page_active": false,
+            "id": "291320147395959"
+          },
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341581566655184/",
+          "time": "2026-09-21T08:38:15.000Z",
+          "user": {
+            "id": "100057081565648",
+            "name": "Zespół Doradców Podatkowych",
+            "profilePic": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-1/465253879_9469558096407075_4702690459870766964_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx180x180&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=xhF3rfzXhOgQ7kNvwGDbGC1&_nc_oc=Adpzc28mg_ndoxi72SfurJcUxdi1H9Ruc0DJax0xjq-xBoVsjPqbTn04oxULG6rLQbpqISM4BIXE2WNOr3zYZQlI&_nc_zt=24&_nc_ht=scontent-lax3-1.xx&_nc_gid=UdtWjPUAYXRHAOtJ2hsCaQ&_nc_ss=73289&oh=00_AQJlTUFMQ8k2E7dnqRyw-LlBxHjIHbCyz3q5Osnqv0PsIg&oe=6AB6EDAB"
+          },
+          "collaborators": [],
+          "text": "Ministerstwo Finansów wydłuża okres odroczenia kar za błędy związane ze stosowaniem Krajowego Systemu e-Faktur do 31 grudnia 2027 r. To odpowiedź na postulaty przedsiębiorców, organizacji branżowych i ekspertów podatkowych związane z etapowym wdrożeniem systemu. \nPrzypominamy, że od 1 stycznia 2027 r. KSeF będzie obowiązkowy dla wszystkich przedsiębiorców, a z dniem 31.12. 2026 kończą się okresy przejściowe dla niektórych podatników.\n\n#Bądźnabieżąco\nZespół Doradców Podatkowych Jacek Czernecki pomaga przedsiębiorcom przygotować się do obowiązkowego KSeF, prawidłowo wystawiać i odbierać e-faktury oraz rozliczać je zgodnie z obowiązującymi przepisami.",
+          "textReferences": [
+            {
+              "url": "https://www.facebook.com/hashtag/b%C4%85d%C5%BAnabie%C5%BC%C4%85co?__eep__=6",
+              "mobileUrl": "https://m.facebook.com/hashtag/b%C4%85d%C5%BAnabie%C5%BC%C4%85co",
+              "id": "614666655286022"
+            }
+          ],
+          "topReactionsCount": 0,
+          "feedbackId": "ZmVlZGJhY2s6MjM0MTU4MTU2NjY1NTE4NA==",
+          "paidPartnership": false,
+          "id": "UzpfSTEwMDA1NzA4MTU2NTY0ODpWSzoyMzQxNTgxNTY2NjU1MTg0",
+          "legacyId": "2341581566655184",
+          "attachments": [
+            {
+              "thumbnail": "https://scontent-lax7-1.xx.fbcdn.net/v/t39.30808-6/807284088_1610710644174972_1157070058007583508_n.jpg?stp=dst-jpg_tt6&cstp=mx940x788&ctp=s600x600&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=n2Blw7rHeKUQ7kNvwESrqkH&_nc_oc=AdrfEvXhjaTxzfCh10KrolkeiQKJaM5uu0n2mx4zb7ZxjOSkhgYxyQkPGmLMdystIW207RzRAA2wkzLlLSyg4LGX&_nc_zt=23&_nc_ht=scontent-lax7-1.xx&_nc_gid=UdtWjPUAYXRHAOtJ2hsCaQ&_nc_ss=73289&oh=00_AQIVVAqMKdJhW3Kxb5fpqfDznhl3SUEQuPCzIJTxpOWKSw&oe=6AB6E6B3",
+              "__typename": "Photo",
+              "__isMedia": "Photo",
+              "accent_color": "FFFFFFFF",
+              "photo_product_tags": [],
+              "photo_image": {
+                "uri": "https://scontent-lax7-1.xx.fbcdn.net/v/t39.30808-6/807284088_1610710644174972_1157070058007583508_n.jpg?stp=dst-jpg_tt6&cstp=mx940x788&ctp=s600x600&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=n2Blw7rHeKUQ7kNvwESrqkH&_nc_oc=AdrfEvXhjaTxzfCh10KrolkeiQKJaM5uu0n2mx4zb7ZxjOSkhgYxyQkPGmLMdystIW207RzRAA2wkzLlLSyg4LGX&_nc_zt=23&_nc_ht=scontent-lax7-1.xx&_nc_gid=UdtWjPUAYXRHAOtJ2hsCaQ&_nc_ss=73289&oh=00_AQIVVAqMKdJhW3Kxb5fpqfDznhl3SUEQuPCzIJTxpOWKSw&oe=6AB6E6B3",
+                "height": 503,
+                "width": 600
+              },
+              "url": "https://www.facebook.com/photo/?fbid=1610713140841389&set=gm.2341581566655184&idorvanity=653480085465349",
+              "id": "1610713140841389",
+              "feedback": {
+                "can_viewer_comment": false,
+                "id": "ZmVlZGJhY2s6MjM0MTU4MTU2NjY1NTE4NA=="
+              },
+              "ocrText": "May be an image of text that says 'BĄDZ NA BIEŻĄCO Ministerstwo Finansów Kary za błędy W KSeF dopiero od 2028 r. JC JACEK CZERNECKI Zespół ZespólDoradeowPodatkoruych Doradców Podatkowych WWW.DORADCY.PL'"
+            }
+          ],
+          "likesCount": 0,
+          "sharesCount": 0,
+          "commentsCount": 0,
+          "facebookId": "653480085465349",
+          "groupTitle": "Grupa dla przedsiębiorców",
+          "pageAdLibrary": {
+            "is_business_page_active": false,
+            "id": "291320147395959"
+          },
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341518756661465/",
+          "time": "2026-09-21T06:48:25.000Z",
+          "user": {
+            "id": "100064999899164",
+            "name": "Stowarzyszenie Handlu i Produkcji",
+            "profilePic": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-1/787308222_1438630818313568_5495608032336681004_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1019x1024&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=4lLqCLQsWA0Q7kNvwEaYUlQ&_nc_oc=AdpoAZLmG69YNXfR1nwOVfo8oLc-m1cNTBNGXfTTR8B91u5gpvYFDzC0bYxYN4omekj3nd_U2yRAI9DjI6RTj0AI&_nc_zt=24&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQIeauUSUDxEiHN-lVXQ7Wstke_uAzQ4-YSwhjT0q7JcWQ&oe=6AB704CD"
+          },
+          "collaborators": [],
+          "text": "",
+          "topReactionsCount": 1,
+          "feedbackId": "ZmVlZGJhY2s6MjM0MTUxODc1NjY2MTQ2NQ==",
+          "sharedPost": {
+            "pageName": {
+              "id": "100064999899164",
+              "name": "Stowarzyszenie Handlu i Produkcji",
+              "profileUrl": "https://www.facebook.com/handeliprodukcja",
+              "profilePic": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-1/787308222_1438630818313568_5495608032336681004_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1019x1024&ctp=s40x40&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=4lLqCLQsWA0Q7kNvwEaYUlQ&_nc_oc=AdpoAZLmG69YNXfR1nwOVfo8oLc-m1cNTBNGXfTTR8B91u5gpvYFDzC0bYxYN4omekj3nd_U2yRAI9DjI6RTj0AI&_nc_zt=24&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQIeauUSUDxEiHN-lVXQ7Wstke_uAzQ4-YSwhjT0q7JcWQ&oe=6AB704CD"
+            },
+            "url": "https://www.facebook.com/handeliprodukcja/posts/pfbid0bDrsG99sNxYDnCNwjF5ijBNwmu368wQzMv77M4GV85sZrHdRq3P1TTrbJoNHD6oJl",
+            "time": "2026-09-21T06:40:21.000Z",
+            "timestamp": 1789972821,
+            "user": {
+              "id": "100064999899164",
+              "name": "Stowarzyszenie Handlu i Produkcji",
+              "profileUrl": "https://www.facebook.com/handeliprodukcja",
+              "profilePic": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-1/787308222_1438630818313568_5495608032336681004_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1019x1024&ctp=s40x40&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=4lLqCLQsWA0Q7kNvwEaYUlQ&_nc_oc=AdpoAZLmG69YNXfR1nwOVfo8oLc-m1cNTBNGXfTTR8B91u5gpvYFDzC0bYxYN4omekj3nd_U2yRAI9DjI6RTj0AI&_nc_zt=24&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQIeauUSUDxEiHN-lVXQ7Wstke_uAzQ4-YSwhjT0q7JcWQ&oe=6AB704CD"
+            },
+            "text": "📢📝Akcja Mały ZUS Plus trwa w Częstochowie i kolejnych miejscach w Polsce.\nDziękujemy za wszystkie zdjęcia, które do nas wysyłacie — pokazują Waszą energię, determinację i realną pracę w terenie.\nTo, co robimy, ma sens.\nTo walka o normalne warunki prowadzenia mikrofirm, o życie bez strachu, że ZUS zje cały dochód zanim zarobimy pierwszą złotówkę.\nKażdy podpis to głos człowieka, który chce tylko jednego:\npracować, utrzymać rodzinę i nie być karany za to, że prowadzi mały biznes.\nDziałamy dalej.\nRazem.\n✅W słusznej sprawie.",
+            "media": [
+              {
+                "style_infos": [
+                  {
+                    "__typename": "AlbumAttachmentStyleInfo",
+                    "background_color": "FF939392"
+                  },
+                  {
+                    "__typename": "FeedStandardAttachmentStyleInfo"
+                  },
+                  {
+                    "__typename": "FutureOfFeedAttachmentStyleInfo"
+                  }
+                ],
+                "frame_sublayout_subattachments": {
+                  "count": 3,
+                  "nodes": [
+                    {
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "height": 590,
+                          "width": 444
+                        },
+                        "__isNode": "Photo",
+                        "id": "1459641206212529"
+                      }
+                    },
+                    {
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "height": 590,
+                          "width": 444
+                        },
+                        "__isNode": "Photo",
+                        "id": "1459641289545854"
+                      }
+                    },
+                    {
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "height": 590,
+                          "width": 444
+                        },
+                        "__isNode": "Photo",
+                        "id": "1459641332879183"
+                      }
+                    }
+                  ]
+                },
+                "mediaset_token": "pcb.1459641389545844",
+                "two_photos_subattachments": {
+                  "nodes": [
+                    {
+                      "deduplication_key": "be477cc6b2ba881536b0cc163f256a6c",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/816739228_1459641229545860_1935644459744735629_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=k5xR-MrkW40Q7kNvwF-1aA8&_nc_oc=AdoutznXXN-7nhZxPx6V1GgAisZQniVdXtRB83s1X-xIY5InzWaxv_gF6yqN7e1XuNx7NNUV_AoxvfDkox_y_foW&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQKYBvvWAHZeZkhmTcVQk7l-uJJrNzQvm7xucUh_6H8M2g&oe=6AB6FB9B",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/816739228_1459641229545860_1935644459744735629_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=k5xR-MrkW40Q7kNvwF-1aA8&_nc_oc=AdoutznXXN-7nhZxPx6V1GgAisZQniVdXtRB83s1X-xIY5InzWaxv_gF6yqN7e1XuNx7NNUV_AoxvfDkox_y_foW&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQKYBvvWAHZeZkhmTcVQk7l-uJJrNzQvm7xucUh_6H8M2g&oe=6AB6FB9B"
+                        },
+                        "accessibility_caption": "May be an image of clarinet and flute",
+                        "focus": {
+                          "x": 0.50884485244751,
+                          "y": 0.35109874606133
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641206212529",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    },
+                    {
+                      "deduplication_key": "c85f84f27f9082e2ce0a3803ae5461f4",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/819164902_1459641296212520_7154679565735836655_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6T8EIPaMvZEQ7kNvwERTHFS&_nc_oc=Adpe6vZAZO9C9ZDW006Mc-xc3l26K-M8BByB9VVWi7-qLV4GLporDNlN2QnpbW7It-6Mss7HoQQpYBsN26Bhp2rw&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQJTKEyNpWaPt33ny0lpyweaeG8od4vOnEY908moZuQAdw&oe=6AB7062D",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/819164902_1459641296212520_7154679565735836655_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6T8EIPaMvZEQ7kNvwERTHFS&_nc_oc=Adpe6vZAZO9C9ZDW006Mc-xc3l26K-M8BByB9VVWi7-qLV4GLporDNlN2QnpbW7It-6Mss7HoQQpYBsN26Bhp2rw&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQJTKEyNpWaPt33ny0lpyweaeG8od4vOnEY908moZuQAdw&oe=6AB7062D"
+                        },
+                        "accessibility_caption": "May be an image of studying and text",
+                        "focus": {
+                          "x": 0.49592053890228,
+                          "y": 0.37378033995628
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641289545854",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    }
+                  ]
+                },
+                "three_photos_subattachments": {
+                  "nodes": [
+                    {
+                      "deduplication_key": "be477cc6b2ba881536b0cc163f256a6c",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/816739228_1459641229545860_1935644459744735629_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=k5xR-MrkW40Q7kNvwF-1aA8&_nc_oc=AdoutznXXN-7nhZxPx6V1GgAisZQniVdXtRB83s1X-xIY5InzWaxv_gF6yqN7e1XuNx7NNUV_AoxvfDkox_y_foW&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQKYBvvWAHZeZkhmTcVQk7l-uJJrNzQvm7xucUh_6H8M2g&oe=6AB6FB9B",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/816739228_1459641229545860_1935644459744735629_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=k5xR-MrkW40Q7kNvwF-1aA8&_nc_oc=AdoutznXXN-7nhZxPx6V1GgAisZQniVdXtRB83s1X-xIY5InzWaxv_gF6yqN7e1XuNx7NNUV_AoxvfDkox_y_foW&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQKYBvvWAHZeZkhmTcVQk7l-uJJrNzQvm7xucUh_6H8M2g&oe=6AB6FB9B"
+                        },
+                        "accessibility_caption": "May be an image of clarinet and flute",
+                        "focus": {
+                          "x": 0.50884485244751,
+                          "y": 0.35109874606133
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641206212529",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    },
+                    {
+                      "deduplication_key": "c85f84f27f9082e2ce0a3803ae5461f4",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/819164902_1459641296212520_7154679565735836655_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6T8EIPaMvZEQ7kNvwERTHFS&_nc_oc=Adpe6vZAZO9C9ZDW006Mc-xc3l26K-M8BByB9VVWi7-qLV4GLporDNlN2QnpbW7It-6Mss7HoQQpYBsN26Bhp2rw&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQJTKEyNpWaPt33ny0lpyweaeG8od4vOnEY908moZuQAdw&oe=6AB7062D",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/819164902_1459641296212520_7154679565735836655_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6T8EIPaMvZEQ7kNvwERTHFS&_nc_oc=Adpe6vZAZO9C9ZDW006Mc-xc3l26K-M8BByB9VVWi7-qLV4GLporDNlN2QnpbW7It-6Mss7HoQQpYBsN26Bhp2rw&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQJTKEyNpWaPt33ny0lpyweaeG8od4vOnEY908moZuQAdw&oe=6AB7062D"
+                        },
+                        "accessibility_caption": "May be an image of studying and text",
+                        "focus": {
+                          "x": 0.49592053890228,
+                          "y": 0.37378033995628
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641289545854",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    },
+                    {
+                      "deduplication_key": "4e1957d1913427b68febb5d2dfb1f060",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/795679777_1459641336212516_4751420973944288974_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IcPsB88nTlQQ7kNvwHo4GuA&_nc_oc=AdpfvzlSPyLRrwYrU38neHte9Ox34X7-h5ryI6e2acrXfnHpqvr4O-hRa26JxCfEtKuHsTmAU6RUGol4LiHVWc1b&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQL6hlRxsXJMtxIna36kG60CQAabx-Xaz4h7WKv4tsHICw&oe=6AB6E36B",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/795679777_1459641336212516_4751420973944288974_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IcPsB88nTlQQ7kNvwHo4GuA&_nc_oc=AdpfvzlSPyLRrwYrU38neHte9Ox34X7-h5ryI6e2acrXfnHpqvr4O-hRa26JxCfEtKuHsTmAU6RUGol4LiHVWc1b&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQL6hlRxsXJMtxIna36kG60CQAabx-Xaz4h7WKv4tsHICw&oe=6AB6E36B"
+                        },
+                        "accessibility_caption": "May be an image of ‎ticket stub and ‎text that says '‎14=25=350 350 SHIP 富社市 NIADETVFILWINISZONEIPRZEZSP DLA DETUCH WNOSZONEJ PRZEZ SHIP 師老25 M42 350 Mona nIA WWSP/ANSIWIAINI σo WNOSZONEJ PRZEZ SHiP SHIP ANA 19年25=350 35T0 年25日 LISTA POPARCIA DLA PETYCJI WNOSZONFI --ברםם MAŁY ZUS PLUKC-TI SHiP 向江酎 FaR SHIP ዮ 開士 aMA LISTA POPARCIA DLA PETYCJ! WNOSZONEJ PRZEZ SHIP MAŁY PLUS=TLEN DLA PRZEDSIĘB!ORCÓW Strena Popieram perycjeSHP gorostalekryterial บรเจำผพ. ip. imięi-nazwisko zwisko: SHiP Razem dla ludzi LISTA POPARCIA DLA PETYCJI wi Wesprzyj SHiP Nrkonta do wpłaty: 06 2530 0008 2097 1092 3952 0001 自 Tytut Tytulprzelewu: darowizna‎'‎‎",
+                        "focus": {
+                          "x": 0.5,
+                          "y": 0.33
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641332879183",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    }
+                  ]
+                },
+                "four_photos_subattachments": {
+                  "nodes": [
+                    {
+                      "deduplication_key": "be477cc6b2ba881536b0cc163f256a6c",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/816739228_1459641229545860_1935644459744735629_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=k5xR-MrkW40Q7kNvwF-1aA8&_nc_oc=AdoutznXXN-7nhZxPx6V1GgAisZQniVdXtRB83s1X-xIY5InzWaxv_gF6yqN7e1XuNx7NNUV_AoxvfDkox_y_foW&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQKYBvvWAHZeZkhmTcVQk7l-uJJrNzQvm7xucUh_6H8M2g&oe=6AB6FB9B",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/816739228_1459641229545860_1935644459744735629_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=k5xR-MrkW40Q7kNvwF-1aA8&_nc_oc=AdoutznXXN-7nhZxPx6V1GgAisZQniVdXtRB83s1X-xIY5InzWaxv_gF6yqN7e1XuNx7NNUV_AoxvfDkox_y_foW&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQKYBvvWAHZeZkhmTcVQk7l-uJJrNzQvm7xucUh_6H8M2g&oe=6AB6FB9B"
+                        },
+                        "accessibility_caption": "May be an image of clarinet and flute",
+                        "focus": {
+                          "x": 0.50884485244751,
+                          "y": 0.35109874606133
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641206212529",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    },
+                    {
+                      "deduplication_key": "c85f84f27f9082e2ce0a3803ae5461f4",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/819164902_1459641296212520_7154679565735836655_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6T8EIPaMvZEQ7kNvwERTHFS&_nc_oc=Adpe6vZAZO9C9ZDW006Mc-xc3l26K-M8BByB9VVWi7-qLV4GLporDNlN2QnpbW7It-6Mss7HoQQpYBsN26Bhp2rw&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQJTKEyNpWaPt33ny0lpyweaeG8od4vOnEY908moZuQAdw&oe=6AB7062D",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/819164902_1459641296212520_7154679565735836655_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6T8EIPaMvZEQ7kNvwERTHFS&_nc_oc=Adpe6vZAZO9C9ZDW006Mc-xc3l26K-M8BByB9VVWi7-qLV4GLporDNlN2QnpbW7It-6Mss7HoQQpYBsN26Bhp2rw&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQJTKEyNpWaPt33ny0lpyweaeG8od4vOnEY908moZuQAdw&oe=6AB7062D"
+                        },
+                        "accessibility_caption": "May be an image of studying and text",
+                        "focus": {
+                          "x": 0.49592053890228,
+                          "y": 0.37378033995628
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641289545854",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    },
+                    {
+                      "deduplication_key": "4e1957d1913427b68febb5d2dfb1f060",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/795679777_1459641336212516_4751420973944288974_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IcPsB88nTlQQ7kNvwHo4GuA&_nc_oc=AdpfvzlSPyLRrwYrU38neHte9Ox34X7-h5ryI6e2acrXfnHpqvr4O-hRa26JxCfEtKuHsTmAU6RUGol4LiHVWc1b&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQL6hlRxsXJMtxIna36kG60CQAabx-Xaz4h7WKv4tsHICw&oe=6AB6E36B",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/795679777_1459641336212516_4751420973944288974_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IcPsB88nTlQQ7kNvwHo4GuA&_nc_oc=AdpfvzlSPyLRrwYrU38neHte9Ox34X7-h5ryI6e2acrXfnHpqvr4O-hRa26JxCfEtKuHsTmAU6RUGol4LiHVWc1b&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQL6hlRxsXJMtxIna36kG60CQAabx-Xaz4h7WKv4tsHICw&oe=6AB6E36B"
+                        },
+                        "accessibility_caption": "May be an image of ‎ticket stub and ‎text that says '‎14=25=350 350 SHIP 富社市 NIADETVFILWINISZONEIPRZEZSP DLA DETUCH WNOSZONEJ PRZEZ SHIP 師老25 M42 350 Mona nIA WWSP/ANSIWIAINI σo WNOSZONEJ PRZEZ SHiP SHIP ANA 19年25=350 35T0 年25日 LISTA POPARCIA DLA PETYCJI WNOSZONFI --ברםם MAŁY ZUS PLUKC-TI SHiP 向江酎 FaR SHIP ዮ 開士 aMA LISTA POPARCIA DLA PETYCJ! WNOSZONEJ PRZEZ SHIP MAŁY PLUS=TLEN DLA PRZEDSIĘB!ORCÓW Strena Popieram perycjeSHP gorostalekryterial บรเจำผพ. ip. imięi-nazwisko zwisko: SHiP Razem dla ludzi LISTA POPARCIA DLA PETYCJI wi Wesprzyj SHiP Nrkonta do wpłaty: 06 2530 0008 2097 1092 3952 0001 自 Tytut Tytulprzelewu: darowizna‎'‎‎",
+                        "focus": {
+                          "x": 0.5,
+                          "y": 0.33
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641332879183",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    }
+                  ]
+                },
+                "five_photos_subattachments": {
+                  "count": 3,
+                  "nodes": [
+                    {
+                      "deduplication_key": "be477cc6b2ba881536b0cc163f256a6c",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/816739228_1459641229545860_1935644459744735629_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=k5xR-MrkW40Q7kNvwF-1aA8&_nc_oc=AdoutznXXN-7nhZxPx6V1GgAisZQniVdXtRB83s1X-xIY5InzWaxv_gF6yqN7e1XuNx7NNUV_AoxvfDkox_y_foW&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQKYBvvWAHZeZkhmTcVQk7l-uJJrNzQvm7xucUh_6H8M2g&oe=6AB6FB9B",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/816739228_1459641229545860_1935644459744735629_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=k5xR-MrkW40Q7kNvwF-1aA8&_nc_oc=AdoutznXXN-7nhZxPx6V1GgAisZQniVdXtRB83s1X-xIY5InzWaxv_gF6yqN7e1XuNx7NNUV_AoxvfDkox_y_foW&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQKYBvvWAHZeZkhmTcVQk7l-uJJrNzQvm7xucUh_6H8M2g&oe=6AB6FB9B"
+                        },
+                        "accessibility_caption": "May be an image of clarinet and flute",
+                        "focus": {
+                          "x": 0.50884485244751,
+                          "y": 0.35109874606133
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641206212529",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    },
+                    {
+                      "deduplication_key": "c85f84f27f9082e2ce0a3803ae5461f4",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/819164902_1459641296212520_7154679565735836655_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6T8EIPaMvZEQ7kNvwERTHFS&_nc_oc=Adpe6vZAZO9C9ZDW006Mc-xc3l26K-M8BByB9VVWi7-qLV4GLporDNlN2QnpbW7It-6Mss7HoQQpYBsN26Bhp2rw&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQJTKEyNpWaPt33ny0lpyweaeG8od4vOnEY908moZuQAdw&oe=6AB7062D",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/819164902_1459641296212520_7154679565735836655_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6T8EIPaMvZEQ7kNvwERTHFS&_nc_oc=Adpe6vZAZO9C9ZDW006Mc-xc3l26K-M8BByB9VVWi7-qLV4GLporDNlN2QnpbW7It-6Mss7HoQQpYBsN26Bhp2rw&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQJTKEyNpWaPt33ny0lpyweaeG8od4vOnEY908moZuQAdw&oe=6AB7062D"
+                        },
+                        "accessibility_caption": "May be an image of studying and text",
+                        "focus": {
+                          "x": 0.49592053890228,
+                          "y": 0.37378033995628
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641289545854",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    },
+                    {
+                      "deduplication_key": "4e1957d1913427b68febb5d2dfb1f060",
+                      "media": {
+                        "__typename": "Photo",
+                        "image": {
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/795679777_1459641336212516_4751420973944288974_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IcPsB88nTlQQ7kNvwHo4GuA&_nc_oc=AdpfvzlSPyLRrwYrU38neHte9Ox34X7-h5ryI6e2acrXfnHpqvr4O-hRa26JxCfEtKuHsTmAU6RUGol4LiHVWc1b&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQL6hlRxsXJMtxIna36kG60CQAabx-Xaz4h7WKv4tsHICw&oe=6AB6E36B",
+                          "height": 590,
+                          "width": 444
+                        },
+                        "viewer_image": {
+                          "height": 2047,
+                          "width": 1542,
+                          "uri": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/795679777_1459641336212516_4751420973944288974_n.jpg?stp=dst-jpg_tt6&cstp=mx1542x2047&ctp=s1542x2047&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IcPsB88nTlQQ7kNvwHo4GuA&_nc_oc=AdpfvzlSPyLRrwYrU38neHte9Ox34X7-h5ryI6e2acrXfnHpqvr4O-hRa26JxCfEtKuHsTmAU6RUGol4LiHVWc1b&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQL6hlRxsXJMtxIna36kG60CQAabx-Xaz4h7WKv4tsHICw&oe=6AB6E36B"
+                        },
+                        "accessibility_caption": "May be an image of ‎ticket stub and ‎text that says '‎14=25=350 350 SHIP 富社市 NIADETVFILWINISZONEIPRZEZSP DLA DETUCH WNOSZONEJ PRZEZ SHIP 師老25 M42 350 Mona nIA WWSP/ANSIWIAINI σo WNOSZONEJ PRZEZ SHiP SHIP ANA 19年25=350 35T0 年25日 LISTA POPARCIA DLA PETYCJI WNOSZONFI --ברםם MAŁY ZUS PLUKC-TI SHiP 向江酎 FaR SHIP ዮ 開士 aMA LISTA POPARCIA DLA PETYCJ! WNOSZONEJ PRZEZ SHIP MAŁY PLUS=TLEN DLA PRZEDSIĘB!ORCÓW Strena Popieram perycjeSHP gorostalekryterial บรเจำผพ. ip. imięi-nazwisko zwisko: SHiP Razem dla ludzi LISTA POPARCIA DLA PETYCJI wi Wesprzyj SHiP Nrkonta do wpłaty: 06 2530 0008 2097 1092 3952 0001 自 Tytut Tytulprzelewu: darowizna‎'‎‎",
+                        "focus": {
+                          "x": 0.5,
+                          "y": 0.33
+                        },
+                        "__isMedia": "Photo",
+                        "photo_cix_screen": null,
+                        "id": "1459641332879183",
+                        "is_playable": false,
+                        "owner": {
+                          "__typename": "User",
+                          "id": "100064999899164"
+                        },
+                        "__isNode": "Photo"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "paidPartnership": false
+          },
+          "reactionLoveCount": 1,
+          "paidPartnership": false,
+          "id": "UzpfSTEwMDA2NDk5OTg5OTE2NDpWSzoyMzQxNTE4NzU2NjYxNDY1",
+          "legacyId": "2341518756661465",
+          "likesCount": 1,
+          "sharesCount": 0,
+          "commentsCount": 0,
+          "facebookId": "653480085465349",
+          "groupTitle": "Grupa dla przedsiębiorców",
+          "pageAdLibrary": {
+            "is_business_page_active": false,
+            "id": "291320147395959"
+          },
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow",
+          "url": "https://www.facebook.com/groups/dlaprzedsiebiorcow/permalink/2341495653330442/",
+          "time": "2026-09-21T06:08:03.000Z",
+          "user": {
+            "id": "100040315178813",
+            "name": "Wojciech Goduński",
+            "profilePic": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-1/324660254_701914577986152_2302867262837738269_n.jpg?stp=c0.174.1448.1448a_cp0_dst-jpg_tt6&cstp=mx1448x1448&ctp=s50x50&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_ohc=05QUQ18F-LcQ7kNvwEOMSgr&_nc_oc=AdrbdXhIcFXa8ueTsm6bpsoLplMytqPMfZl3fQqRaHdNjeJ7TYacc1TXMQe5eo6gGoYBN4IqwntpgnoRxl6gz3pY&_nc_zt=24&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQI5U4KGG888_Ptj11cyQ6dVj5QDobqUWZatIoPh9G7yIQ&oe=6AB6FD90"
+          },
+          "collaborators": [],
+          "text": "",
+          "textReferences": [
+            {
+              "url": "https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.homeinegypt.com%2F&h=AUAHvD_43WyoCzPV3Wn5_1M0R8gYv5avOs6v31c3_FGDfV6AkHU4Mts5WuQLJEIkmRhaLfmYt9Gr3OD-jRGNoEzkWTbXsDol59ccP5zsL0W2v-8f3d9ZXgWSYAzqO4MWHgBP3891Jjz5Rpr-Ns_cJbqbH5VgNQLip5h2ekFMUHjzQbiB&s=1",
+              "external_url": "http://www.homeinegypt.com/",
+              "web_link": {
+                "__typename": "ExternalWebLink",
+                "url": "http://www.homeinegypt.com/",
+                "fbclid": null,
+                "lynx_mode": "ASYNCLAZY"
+              },
+              "mobileUrl": "https://lm.facebook.com/l.php?u=http%3A%2F%2Fwww.homeinegypt.com%2F&h=AUBCuw1YeVe038o2PATwfTgbsWZ_J9WInJo2SufvtoJpiz5kP_PwNDh-4CeUooPZgQ3hA6fFZoZn_5VtHUh7O_HPpZbmMOVn7QfJ-LxCfqS7oU9IWIyNP9EOMtAhjscAdJ6VrUHdQ8cJpnno4AHHxD5ewgdoD0h9iMEtew_SJCtmER4w&s=1",
+              "id": "NjQyMTgzOTU5MjA4MTA3Omh0dHBcYS8vd3d3LmhvbWVpbmVneXB0LmNvbS86OkRlZmF1bHQ6OjoxODI5MzY1MDAxNzUwNjU1Og=="
+            }
+          ],
+          "link": "http://www.homeinegypt.com/",
+          "previewTitle": "Home in Egypt - Strona główna",
+          "previewDescription": "Szukasz bezpiecznego i dochodowego sposobu na pomnażanie kapitału? Zapraszamy do współpracy z Home in Egypt! Poszukujemy inwestora zainteresowanego udziałem w projektach nieruchomości komercyjnych — gwarantujemy szybki zysk, najwyższe oprocentowanie oraz wyjątkowo atrakcyjne warunki wspó....",
+          "previewSource": "homeinegypt.com",
+          "previewTarget": {
+            "__typename": "ExternalUrl",
+            "article_author": null,
+            "external_url": "http://www.homeinegypt.com/",
+            "id": "226547524203272:1829364998417322"
+          },
+          "topReactionsCount": 0,
+          "feedbackId": "ZmVlZGJhY2s6MjM0MTQ5NTY1MzMzMDQ0Mg==",
+          "sharedPost": {
+            "pageName": {
+              "id": "100040315178813",
+              "name": "Wojciech Goduński",
+              "profileUrl": "https://www.facebook.com/wojciechgodunskibiznes",
+              "profilePic": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-1/324660254_701914577986152_2302867262837738269_n.jpg?stp=c0.174.1448.1448a_cp0_dst-jpg_tt6&cstp=mx1448x1448&ctp=s40x40&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_ohc=05QUQ18F-LcQ7kNvwEOMSgr&_nc_oc=AdrbdXhIcFXa8ueTsm6bpsoLplMytqPMfZl3fQqRaHdNjeJ7TYacc1TXMQe5eo6gGoYBN4IqwntpgnoRxl6gz3pY&_nc_zt=24&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQI5U4KGG888_Ptj11cyQ6dVj5QDobqUWZatIoPh9G7yIQ&oe=6AB6FD90"
+            },
+            "url": "https://www.facebook.com/wojciechgodunskibiznes/posts/pfbid02Spfyfajzebj4edEvoR2tvmkpBsXUCtrx8p8GEu9GT2VRfEUTrbS22UhcFRzHVSval",
+            "time": "2026-09-21T06:04:12.000Z",
+            "timestamp": 1789970652,
+            "user": {
+              "id": "100040315178813",
+              "name": "Wojciech Goduński",
+              "profileUrl": "https://www.facebook.com/wojciechgodunskibiznes",
+              "profilePic": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-1/324660254_701914577986152_2302867262837738269_n.jpg?stp=c0.174.1448.1448a_cp0_dst-jpg_tt6&cstp=mx1448x1448&ctp=s40x40&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_ohc=05QUQ18F-LcQ7kNvwEOMSgr&_nc_oc=AdrbdXhIcFXa8ueTsm6bpsoLplMytqPMfZl3fQqRaHdNjeJ7TYacc1TXMQe5eo6gGoYBN4IqwntpgnoRxl6gz3pY&_nc_zt=24&_nc_ht=scontent-hou1-1.xx&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_ss=73289&oh=00_AQI5U4KGG888_Ptj11cyQ6dVj5QDobqUWZatIoPh9G7yIQ&oe=6AB6FD90"
+            },
+            "text": "🇪🇬 SZUKASZ POMYSŁU NA BIZNES?\n\nZastanawiasz się, jaką firmę otworzyć w Polsce?\nAle czy naprawdę musisz otwierać firmę?\n\nMoże lepiej zainwestować w nieruchomość w Egipcie?\n\n🏠 Rynek rozwija się bardzo dynamicznie, a w niektórych inwestycjach ceny rosną nawet o 40% rocznie.\n💰 Z wynajmu można osiągać nawet do 12% rocznie.\n\n✅ słońce przez cały rok\n✅ całoroczny ruch turystyczny\n✅ ceny znacznie niższe niż w Polsce\n✅ jako Europejczyk nabywasz nieruchomość na pełną własność\n✅ nieruchomość może zostać odziedziczona przez Twoich spadkobierców\n✅ możliwość wzrostu wartości i dochodu z wynajmu\n\nTy kupujesz apartament, my zajmujemy się jego wynajmem i pełną obsługą, a Ty czerpiesz pasywny dochód.\n\nW 2025 roku w Polsce wykreślono z rejestru REGON blisko 225 tysięcy podmiotów gospodarczych. Prowadzenie firmy zawsze wiąże się z kosztami i ryzykiem.\n\nNieruchomość to realne aktywo, które możesz wynajmować, użytkować albo sprzedać.\n\n🔥 Nie odkładaj decyzji na później. Napisz do nas i sprawdź, jakie nieruchomości są obecnie dostępne w Egipcie. Pokażemy Ci konkretne oferty dopasowane do Twojego budżetu i celu inwestycyjnego.\n\n📲 WhatsApp: +48 000 000 000\n🌐 www.homeinegypt.com\n\nHome in Egypt",
+            "textReferences": [
+              {
+                "url": "https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.homeinegypt.com%2F&h=AUAHvD_43WyoCzPV3Wn5_1M0R8gYv5avOs6v31c3_FGDfV6AkHU4Mts5WuQLJEIkmRhaLfmYt9Gr3OD-jRGNoEzkWTbXsDol59ccP5zsL0W2v-8f3d9ZXgWSYAzqO4MWHgBP3891Jjz5Rpr-Ns_cJbqbH5VgNQLip5h2ekFMUHjzQbiB&s=1",
+                "external_url": "http://www.homeinegypt.com/",
+                "web_link": {
+                  "__typename": "ExternalWebLink",
+                  "url": "http://www.homeinegypt.com/",
+                  "fbclid": null,
+                  "lynx_mode": "ASYNCLAZY"
+                },
+                "mobileUrl": "https://lm.facebook.com/l.php?u=http%3A%2F%2Fwww.homeinegypt.com%2F&h=AUBCuw1YeVe038o2PATwfTgbsWZ_J9WInJo2SufvtoJpiz5kP_PwNDh-4CeUooPZgQ3hA6fFZoZn_5VtHUh7O_HPpZbmMOVn7QfJ-LxCfqS7oU9IWIyNP9EOMtAhjscAdJ6VrUHdQ8cJpnno4AHHxD5ewgdoD0h9iMEtew_SJCtmER4w&s=1",
+                "id": "NjQyMTgzOTU5MjA4MTA3Omh0dHBcYS8vd3d3LmhvbWVpbmVneXB0LmNvbS86OkRlZmF1bHQ6OjoxODI5MzY1MDAxNzUwNjU1Og=="
+              }
+            ],
+            "link": "http://www.homeinegypt.com/",
+            "previewTitle": "Home in Egypt - Strona główna",
+            "previewDescription": "Szukasz bezpiecznego i dochodowego sposobu na pomnażanie kapitału? Zapraszamy do współpracy z Home in Egypt! Poszukujemy inwestora zainteresowanego udziałem w projektach nieruchomości komercyjnych — gwarantujemy szybki zysk, najwyższe oprocentowanie oraz wyjątkowo atrakcyjne warunki wspó....",
+            "previewSource": "homeinegypt.com",
+            "previewTarget": {
+              "__typename": "ExternalUrl",
+              "article_author": null,
+              "external_url": "http://www.homeinegypt.com/",
+              "id": "226547524203272:1829364998417322"
+            },
+            "media": [
+              {
+                "thumbnail": "https://external-hou1-1.xx.fbcdn.net/emg1/v/t13/4674779048707324813?url=https%3A%2F%2Fhomeinegypt.com%2Ftemplates%2Fselio%2Fassets%2Fog2.jpg&fb_obo=1&utld=homeinegypt.com&_nc_sid=085657&_nc_ht=external-hou1-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&ccb=18-1&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_zt=3&oh=06_Q3_DAXX-qB4Sb2ryjgu5irnNWZ3xQeAldexlcvauvkranG8L&oe=6AB2FFD7",
+                "__typename": "GenericAttachmentMedia",
+                "__isMedia": "GenericAttachmentMedia",
+                "flexible_height_share_image": null,
+                "large_share_image": {
+                  "height": 261,
+                  "uri": "https://external-hou1-1.xx.fbcdn.net/emg1/v/t13/4674779048707324813?url=https%3A%2F%2Fhomeinegypt.com%2Ftemplates%2Fselio%2Fassets%2Fog2.jpg&fb_obo=1&utld=homeinegypt.com&_nc_sid=085657&_nc_ht=external-hou1-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&ccb=18-1&_nc_gid=ywov9u_PohYezatMM8MuHw&_nc_zt=3&oh=06_Q3_DAXX-qB4Sb2ryjgu5irnNWZ3xQeAldexlcvauvkranG8L&oe=6AB2FFD7",
+                  "width": 500
+                },
+                "id": "1829364998417322"
+              }
+            ],
+            "paidPartnership": false
+          },
+          "paidPartnership": false,
+          "id": "UzpfSTEwMDA0MDMxNTE3ODgxMzpWSzoyMzQxNDk1NjUzMzMwNDQy",
+          "legacyId": "2341495653330442",
+          "title": "Home in Egypt - Strona główna",
+          "likesCount": 0,
+          "sharesCount": 0,
+          "commentsCount": 0,
+          "facebookId": "653480085465349",
+          "groupTitle": "Grupa dla przedsiębiorców",
+          "pageAdLibrary": {
+            "is_business_page_active": false,
+            "id": "291320147395959"
+          },
+          "inputUrl": "https://www.facebook.com/groups/dlaprzedsiebiorcow"
+        }
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/groups/417702252034285",
+      "status": "SUCCEEDED",
+      "diagnostic": null,
+      "error": null,
+      "posts": [
+        {
+          "facebookUrl": "https://www.facebook.com/groups/417702252034285",
+          "url": "https://www.facebook.com/groups/417702252034285/permalink/2626755054462316/",
+          "time": "2026-09-21T12:33:09.000Z",
+          "user": {
+            "id": "pfbid02X4WFo2HnFUpSwftRxAGFWxq2s8ciP4KpZbDgbgDXSkkwiC3mzv9vdKKF9NS1hWBjl",
+            "name": "Radek Chrobok",
+            "profilePic": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/365798814_6603656636344180_3553587255053403574_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx950x960&ctp=s50x50&_nc_cat=108&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WdHbHlQ7zeIQ7kNvwGmFABG&_nc_oc=AdqCcfXogI5tK3bdgeCF44oxwa8W_tvpWlgWSb5-ALPT4hah--S9PJWVp5rAoSapf3yXWwoSGN6TNNCp_UFBRz3a&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQIqBJvF2U-4vNObXfwhZQK7PmuEVYuQ9hCYmVKifBC1ig&oe=6AB6E3B8"
+          },
+          "collaborators": [],
+          "text": "Hej, poszukuję specjalisty który pomoże mi z ustawieniami kont w Meta Business Suite. Mam kilka problemów których nie potrafię sam rozwiązać. Najlepiej Śląsk aby można było się spotkać na żywo i temat (mam nadzieję) rozwiązać.",
+          "topReactionsCount": 0,
+          "feedbackId": "ZmVlZGJhY2s6MjYyNjc1NTA1NDQ2MjMxNg==",
+          "paidPartnership": false,
+          "topComments": [
+            {
+              "commentUrl": "https://www.facebook.com/groups/417702252034285/posts/2626755054462316/?comment_id=2626763174461504",
+              "commentId": "2626763174461504",
+              "id": "Y29tbWVudDoyNjI2NzU1MDU0NDYyMzE2XzI2MjY3NjMxNzQ0NjE1MDQ=",
+              "feedbackId": "ZmVlZGJhY2s6MjYyNjc1NTA1NDQ2MjMxNl8yNjI2NzYzMTc0NDYxNTA0",
+              "date": "2026-09-21T12:40:19.000Z",
+              "text": "Hej,\n\nJeśli chcesz możemy pomóc zdalnie. Odezwij się w wiadomości prywatnej",
+              "author": {
+                "__typename": "User",
+                "id": "pfbid02HB5dcM7uXHcHCxLnJDbGj5pG8AGAPHGTNWnX1N2W2BNaBtxocCmQWwqzR2wzPc5zl",
+                "name": "Dawid Łaszkiewicz",
+                "__isActor": "User",
+                "profile_picture_depth_0": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/717536319_26926061347088383_3843205297635954406_n.jpg?stp=c46.62.938.937a_cp0_dst-jpg_tt6&cstp=mx938x937&ctp=s32x32&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=6HLx3jLubkUQ7kNvwFjmf_L&_nc_oc=AdqjUDgulryHJ6RamXe93yCLZERh_dOrA8_LSZJ_qldWC2ppLtZt_gZVZo3iZ4GEsamuL5huFAByhaBAzedsRovx&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQL5P3BcVtTtTvpssiW9psw7q-Y_ZLqs7q7YwW6I9PB13g&oe=6AB6F5AC"
+                },
+                "profile_picture_depth_0_increased": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/717536319_26926061347088383_3843205297635954406_n.jpg?stp=c46.62.938.937a_cp0_dst-jpg_tt6&cstp=mx938x937&ctp=s40x40&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=6HLx3jLubkUQ7kNvwFjmf_L&_nc_oc=AdqjUDgulryHJ6RamXe93yCLZERh_dOrA8_LSZJ_qldWC2ppLtZt_gZVZo3iZ4GEsamuL5huFAByhaBAzedsRovx&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQL5P3BcVtTtTvpssiW9psw7q-Y_ZLqs7q7YwW6I9PB13g&oe=6AB6F5AC"
+                },
+                "profile_picture_depth_1": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/717536319_26926061347088383_3843205297635954406_n.jpg?stp=c46.62.938.937a_cp0_dst-jpg_tt6&cstp=mx938x937&ctp=s24x24&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=6HLx3jLubkUQ7kNvwFjmf_L&_nc_oc=AdqjUDgulryHJ6RamXe93yCLZERh_dOrA8_LSZJ_qldWC2ppLtZt_gZVZo3iZ4GEsamuL5huFAByhaBAzedsRovx&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQL5P3BcVtTtTvpssiW9psw7q-Y_ZLqs7q7YwW6I9PB13g&oe=6AB6F5AC"
+                },
+                "gender": "MALE",
+                "__isEntity": "User",
+                "url": "https://www.facebook.com/people/Dawid-%C5%81aszkiewicz/pfbid02HB5dcM7uXHcHCxLnJDbGj5pG8AGAPHGTNWnX1N2W2BNaBtxocCmQWwqzR2wzPc5zl/",
+                "work_info": null
+              },
+              "profileUrl": "https://www.facebook.com/people/Dawid-%C5%81aszkiewicz/pfbid02HB5dcM7uXHcHCxLnJDbGj5pG8AGAPHGTNWnX1N2W2BNaBtxocCmQWwqzR2wzPc5zl/",
+              "profilePicture": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/717536319_26926061347088383_3843205297635954406_n.jpg?stp=c46.62.938.937a_cp0_dst-jpg_tt6&cstp=mx938x937&ctp=s32x32&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=6HLx3jLubkUQ7kNvwFjmf_L&_nc_oc=AdqjUDgulryHJ6RamXe93yCLZERh_dOrA8_LSZJ_qldWC2ppLtZt_gZVZo3iZ4GEsamuL5huFAByhaBAzedsRovx&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQL5P3BcVtTtTvpssiW9psw7q-Y_ZLqs7q7YwW6I9PB13g&oe=6AB6F5AC",
+              "profileId": "pfbid02HB5dcM7uXHcHCxLnJDbGj5pG8AGAPHGTNWnX1N2W2BNaBtxocCmQWwqzR2wzPc5zl",
+              "profileName": "Dawid Łaszkiewicz",
+              "likesCount": "0",
+              "threadingDepth": 0
+            }
+          ],
+          "id": "UzpfSTEwMDAwMDk5NzI2Mzg3MjpWSzoyNjI2NzU1MDU0NDYyMzE2",
+          "legacyId": "2626755054462316",
+          "likesCount": 0,
+          "sharesCount": 0,
+          "commentsCount": 1,
+          "facebookId": "417702252034285",
+          "groupTitle": "Social Media - ZLECĘ / WYKONAM",
+          "pageAdLibrary": {
+            "is_business_page_active": false,
+            "id": "115448874856147"
+          },
+          "inputUrl": "https://www.facebook.com/groups/417702252034285"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/417702252034285",
+          "url": "https://www.facebook.com/groups/417702252034285/permalink/2626144151190073/",
+          "time": "2026-09-20T19:24:39.000Z",
+          "user": {
+            "id": "100005996166919",
+            "name": "Justyna Kieda",
+            "profilePic": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/710059431_3098084120401430_1156419488652975548_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_ohc=qaZjppalPOcQ7kNvwFZFORx&_nc_oc=Adonxm7dA67iW3BWH-A4EKCwuhbDxlNj8kUl_l3y55MUraOGDzYjjQ8nBkQPl605yTiP1YXvVZKzyJUCSqCUaBfT&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQKE2QoTsFd7_8y19f9bRUb32W8mOlEpD43vrER3r8JLFA&oe=6AB6F819"
+          },
+          "collaborators": [],
+          "text": "Hej, szukam osoby do zrobienia kontentu restauracji tj (rolki i zdjęcia) w Katowicach.\n\nPodsyłajcie swoje portfolio. :)",
+          "topReactionsCount": 2,
+          "feedbackId": "ZmVlZGJhY2s6MjYyNjE0NDE1MTE5MDA3Mw==",
+          "reactionLikeCount": 15,
+          "reactionLoveCount": 2,
+          "paidPartnership": false,
+          "topComments": [
+            {
+              "commentUrl": "https://www.facebook.com/groups/417702252034285/posts/2626144151190073/?comment_id=2626746084463213",
+              "commentId": "2626746084463213",
+              "id": "Y29tbWVudDoyNjI2MTQ0MTUxMTkwMDczXzI2MjY3NDYwODQ0NjMyMTM=",
+              "feedbackId": "ZmVlZGJhY2s6MjYyNjE0NDE1MTE5MDA3M18yNjI2NzQ2MDg0NDYzMjEz",
+              "date": "2026-09-21T12:21:37.000Z",
+              "text": "Wysłałem wiadomość prywatną :) Zapraszam do kontaktu :)",
+              "author": {
+                "__typename": "User",
+                "id": "pfbid0M7f9HkgN2y2oeZM4GrXr5Fy9vdRXHYwb98ZAhV3SCEwb3cmSdZQDKnU4RwruRY78l",
+                "name": "Kamil Krabes",
+                "__isActor": "User",
+                "profile_picture_depth_0": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/377561563_6833653646691959_2210848949175899457_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s32x32&_nc_cat=111&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WmCq8WtjBC0Q7kNvwG8hvIt&_nc_oc=AdqaDDSHCcFGwwpKBmB93_X-N3D_pztPJo-X03Ndqd4W1-YbezB-S7aVuTkkwg-kpBYIxAVxz8-Av_RdYSadFtVK&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQJ2ma7KCkmJr0Bom7_vezd5aYCMQhO_023PNsCfIekyAA&oe=6AB70746"
+                },
+                "profile_picture_depth_0_increased": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/377561563_6833653646691959_2210848949175899457_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s40x40&_nc_cat=111&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WmCq8WtjBC0Q7kNvwG8hvIt&_nc_oc=AdqaDDSHCcFGwwpKBmB93_X-N3D_pztPJo-X03Ndqd4W1-YbezB-S7aVuTkkwg-kpBYIxAVxz8-Av_RdYSadFtVK&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQJ2ma7KCkmJr0Bom7_vezd5aYCMQhO_023PNsCfIekyAA&oe=6AB70746"
+                },
+                "profile_picture_depth_1": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/377561563_6833653646691959_2210848949175899457_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s24x24&_nc_cat=111&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WmCq8WtjBC0Q7kNvwG8hvIt&_nc_oc=AdqaDDSHCcFGwwpKBmB93_X-N3D_pztPJo-X03Ndqd4W1-YbezB-S7aVuTkkwg-kpBYIxAVxz8-Av_RdYSadFtVK&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQJ2ma7KCkmJr0Bom7_vezd5aYCMQhO_023PNsCfIekyAA&oe=6AB70746"
+                },
+                "gender": "MALE",
+                "__isEntity": "User",
+                "url": "https://www.facebook.com/kamil.krabes",
+                "work_info": null
+              },
+              "profileUrl": "https://www.facebook.com/kamil.krabes",
+              "profilePicture": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/377561563_6833653646691959_2210848949175899457_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s32x32&_nc_cat=111&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WmCq8WtjBC0Q7kNvwG8hvIt&_nc_oc=AdqaDDSHCcFGwwpKBmB93_X-N3D_pztPJo-X03Ndqd4W1-YbezB-S7aVuTkkwg-kpBYIxAVxz8-Av_RdYSadFtVK&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQJ2ma7KCkmJr0Bom7_vezd5aYCMQhO_023PNsCfIekyAA&oe=6AB70746",
+              "profileId": "pfbid0M7f9HkgN2y2oeZM4GrXr5Fy9vdRXHYwb98ZAhV3SCEwb3cmSdZQDKnU4RwruRY78l",
+              "profileName": "Kamil Krabes",
+              "likesCount": "1",
+              "threadingDepth": 0
+            }
+          ],
+          "id": "UzpfSTEwMDAwNTk5NjE2NjkxOTpWSzoyNjI2MTQ0MTUxMTkwMDcz",
+          "legacyId": "2626144151190073",
+          "likesCount": 17,
+          "sharesCount": 0,
+          "commentsCount": 66,
+          "facebookId": "417702252034285",
+          "groupTitle": "Social Media - ZLECĘ / WYKONAM",
+          "pageAdLibrary": {
+            "is_business_page_active": false,
+            "id": "115448874856147"
+          },
+          "inputUrl": "https://www.facebook.com/groups/417702252034285"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/417702252034285",
+          "url": "https://www.facebook.com/groups/417702252034285/permalink/2625012444636577/",
+          "time": "2026-09-19T14:35:33.000Z",
+          "user": {
+            "id": "pfbid0exeE8SJWC6Q82kC1SZL6bzgu2h3hwhJ6in3tchaKzs5TuGPekCjUzZuGf3R8kpHpl",
+            "name": "Malwina Ryzińska-Kupiec",
+            "profilePic": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/448819717_8176971088989481_8566794490435741609_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx854x854&ctp=s50x50&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=Ck0KY3QKErQQ7kNvwF-Acjl&_nc_oc=AdqevBoXQQXcF2salJyBokJZRZ359q4x_R52sFNoNJu8f1cwcNDfq3hEplpLVfZVqrw0zGB4b072XBjg3pOhweDx&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQK5l6HFtKmdvU8943GE0TqAQK3qo3gHYrVdX60lg9EykQ&oe=6AB705C5"
+          },
+          "collaborators": [],
+          "text": "Hej. Szukamy  freelancera lub małej agencji z Warszawy lub okolic Piaseczna/Konstancina do stałej współpracy przy social mediach . Zakres obejmowałby planowanie komunikacji i contentu, tworzenie postów, stories i rolek, montaż, publikację oraz 1 dzień contentowy w miesiącu. Zależy nam również na bieżącej optymalizacji działań, analizie wyników, miesięcznym raporcie i rekomendacjach na kolejny miesiąc. Ważne są dla nas wyczucie estetyki, kreatywność i własna inicjatywa. Zainteresowane osoby/agencje proszę o przesłanie portfolio oraz informacji o zakresie współpracy na:biuro@numea.pl",
+          "topReactionsCount": 1,
+          "feedbackId": "ZmVlZGJhY2s6MjYyNTAxMjQ0NDYzNjU3Nw==",
+          "reactionLikeCount": 2,
+          "paidPartnership": false,
+          "topComments": [
+            {
+              "commentUrl": "https://www.facebook.com/groups/417702252034285/posts/2625012444636577/?comment_id=2625034551301033",
+              "commentId": "2625034551301033",
+              "id": "Y29tbWVudDoyNjI1MDEyNDQ0NjM2NTc3XzI2MjUwMzQ1NTEzMDEwMzM=",
+              "feedbackId": "ZmVlZGJhY2s6MjYyNTAxMjQ0NDYzNjU3N18yNjI1MDM0NTUxMzAxMDMz",
+              "date": "2026-09-19T15:05:12.000Z",
+              "text": "Zapraszam do kontaktu. Ponad 6 lat doświadczenia",
+              "author": {
+                "__typename": "User",
+                "id": "100003327204946",
+                "name": "Pasha  Artemov",
+                "__isActor": "User",
+                "profile_picture_depth_0": {
+                  "uri": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/496086117_9823903937730415_7351045619580949360_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s32x32&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=tw5xSNr2rroQ7kNvwEwKUHN&_nc_oc=AdpbYITEkK3PO7KpIC0v1x_sKck9UFEEN6vWMiRudob-enkvckdGMBa5eGbMTZmaksqHQnyPQBrmLeBz_QVqBhuB&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQIvy_QRfzTCILWCCEhB84ssQD22uqfG_Cqv3Sx_7NuUvw&oe=6AB70822"
+                },
+                "profile_picture_depth_0_increased": {
+                  "uri": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/496086117_9823903937730415_7351045619580949360_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s40x40&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=tw5xSNr2rroQ7kNvwEwKUHN&_nc_oc=AdpbYITEkK3PO7KpIC0v1x_sKck9UFEEN6vWMiRudob-enkvckdGMBa5eGbMTZmaksqHQnyPQBrmLeBz_QVqBhuB&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQIvy_QRfzTCILWCCEhB84ssQD22uqfG_Cqv3Sx_7NuUvw&oe=6AB70822"
+                },
+                "profile_picture_depth_1": {
+                  "uri": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/496086117_9823903937730415_7351045619580949360_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s24x24&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=tw5xSNr2rroQ7kNvwEwKUHN&_nc_oc=AdpbYITEkK3PO7KpIC0v1x_sKck9UFEEN6vWMiRudob-enkvckdGMBa5eGbMTZmaksqHQnyPQBrmLeBz_QVqBhuB&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQIvy_QRfzTCILWCCEhB84ssQD22uqfG_Cqv3Sx_7NuUvw&oe=6AB70822"
+                },
+                "gender": "MALE",
+                "__isEntity": "User",
+                "url": "https://www.facebook.com/pasha.artemov",
+                "work_info": null
+              },
+              "profileUrl": "https://www.facebook.com/pasha.artemov",
+              "profilePicture": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/496086117_9823903937730415_7351045619580949360_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s32x32&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=tw5xSNr2rroQ7kNvwEwKUHN&_nc_oc=AdpbYITEkK3PO7KpIC0v1x_sKck9UFEEN6vWMiRudob-enkvckdGMBa5eGbMTZmaksqHQnyPQBrmLeBz_QVqBhuB&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=AT69cCaKIZipht2c0d9TuA&_nc_ss=73289&oh=00_AQIvy_QRfzTCILWCCEhB84ssQD22uqfG_Cqv3Sx_7NuUvw&oe=6AB70822",
+              "profileId": "100003327204946",
+              "profileName": "Pasha  Artemov",
+              "likesCount": "1",
+              "threadingDepth": 0
+            }
+          ],
+          "id": "UzpfSTEwMDAwMDMwMDEyNzQxODpWSzoyNjI1MDEyNDQ0NjM2NTc3",
+          "legacyId": "2625012444636577",
+          "likesCount": 2,
+          "sharesCount": 0,
+          "commentsCount": 8,
+          "facebookId": "417702252034285",
+          "groupTitle": "Social Media - ZLECĘ / WYKONAM",
+          "pageAdLibrary": {
+            "is_business_page_active": false,
+            "id": "115448874856147"
+          },
+          "inputUrl": "https://www.facebook.com/groups/417702252034285"
+        },
+        {
+          "facebookUrl": "https://www.facebook.com/groups/417702252034285",
+          "url": "https://www.facebook.com/groups/417702252034285/permalink/2624853497985805/",
+          "time": "2026-09-19T10:53:50.000Z",
+          "user": {
+            "id": "pfbid02wyuDDLCyDgR8c6fAVxio1AtGDUc91qjj2TEHFjzZYww2Ndi82wkuKGwdLr6oDR4ul",
+            "name": "Marlena Molicka",
+            "profilePic": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/598653036_25138683465753928_25998812073911972_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=e99d92&_nc_ohc=iWLO3-RlZNcQ7kNvwEX34df&_nc_oc=Adpm3zyaJ4QucmubdAzKmMsGNtNhjWyp0M6_ZcVr556_bicuKoY4COLB-giRSY_WvVg&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SlLvygnXUuZ00laQ3hJmKQ&_nc_ss=73289&oh=00_AQIjQF4T6zBwPnqBq89Payz8-OgnniKbUJVi8paJiMzoDA&oe=6AB70C8E"
+          },
+          "collaborators": [],
+          "text": "Pytanko do osób, które mają IPhone 16 pro lub 17, i mają też Dji Pocket 4(4P) - widzicie znaczącą różnicę w nagrywaniu? Którym sprzętem Wam się lepiej pracuje?",
+          "topReactionsCount": 0,
+          "feedbackId": "ZmVlZGJhY2s6MjYyNDg1MzQ5Nzk4NTgwNQ==",
+          "paidPartnership": false,
+          "topComments": [
+            {
+              "commentUrl": "https://www.facebook.com/groups/417702252034285/posts/2624853497985805/?comment_id=2624967377974417",
+              "commentId": "2624967377974417",
+              "id": "Y29tbWVudDoyNjI0ODUzNDk3OTg1ODA1XzI2MjQ5NjczNzc5NzQ0MTc=",
+              "feedbackId": "ZmVlZGJhY2s6MjYyNDg1MzQ5Nzk4NTgwNV8yNjI0OTY3Mzc3OTc0NDE3",
+              "date": "2026-09-19T13:32:56.000Z",
+              "text": "To zależy - ja akurat mam IPhone 17 pro i DJI Pocket 3.\nDJI na plus połączenie ekspresowe z mikrofonami DJI, możliwość podglądu kadru w telefonie, wbudowany gimbal\niPhone 17 pro - mam pod ręką, nie trzeba go wyciągać z etui (na plus przy nagraniach w terenie)\nMyślę że obydwie opcje są bardzo dobre",
+              "author": {
+                "__typename": "User",
+                "id": "pfbid02CvGPuZ4MFK9XPmr6vdGexGipJCGgrm58aRFrNLCWAhB99tVGtpyiyxJ845wVCRJYl",
+                "name": "Julita Olejniczak",
+                "__isActor": "User",
+                "profile_picture_depth_0": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s32x32&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwFtYBjh&_nc_oc=AdqDagKb7eL_LqUmBRZjxkRDMFqNzpPf4XzcCp3-h2PqHAVESL6eG_a1hxVQs8ULkNE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SlLvygnXUuZ00laQ3hJmKQ&_nc_ss=73289&oh=00_AQIDvaVDsABNyMuX1sXZ3arR7jKjKK-cPeP8PNqfeCWmMA&oe=6AB6FC6E"
+                },
+                "profile_picture_depth_0_increased": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s40x40&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwFtYBjh&_nc_oc=AdqDagKb7eL_LqUmBRZjxkRDMFqNzpPf4XzcCp3-h2PqHAVESL6eG_a1hxVQs8ULkNE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SlLvygnXUuZ00laQ3hJmKQ&_nc_ss=73289&oh=00_AQIDvaVDsABNyMuX1sXZ3arR7jKjKK-cPeP8PNqfeCWmMA&oe=6AB6FC6E"
+                },
+                "profile_picture_depth_1": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s24x24&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwFtYBjh&_nc_oc=AdqDagKb7eL_LqUmBRZjxkRDMFqNzpPf4XzcCp3-h2PqHAVESL6eG_a1hxVQs8ULkNE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SlLvygnXUuZ00laQ3hJmKQ&_nc_ss=73289&oh=00_AQIDvaVDsABNyMuX1sXZ3arR7jKjKK-cPeP8PNqfeCWmMA&oe=6AB6FC6E"
+                },
+                "gender": "FEMALE",
+                "__isEntity": "User",
+                "url": "https://www.facebook.com/julita.kapturczak",
+                "work_info": null
+              },
+              "profileUrl": "https://www.facebook.com/julita.kapturczak",
+              "profilePicture": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/571124887_32201461412832356_580899926219927668_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s32x32&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=WKZpKwS6b48Q7kNvwFtYBjh&_nc_oc=AdqDagKb7eL_LqUmBRZjxkRDMFqNzpPf4XzcCp3-h2PqHAVESL6eG_a1hxVQs8ULkNE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SlLvygnXUuZ00laQ3hJmKQ&_nc_ss=73289&oh=00_AQIDvaVDsABNyMuX1sXZ3arR7jKjKK-cPeP8PNqfeCWmMA&oe=6AB6FC6E",
+              "profileId": "pfbid02CvGPuZ4MFK9XPmr6vdGexGipJCGgrm58aRFrNLCWAhB99tVGtpyiyxJ845wVCRJYl",
+              "profileName": "Julita Olejniczak",
+              "likesCount": "2",
+              "threadingDepth": 0
+            },
+            {
+              "commentUrl": "https://www.facebook.com/groups/417702252034285/posts/2624853497985805/?comment_id=2625055637965591",
+              "commentId": "2625055637965591",
+              "id": "Y29tbWVudDoyNjI0ODUzNDk3OTg1ODA1XzI2MjUwNTU2Mzc5NjU1OTE=",
+              "feedbackId": "ZmVlZGJhY2s6MjYyNDg1MzQ5Nzk4NTgwNV8yNjI1MDU1NjM3OTY1NTkx",
+              "date": "2026-09-19T15:22:46.000Z",
+              "text": "Ja mam iPhone 17 pro i Dji Osmo Pocket 4. I szczerze osmo dla mnie jest to super sprzęt. Używam go szczególnie do rolek modowych i vlogów. Jest mały i wszędzie się mieści. Na plus jest świetna jakość wideo i duża stabilizacja 😊",
+              "author": {
+                "__typename": "User",
+                "id": "pfbid02NwUtKgUiMSbDYPaxpxJhmLhayN8UM8ci12o2PzP6NVFwwGbF4w8muBxUR3JCuuLCl",
+                "name": "Ola Janezka",
+                "__isActor": "User",
+                "profile_picture_depth_0": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/550374803_2503785097028824_1650342089987021224_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1177x1177&ctp=s32x32&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=X04x_AIQZjIQ7kNvwFtCoUb&_nc_oc=AdqhM-FHr6fCt8Vd7OxIFEzw9Sv4nxGmLWIszpvOuWY7USlj7PRDqF4BkekKmTKI4h0&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SlLvygnXUuZ00laQ3hJmKQ&_nc_ss=73289&oh=00_AQKlErtq43O33KOOo7rMaDtE8nD-W9T-OLbmveW32dfieA&oe=6AB7103A"
+                },
+                "profile_picture_depth_0_increased": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/550374803_2503785097028824_1650342089987021224_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1177x1177&ctp=s40x40&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=X04x_AIQZjIQ7kNvwFtCoUb&_nc_oc=AdqhM-FHr6fCt8Vd7OxIFEzw9Sv4nxGmLWIszpvOuWY7USlj7PRDqF4BkekKmTKI4h0&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SlLvygnXUuZ00laQ3hJmKQ&_nc_ss=73289&oh=00_AQKlErtq43O33KOOo7rMaDtE8nD-W9T-OLbmveW32dfieA&oe=6AB7103A"
+                },
+                "profile_picture_depth_1": {
+                  "uri": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/550374803_2503785097028824_1650342089987021224_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1177x1177&ctp=s24x24&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=X04x_AIQZjIQ7kNvwFtCoUb&_nc_oc=AdqhM-FHr6fCt8Vd7OxIFEzw9Sv4nxGmLWIszpvOuWY7USlj7PRDqF4BkekKmTKI4h0&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SlLvygnXUuZ00laQ3hJmKQ&_nc_ss=73289&oh=00_AQKlErtq43O33KOOo7rMaDtE8nD-W9T-OLbmveW32dfieA&oe=6AB7103A"
+                },
+                "gender": "FEMALE",
+                "__isEntity": "User",
+                "url": "https://www.facebook.com/aleksandra.janezka.54",
+                "work_info": null
+              },
+              "profileUrl": "https://www.facebook.com/aleksandra.janezka.54",
+              "profilePicture": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/550374803_2503785097028824_1650342089987021224_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1177x1177&ctp=s32x32&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_ohc=X04x_AIQZjIQ7kNvwFtCoUb&_nc_oc=AdqhM-FHr6fCt8Vd7OxIFEzw9Sv4nxGmLWIszpvOuWY7USlj7PRDqF4BkekKmTKI4h0&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SlLvygnXUuZ00laQ3hJmKQ&_nc_ss=73289&oh=00_AQKlErtq43O33KOOo7rMaDtE8nD-W9T-OLbmveW32dfieA&oe=6AB7103A",
+              "profileId": "pfbid02NwUtKgUiMSbDYPaxpxJhmLhayN8UM8ci12o2PzP6NVFwwGbF4w8muBxUR3JCuuLCl",
+              "profileName": "Ola Janezka",
+              "likesCount": "2",
+              "threadingDepth": 0
+            }
+          ],
+          "id": "UzpfSTEwMDAwMTE2ODY0ODY1MDpWSzoyNjI0ODUzNDk3OTg1ODA1",
+          "legacyId": "2624853497985805",
+          "likesCount": 0,
+          "sharesCount": 0,
+          "commentsCount": 5,
+          "facebookId": "417702252034285",
+          "groupTitle": "Social Media - ZLECĘ / WYKONAM",
+          "pageAdLibrary": {
+            "is_business_page_active": false,
+            "id": "115448874856147"
+          },
+          "inputUrl": "https://www.facebook.com/groups/417702252034285"
+        }
+      ]
+    }
+  ]
+}

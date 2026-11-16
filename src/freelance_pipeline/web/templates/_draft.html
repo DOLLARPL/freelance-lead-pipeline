@@ -1,0 +1,28 @@
+{% if lead.draft %}
+<form method="post" action="/lead/{{ lead.key }}/draft"
+      hx-post="/lead/{{ lead.key }}/draft" hx-target="#draft" hx-swap="innerHTML">
+  <textarea id="draft-body" name="body" class="draft" rows="12" spellcheck="false">{{ lead.draft }}</textarea>
+  <div class="draft-bar">
+    <span class="muted tiny"><span id="char-count">{{ lead.draft|length }}</span> znaków · v{{ lead.version }}
+      {% if lead.draft_at %} · {{ lead.draft_at|date }}{% endif %}</span>
+    <button class="btn ghost sm" type="submit">Zapisz nową wersję</button>
+  </div>
+</form>
+{% else %}
+<div class="notice">
+  <p>Ta oferta nie ma jeszcze wiadomości. Model napisze ją z treści ogłoszenia, z kwotą z cennika.</p>
+  <form method="post" action="/lead/{{ lead.key }}/draft/generate"
+        hx-post="/lead/{{ lead.key }}/draft/generate" hx-target="#draft" hx-swap="innerHTML"
+        hx-disabled-elt="find button">
+    <button class="btn sm" type="submit">Napisz wiadomość modelem</button>
+  </form>
+</div>
+{% endif %}
+
+<form class="improve" method="post" action="/lead/{{ lead.key }}/draft/improve"
+      hx-post="/lead/{{ lead.key }}/draft/improve" hx-target="#draft" hx-swap="innerHTML"
+      hx-disabled-elt="find button">
+  <input name="instruction" placeholder="co zmienić: skróć do 900 znaków, usuń link, cieplejszy ton" autocomplete="off">
+  <button class="btn sm" type="submit">Popraw <kbd>p</kbd></button>
+</form>
+{% if notice %}<p class="notice ok">{{ notice }}</p>{% endif %}

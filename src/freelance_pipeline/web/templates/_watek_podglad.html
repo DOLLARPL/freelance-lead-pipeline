@@ -1,0 +1,31 @@
+<div id="watek-podglad">
+  {% if blad %}<p class="notice err">{{ blad }}</p>{% endif %}
+  {% if podglad %}
+  <form class="pod-form" method="post" action="/lead/{{ lead.key }}/watek/zapisz"
+        hx-post="/lead/{{ lead.key }}/watek/zapisz"
+        hx-target="#watek" hx-swap="outerHTML"
+        hx-disabled-elt="find button[type=submit]">
+    <p class="muted tiny">
+      Rozpoznane {{ podglad|length }} wiadomości. Popraw kierunek (KLIENT/TY) albo treść, usuń śmieci, potem zapisz.
+    </p>
+    <ol class="pod-list">
+      {% for m in podglad %}
+      <li class="pod-row">
+        <div class="pod-head">
+          <select name="kierunek" aria-label="kto napisał">
+            <option value="klient"{% if m.kierunek != 'ja' %} selected{% endif %}>KLIENT</option>
+            <option value="ja"{% if m.kierunek == 'ja' %} selected{% endif %}>TY</option>
+          </select>
+          <input name="czas" value="{{ m.czas }}" placeholder="czas" autocomplete="off">
+          <button class="btn sm ghost" type="button" data-del-row>Usuń</button>
+        </div>
+        {% if m.autor %}<div class="muted tiny">w źródle: {{ m.autor }}</div>{% endif %}
+        <textarea name="tresc" rows="3">{{ m.tresc }}</textarea>
+      </li>
+      {% endfor %}
+    </ol>
+    <input type="hidden" name="zrodlo" value="useme">
+    <button class="btn ok w-full" type="submit">Zapisz {{ podglad|length }} wiadomości do wątku</button>
+  </form>
+  {% endif %}
+</div>

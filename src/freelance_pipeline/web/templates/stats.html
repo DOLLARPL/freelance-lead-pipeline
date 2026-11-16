@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block page %}stats{% endblock %}
+{% block title %}Snajper · statystyki{% endblock %}
+{% block body %}
+<div class="shell">
+  {% set active = 'stats' %}
+  {% include "_rail.html" %}
+  <main class="main">
+    <header class="topbar"><h1 class="h1">Statystyki</h1></header>
+    <div class="kpi">
+      <div class="kpi-box"><span class="muted tiny">do decyzji</span><b>{{ counts.queue }}</b></div>
+      <div class="kpi-box"><span class="muted tiny">wysłane</span><b>{{ counts.replied }}</b></div>
+      <div class="kpi-box"><span class="muted tiny">odrzucone</span><b>{{ counts.skipped }}</b></div>
+      <div class="kpi-box"><span class="muted tiny">bez wyceny</span><b>{{ counts.no_quote }}</b></div>
+    </div>
+    <h2>Po źródłach</h2>
+    <table class="table">
+      <tr><th>źródło</th><th>status</th><th>liczba</th></tr>
+      {% for r in per_source %}
+      <tr><td>{{ r.source }}</td><td>{{ r.status }}</td><td>{{ r.n }}</td></tr>
+      {% endfor %}
+    </table>
+    <h2>Decyzje z panelu, 30 dni</h2>
+    <p class="muted">razem: {{ events|length }}</p>
+    <p class="muted tiny">import: {{ imported_at|date }}</p>
+  </main>
+</div>
+{% endblock %}
