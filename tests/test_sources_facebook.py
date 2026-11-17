@@ -100,6 +100,10 @@ def post(
 # --------------------------------------------------------------------------- #
 
 
+@pytest.mark.skipif(
+    not DEFAULT_GROUPS_CONFIG.exists(),
+    reason="config produkcyjny nie wchodzi do repo; test dotyczy środowiska autora",
+)
 def test_production_config_loads_and_is_usable():
     groups = load_groups()
     assert DEFAULT_GROUPS_CONFIG.name == "facebook_groups.yaml"

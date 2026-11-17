@@ -16,6 +16,7 @@ import pytest
 from freelance_pipeline.models import JobLead
 from freelance_pipeline.proposal import (
     DEFAULT_MODEL,
+    DEFAULT_SKILL_PATH,
     ApprovedExample,
     InvalidProposalResponse,
     OfferInput,
@@ -319,6 +320,10 @@ def test_draft_offers_uses_a_given_writer(monkeypatch):
 # ------------------------------------------------------------------ kontrakt i model
 
 
+@pytest.mark.skipif(
+    not DEFAULT_SKILL_PATH.exists(),
+    reason="kontrakt żyje w skillu poza repo; test dotyczy środowiska autora",
+)
 def test_contract_is_read_from_the_skill_markers():
     contract = load_contract()
     assert "kontrakt wyjścia" in contract.lower()
